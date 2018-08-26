@@ -33,7 +33,6 @@ parser.addArgument(
 			'large',
 			'small',
 		],
-		default: 'large'
 	}
 );
 
@@ -236,7 +235,11 @@ function getImageURL(url,callback){
 
 			for(let i in body['images']){
 				if(body['images'][i]['front'] === true){
-					callback(body['images'][i]['thumbnails'][args['image_size']]);
+					if(args['image_size']){
+						callback(body['images'][i]['thumbnails'][args['image_size']]);
+					}else{
+						callback(body['images'][i]['image']);						
+					}
 				}
 			}
 		}
