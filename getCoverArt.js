@@ -115,7 +115,7 @@ To increase allocation use the `+(colors.cyan('--max-old-space-size=X'))+` switc
 
 Example:
 
-`+(colors.cyan(`node --max-old-space-size=4096 ${path.basename(__filename)}`))+`
+		`+(colors.cyan(`node --max-old-space-size=4096 ${path.basename(__filename)}`))+`
 				`);
 			}
 			resolve();
