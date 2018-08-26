@@ -1,16 +1,17 @@
 # Description
 Downloads all Vinyl Front Covert art from [covertartarchive](https://coverartarchive.org)
 
-# Requirements 
+# Requirements
 * Node.js
-* Only tested on windows
+* Only tested on Windows and Linux
 
 # How to use
-## Windows
+
+## Windows,Linux
 1. Open base directory in cmd prompt
 2. Install package dependencies using ```npm install```
 3. Run ```node getCoverArt.js```
-	* It is recommend that you increase the default maximum memory alloction for node. EX: ```node --max-old-space-size=4096 getCoverArt.js```
+	* It is recommend that you increase the default maximum memory allocation for node. EX: ```node --max-old-space-size=4096 getCoverArt.js```
 
 ## Command Line Switches
 *  ```node getCoverArt.js -h,--help```

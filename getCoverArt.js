@@ -75,62 +75,69 @@ function main(){
 				});
 			});
 		}
-	});	
+	});
 }
 
 function verifyPrereqs(){
 	console.log(colors.yellow('Checking Preqreqs'));
 	return [
+		// Increase max tcp connections on windows
 		new Promise(function(resolve,reject){
-			if(process.platform === 'win32'){
-				const helpURL = colors.cyan("https://support.microsoft.com/en-us/help/196271/when-you-try-to-connect-from-tcp-ports-greater-than-5000-you-receive-t");
-				
-				function warningMessage(numTCP){
-					return `\nWarning: Max number of allowed tcp connections is ${numTCP}. This may or may not cause issues. If you start receiving errors rerun this script with admin priveleges or follow the steps outlined here:\n\n\t\t${helpURL}\n`;
-				} 
+			switch (process.platform){
+				case 'win32':
+					const helpURL = colors.cyan("https://support.microsoft.com/en-us/help/196271/when-you-try-to-connect-from-tcp-ports-greater-than-5000-you-receive-t");
 
-				const defaultMaxTCP = 5000;
-				const regedit = require('regedit');
-				const keyPath = 'HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters';
-				const valueName = 'MaxUserPort';
-				const valueData = 65534;
-				regedit.list(keyPath, function (err, result) {
-					if(typeof result[keyPath].values[valueName] !== 'undefined'){
-						if(result[keyPath].values[valueName].value !== valueData){
-							isAdmin().then(admin => {
-								if(admin){
-									console.log(colors.yellow('Attempting to modifying registry to allow for a larger number of tcp connections'));
-									regedit.putValue({
-										'HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters': {
-											'MaxUserPort': {
-												value: 65534,
-												type: 'REG_DWORD'				
-											}
-										}
-									}, function (err) {  
-										if(err){
-											throw err;
-										}
-										reject('Restart PC to apply changes');
-										return;
-									});							
-								}else{
-									console.log(colors.yellow(warningMessage(result[keyPath].values[valueName].value)));
-									resolve();
-									return;
-								}
-							});
-
-						}else{
-							console.log(colors.yellow(warningMessage(result[keyPath].values[valueName].value)));
-							resolve();
-							return;							
-						}
-					}else{
-						console.log(colors.yellow(warningMessage(defaultMaxTCP)));
-						resolve();				
+					function warningMessage(numTCP){
+						return `\nWarning: Max number of allowed tcp connections is ${numTCP}. This may or may not cause issues. If you start receiving errors rerun this script with admin priveleges or follow the steps outlined here:\n\n\t\t${helpURL}\n`;
 					}
-				});
+
+					const defaultMaxTCP = 5000;
+					process.exit(0);
+					const regedit = require('regedit');
+					const keyPath = 'HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters';
+					const valueName = 'MaxUserPort';
+					const valueData = 65534;
+					regedit.list(keyPath, function (err, result) {
+						if(typeof result[keyPath].values[valueName] !== 'undefined'){
+							if(result[keyPath].values[valueName].value !== valueData){
+								isAdmin().then(admin => {
+									if(admin){
+										console.log(colors.yellow('Attempting to modifying registry to allow for a larger number of tcp connections'));
+										regedit.putValue({
+											'HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters': {
+												'MaxUserPort': {
+													value: 65534,
+													type: 'REG_DWORD'
+												}
+											}
+										}, function (err) {
+											if(err){
+												throw err;
+											}
+											reject('Restart PC to apply changes');
+											return;
+										});
+									}else{
+										console.log(colors.yellow(warningMessage(result[keyPath].values[valueName].value)));
+										resolve();
+										return;
+									}
+								});
+
+							}else{
+								console.log(colors.yellow(warningMessage(result[keyPath].values[valueName].value)));
+								resolve();
+								return;
+							}
+						}else{
+							console.log(colors.yellow(warningMessage(defaultMaxTCP)));
+							resolve();
+						}
+					});
+					break;
+
+					default:
+					resolve();
 			}
 		}),
 		new Promise(function(resolve,reject	){
@@ -171,7 +178,7 @@ const retryErrorCodes = {
 
 function downloadImage(url,dir,callback){
 	request(url,{
-			rejectUnauthorized: false, 
+			rejectUnauthorized: false,
 			encoding: 'binary'
 		},
 		function(err,res,body){
@@ -193,7 +200,7 @@ function downloadImage(url,dir,callback){
 					fs.writeFile(filePath,body,'binary',function(err){
 						if(err) throw err;
 						callback(filePath);
-					});					
+					});
 				}
 
 				if(err && err.code === 'ENOENT'){
@@ -214,7 +221,7 @@ function downloadImage(url,dir,callback){
 
 function getImageURL(url,callback){
 	request(url,{
-			rejectUnauthorized: false, 
+			rejectUnauthorized: false,
 			json: true
 		},
 		function(err,res,body){
@@ -238,17 +245,17 @@ function getImageURL(url,callback){
 					if(args['image_size']){
 						callback(body['images'][i]['thumbnails'][args['image_size']]);
 					}else{
-						callback(body['images'][i]['image']);						
+						callback(body['images'][i]['image']);
 					}
 				}
 			}
 		}
-	);	
+	);
 }
 
 function getReleaseList(url,callback){
 	request(url, {
-		rejectUnauthorized: false, 
+		rejectUnauthorized: false,
 		headers: {
 			'User-Agent': user_agent
 		},
@@ -276,12 +283,12 @@ function getReleaseList(url,callback){
 			}
 			callback(result['metadata']['release-list'][0]['release']);
 		});
-	})	
+	})
 }
 
 function getCount(url,callback){
 	request(url, {
-		rejectUnauthorized: false, 
+		rejectUnauthorized: false,
 		headers: {
 				'User-Agent': user_agent
 			}
@@ -303,11 +310,11 @@ function getCount(url,callback){
 }
 
 Promise.all(verifyPrereqs()).then(()=>{
-	console.log(colors.green('Prereqs success'));	
+	console.log(colors.green('Prereqs success'));
 	main();
 }).catch((err)=>{
 	if(err){
 		console.log(colors.red(err));
-		process.exit(0);	
+		process.exit(0);
 	}
 });
