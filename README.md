@@ -4,7 +4,6 @@ Downloads all Vinyl Front Covert art from [covertartarchive](https://coverartarc
 # Requirements 
 * Node.js
 * Only tested on windows
-	- Requires Admin priveleges (at least once)
 
 # How to use
 ## Windows
