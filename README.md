@@ -11,4 +11,8 @@ Downloads all Vinyl Front Covert art from [covertartarchive](https://coverartarc
 1. Open base directory in cmd prompt
 2. Install package dependencies using ```npm install```
 3. Run ```npm start```
-	- Use ```npm start -- --help``` for more options
+
+## Command Line Switches
+*  ```npm start -- --help```
+*  ```npm start -- --n,--num-pages X``` where X the max number of MusicBrainz release pages to retrieve (100 releases per page)
+*  ```npm start -- --o,--output-directory X``` where X is the directory to store downloaded cover art
