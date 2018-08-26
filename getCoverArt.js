@@ -34,11 +34,13 @@ const args = parser.parseArgs();
 
 const colors = require('colors/safe');
 
+const RateLimiter = require('limiter').RateLimiter;
+// https://musicbrainz.org/doc/XML_Web_Service/Rate_Limiting
+const limiter = new RateLimiter(1, 'second');
+
 function main(){
 	const limit = 100;
 	const musicBrainzBaseURL = 'https://musicbrainz.org/ws/2/release';
-	/* 300 requests/sec */
-	const musicBrainzRateLimit = 1000/300; 
 	const coverArtBaseURL = 'https://coverartarchive.org/release';
 
 	getCount(`${musicBrainzBaseURL}?query=*&type=album&format=Vinyl&limit=1&offset=0`,function(count){
@@ -47,7 +49,7 @@ function main(){
 			nPages = args['num_pages'];
 		}
 		for(let cPage = 0;cPage < nPages; cPage++){
-			setTimeout(function(){
+			limiter.removeTokens(1,function(){
 				getReleaseList(`${musicBrainzBaseURL}?query=*&type=album&format=Vinyl&limit=${limit}&offset=${cPage*limit}`,function(releaseList){
 					if(typeof releaseList !== 'undefined'){
 						for(let rIndex = 0; rIndex < releaseList.length;rIndex++){
@@ -64,7 +66,7 @@ function main(){
 						}
 					}
 				});
-			},cPage*musicBrainzRateLimit);
+			});
 		}
 	});	
 }
@@ -148,6 +150,7 @@ function downloadImage(url,dir,callback){
 		function(err,res,body){
 			if(err){
 				if(retryErrorCodes[err.code] === true){
+					console.log(colors.yellow(`Retry::downloadImage - ${err.toString()}`));
 					downloadImage(url,dir,callback);
 					return;
 				}
@@ -189,6 +192,7 @@ function getImageURL(url,callback){
 		function(err,res,body){
 			if(err){
 				if(retryErrorCodes[err.code] === true){
+					console.log(colors.yellow(`Retry::getImageURL - ${err.toString()}`));
 					getImageURL(url,callback);
 					return;
 				}
@@ -219,6 +223,7 @@ function getReleaseList(url,callback){
 	},function(err,res,body){
 		if(err){
 			if(retryErrorCodes[err.code] === true){
+				console.log(colors.yellow(`Retry::getReleaseList - ${err.toString()}`));
 				getReleaseList(url,callback);
 				return;
 			}
@@ -227,6 +232,7 @@ function getReleaseList(url,callback){
 
 		// Rate limiting
 		if(res.statusCode === 503){
+			console.log(colors.cyan(`Retry::getReleaseList - Error: Rate Limiting`));
 			getReleaseList(url,callback);
 			return;
 		}
@@ -248,6 +254,7 @@ function getCount(url,callback){
 		},function(err,res,body){
 			if(err){
 				if(retryErrorCodes[err.code] === true){
+					console.log(colors.yellow(`Retry::getCount - ${err.toString()}`));
 					getCount(url,callback);
 					return;
 				}
