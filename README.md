@@ -3,11 +3,11 @@ Downloads all Vinyl Front Covert art from [covertartarchive](https://coverartarc
 
 # Requirements
 * Node.js
-* Only tested on Windows and Linux
+* Has been tested on Windows,Linux,and Mac
 
 # How to use
 
-## Windows,Linux
+## Windows,Linux,Max
 1. Open base directory in cmd prompt
 2. Install package dependencies using ```npm install```
 3. Run ```node getCoverArt.js```
