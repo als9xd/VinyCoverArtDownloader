@@ -27,13 +27,13 @@ parser.addArgument(
 	['-s','--image-size'],
 	{
 		action: 'store',
-		help: 'Cover art image size',
-		type: 'int',
+		help: 'Cover art image size (large=500,small=250,default=up to 1200)',
+		type: 'string',
 		choices: [
-			250,
-			500,
-			1200
-		]
+			'large',
+			'small',
+		],
+		default: 'large'
 	}
 );
 
@@ -84,34 +84,51 @@ function verifyPrereqs(){
 	return [
 		new Promise(function(resolve,reject){
 			if(process.platform === 'win32'){
-				const helpURL = "https://support.microsoft.com/en-us/help/196271/when-you-try-to-connect-from-tcp-ports-greater-than-5000-you-receive-t";
+				const helpURL = colors.cyan("https://support.microsoft.com/en-us/help/196271/when-you-try-to-connect-from-tcp-ports-greater-than-5000-you-receive-t");
+				
+				function warningMessage(numTCP){
+					return `\nWarning: Max number of allowed tcp connections is ${numTCP}. This may or may not cause issues. If you start receiving errors rerun this script with admin priveleges or follow the steps outlined here:\n\n\t\t${helpURL}\n`;
+				} 
 
+				const defaultMaxTCP = 5000;
 				const regedit = require('regedit');
 				const keyPath = 'HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters';
 				const valueName = 'MaxUserPort';
 				const valueData = 65534;
 				regedit.list(keyPath, function (err, result) {
-					if((typeof result[keyPath].values[valueName] === 'undefined') || 
-						(result[keyPath].values[valueName].value !== valueData)){
-						console.log(colors.yellow('Attempting to modifying registry to allow for a larger number of tcp connections'));
-						regedit.putValue({
-							'HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters': {
-								'MaxUserPort': {
-									value: 65534,
-									type: 'REG_DWORD'				
-								}
-							}
-						}, function (err) {  
-							if(err){
-								if(err.toString() === 'Error: access is denied'){
-									console.log(colors.red(`Please restart command prompt as admin or follow the steps outlined here:\n\n${helpURL}`));
+					if(typeof result[keyPath].values[valueName] !== 'undefined'){
+						if(result[keyPath].values[valueName].value !== valueData){
+							isAdmin().then(admin => {
+								if(admin){
+									console.log(colors.yellow('Attempting to modifying registry to allow for a larger number of tcp connections'));
+									regedit.putValue({
+										'HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters': {
+											'MaxUserPort': {
+												value: 65534,
+												type: 'REG_DWORD'				
+											}
+										}
+									}, function (err) {  
+										if(err){
+											throw err;
+										}
+										reject('Restart PC to apply changes');
+										return;
+									});							
+								}else{
+									console.log(colors.yellow(warningMessage(result[keyPath].values[valueName].value)));
+									resolve();
 									return;
 								}
-								throw err;
-							}
-							reject('Restart PC to apply changes');
-						});
+							});
+
+						}else{
+							console.log(colors.yellow(warningMessage(result[keyPath].values[valueName].value)));
+							resolve();
+							return;							
+						}
 					}else{
+						console.log(colors.yellow(warningMessage(defaultMaxTCP)));
 						resolve();				
 					}
 				});
@@ -219,11 +236,7 @@ function getImageURL(url,callback){
 
 			for(let i in body['images']){
 				if(body['images'][i]['front'] === true){
-					if(args['image-size']){
-							callback(body['images'][i]['thumbnails'][args['image-size']]);
-					}else{
-							callback(body['images'][i]['image']);
-					}
+					callback(body['images'][i]['thumbnails'][args['image_size']]);
 				}
 			}
 		}
@@ -287,7 +300,7 @@ function getCount(url,callback){
 }
 
 Promise.all(verifyPrereqs()).then(()=>{
-	console.log(colors.green('Done'));	
+	console.log(colors.green('Prereqs success'));	
 	main();
 }).catch((err)=>{
 	if(err){
