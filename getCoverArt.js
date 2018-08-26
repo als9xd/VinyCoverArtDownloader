@@ -140,6 +140,7 @@ const retryErrorCodes = {
 
 function downloadImage(url,dir,callback){
 	request(url,{
+			rejectUnauthorized: false, 
 			encoding: 'binary'
 		},
 		function(err,res,body){
@@ -182,6 +183,7 @@ function downloadImage(url,dir,callback){
 
 function getImageURL(url,callback){
 	request(url,{
+			rejectUnauthorized: false, 
 			json: true
 		},
 		function(err,res,body){
@@ -211,6 +213,7 @@ function getImageURL(url,callback){
 
 function getReleaseList(url,callback){
 	request(url, {
+		rejectUnauthorized: false, 
 		headers: {
 			'User-Agent': user_agent
 		},
@@ -243,6 +246,7 @@ function getReleaseList(url,callback){
 
 function getCount(url,callback){
 	request(url, {
+		rejectUnauthorized: false, 
 		headers: {
 				'User-Agent': user_agent
 			}
