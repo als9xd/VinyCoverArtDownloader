@@ -86,13 +86,13 @@ function verifyPrereqs(){
 			switch (process.platform){
 				case 'win32':
 					const helpURL = colors.cyan("https://support.microsoft.com/en-us/help/196271/when-you-try-to-connect-from-tcp-ports-greater-than-5000-you-receive-t");
+					const defaultMaxTCP = 5000;
 
 					function warningMessage(numTCP){
 						return `\nWarning: Max number of allowed tcp connections is ${numTCP}. This may or may not cause issues. If you start receiving errors rerun this script with admin priveleges or follow the steps outlined here:\n\n\t\t${helpURL}\n`;
 					}
 
-					const defaultMaxTCP = 5000;
-					process.exit(0);
+
 					const regedit = require('regedit');
 					const keyPath = 'HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters';
 					const valueName = 'MaxUserPort';
