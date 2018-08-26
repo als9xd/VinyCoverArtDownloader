@@ -1,21 +1,16 @@
 {
   "name": "VinylCoverArtDownloader",
-  "config": {
-    "mem-max": 4096
-  },
   "version": "1.0.0",
   "description": "",
   "main": "getCoverArt.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cross-var node --max-old-space-size=$VINYL_MEM getCoverArt.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "argparse": "^1.0.10",
     "colors": "^1.3.2",
-    "cross-var": "^1.1.0",
     "limiter": "^1.1.3",
     "mkdirp": "^0.5.1",
     "regedit": "^3.0.0",

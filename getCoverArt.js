@@ -1,10 +1,3 @@
-const ENV_CONFIG = {
-	NODE_VCAD_MEM: {
-		default: 4096,
-		info: 'maximum memory allocation for node'
-	}
-};
-
 const ArgumentParser = require('argparse').ArgumentParser;
 const parser = new ArgumentParser({
 	version: '0.0.1',
@@ -34,8 +27,8 @@ const args = parser.parseArgs();
 
 const colors = require('colors/safe');
 
-const RateLimiter = require('limiter').RateLimiter;
 // https://musicbrainz.org/doc/XML_Web_Service/Rate_Limiting
+const RateLimiter = require('limiter').RateLimiter;
 const limiter = new RateLimiter(1, 'second');
 
 function main(){
@@ -109,19 +102,21 @@ function verifyPrereqs(){
 				});
 			}
 		}),
-		new Promise(function(resolve,reject){
-			for(let v in ENV_CONFIG){
-				if(typeof process.env[v] === 'undefined'){
-					if(process.platform === 'win32'){
-						reject(`
-Error: Could not find environment setting "${v}" 
+		new Promise(function(resolve,reject	){
+			const heap_size_limit = require('v8').getHeapStatistics()['heap_size_limit'];
+			let b2gb = 1e9;
+			// GB
+			let maxMemoryAllocation = Math.round(heap_size_limit/b2gb * 100) / 100;
+			if(maxMemoryAllocation < 4.){
+				console.log(colors.yellow(`
+Warning: Max memory allocation set to ${maxMemoryAllocation}GB (Recommended 4GB).`));
+				console.log(`
+To increase allocation use the `+(colors.cyan('--max-old-space-size=X'))+` switch where X is the max number of MB to allocate.
 
-Run this command:
+Example:
 
-	"`+colors.cyan(`set ${v}=X`)+`" where `+colors.cyan('X')+` is the ${ENV_CONFIG[v].info} (Recommended default `+colors.cyan(`${ENV_CONFIG[v].default}`)+`)
-`)
-					}
-				}				
+`+(colors.cyan(`node --max-old-space-size=4096 ${path.basename(__filename)}`))+`
+				`);
 			}
 			resolve();
 		})
