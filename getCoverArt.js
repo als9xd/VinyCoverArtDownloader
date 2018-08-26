@@ -23,6 +23,21 @@ parser.addArgument(
 	}
 );
 
+parser.addArgument(
+	['-s','--image-size'],
+	{
+		action: 'store',
+		help: 'Cover art image size',
+		type: 'int',
+		choices: [
+			250,
+			500,
+			1200
+		]
+	}
+);
+
+
 const args = parser.parseArgs();
 
 const colors = require('colors/safe');
@@ -204,7 +219,11 @@ function getImageURL(url,callback){
 
 			for(let i in body['images']){
 				if(body['images'][i]['front'] === true){
-					callback(body['images'][i]['image']);
+					if(args['image-size']){
+							callback(body['images'][i]['thumbnails'][args['image-size']]);
+					}else{
+							callback(body['images'][i]['image']);
+					}
 				}
 			}
 		}

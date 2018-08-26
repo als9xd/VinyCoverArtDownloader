@@ -14,6 +14,7 @@ Downloads all Vinyl Front Covert art from [covertartarchive](https://coverartarc
 	* It is recommend that you increase the default maximum memory alloction for node. EX: ```node --max-old-space-size=4096 getCoverArt.js```
 
 ## Command Line Switches
-*  ```node getCoverArt.js --help```
-*  ```node getCoverArt.js --n,--num-pages X``` where X the max number of MusicBrainz release pages to retrieve (100 releases per page)
-*  ```node getCoverArt.js --o,--output-directory X``` where X is the directory to store downloaded cover art
+*  ```node getCoverArt.js -h,--help```
+*  ```node getCoverArt.js -n,--num-pages X``` where X the max number of MusicBrainz release pages to retrieve (100 releases per page)
+*  ```node getCoverArt.js -o,--output-directory X``` where X is the directory to store downloaded cover art
+*  ```node getCoverArt.js -s,--image-size X``` where X is the image size. Valid sizes are 250,500,1200. Defaults to the largest size.
