@@ -173,7 +173,8 @@ const user_agent = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like
 const retryErrorCodes = {
 	ETIMEDOUT : true,
 	ECONNRESET: true,
-	ENOTFOUND: true
+	ENOTFOUND: true,
+	ENETUNREACH: true
 };
 
 function downloadImage(url,dir,callback){
