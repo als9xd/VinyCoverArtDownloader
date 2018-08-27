@@ -174,7 +174,8 @@ const retryErrorCodes = {
 	ETIMEDOUT : true,
 	ECONNRESET: true,
 	ENOTFOUND: true,
-	ENETUNREACH: true
+	ENETUNREACH: true,
+	ECONNREFUSED: true
 };
 
 function downloadImage(url,dir,callback){
