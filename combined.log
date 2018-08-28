@@ -1,0 +1,1818 @@
+{"message":"\u001b[33mChecking Preqreqs\u001b[39m","level":"info"}
+{"message":"\nWarning: Max heap allocation set to 1.5GB (Recommended 4GB).\n\nTo increase maximum heap size use the \u001b[36m--max-old-space-size=X\u001b[39m switch where X is the max number of MB to allocate.\n\nExample:\n\n\t\t\u001b[36mnode --max-old-space-size=4096 getCoverArt.js\u001b[39m\n\t\t\t\t","level":"warn"}
+{"message":"\u001b[31mError          : 7dd0f040-e1ab-48a9-b090-fba94d474313 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8f808df7-dc16-4992-88d0-4df1f1056007 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9a39d004-fcbb-34d1-a4d5-b6347a159724 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4511f16f-32b9-45a4-90c2-677d9fddc529 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 72659f67-7d42-4fd6-8f98-9dcb15514533 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e9e091a3-ea60-4d7a-a9a1-ee9cea3be01d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a2ae3b31-e219-4680-bcd1-92bb4049b0d2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : aeeed1b6-5419-405f-8aca-24e78d2f6a89 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 34628d91-93b5-4a78-b212-f10add1e650f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ced47ee9-8565-4d9f-944f-b3273c52a655 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0357e210-b50b-405b-ab56-c2a7faa463fe cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8b7f8ddc-d0ef-4f31-8e1b-40e08be19609 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 19f8cac3-89c4-48d5-ba82-5003126b3a3c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2b48ba0c-1d2b-4992-9313-015e04ba267d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 18205f90-1188-4c99-9219-1087063a53e1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4851dc31-e765-4cc3-86b5-40c9c5518027 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1c6ebbf9-1c57-4987-af4b-140a90d69120 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4abdb1bf-a5b8-30b5-9d6b-4a6f89de530b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4e480635-9028-47a3-a0e5-40ee0dac72f1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : aa291112-0014-4eeb-93b2-a94cc2ba0773 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6a024479-6131-4414-894e-a872389bcc10 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 24e9a9d2-548b-43e8-92d4-ac4db835f57b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 5376f6ab-9965-44db-8d82-b3bcc5f1440c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a7cb63e1-5b43-4c6a-9cc2-033648a1fe8a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9180e389-ac6d-4511-a9bc-2c74702ab7cf cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9b33f17e-1dc7-4079-9b1a-69e5e37357aa cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 987b9790-3c60-4e45-8449-ca9c6a7be859 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 17f38263-1be0-4638-8fae-f007583f1ef3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1c8a578c-e7ff-4738-88b5-c0276effa3b2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : dafd094b-d2b9-4e08-b820-1d2558a647a0 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 71998628-690e-4d0c-82c6-145620132a7e cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : db27d0d3-dbe3-4bf0-983c-a764eced88a5 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 284bbee1-45cc-425d-aee7-9397bdc46aa8 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d44fd74f-34d5-4a62-973f-e953b79be330 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7dc0f8a5-68c7-40a4-8a57-db8be35e9ea9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 75bed0d6-96de-400d-8750-4f055efd3ed4 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7ed59289-8454-4c56-b6f6-39e0433e0d9d cover art not available\u001b[39m","level":"error"}
+{"message":"Retry::getCaaImageURLs - Error: getaddrinfo ENOTFOUND archive.org archive.org:443","level":"warn"}
+{"message":"\u001b[31mError          : 896968ac-a7e4-4ad1-b700-ad423573ed94 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ec60d971-32e3-422e-9248-a9d3d10061f2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ece34197-dc67-3e66-b912-4f74d76b76e9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d8ca47b9-f427-41f3-a803-66cd59b134e1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 508e8343-ae4f-4147-8fc1-df660b821a02 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 44b66b58-7220-4130-9b76-6ff28fc0158f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d5934214-41f6-450a-8481-fdddf3233d45 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7eef7992-5dd6-411d-967c-09f258488708 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : bd47fc15-c0a7-4018-b9e7-bdaa9239d19f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d6a5e1f9-2857-4f4c-bc02-12fbe482553b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 550c8645-2c8f-4d12-963f-ed13707b622a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 98cd28c6-ac3b-4152-96e6-d65c43a58fd9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : bdc8a98e-5fee-41bd-bc21-c9efbf633cae cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 56211927-cde8-4507-b24f-dcc1324723fe cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cb8fa6d1-8e76-483e-86dc-35875ae43bab cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c9ebbe41-cfc2-4ab3-8ea3-3471f849b6b0 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9f1d59ad-1bd5-4824-b066-47deb6e8b98b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0f24cd32-69fc-467e-8ffa-b774eca53b6d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8e1d3d90-dc4e-4c13-aaea-719b7950c98c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2afd6d06-cdc4-43a2-8fd0-c8aa5d0ef04f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : da3a739d-44d3-44bb-9d97-c9e6eef36315 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b39a1a76-bc7b-4c7b-9003-a9795109d291 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d5ce4219-f891-4069-b9fe-3cf6d6685011 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c09c59b7-23a1-48e0-bd1d-1a1b1f88d344 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6503e505-95c3-4d46-b18d-21845d83eb13 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d5be1ac9-7ce3-41bd-82e2-964fba7bc167 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 370c4fc0-7587-4453-b6bd-afe3637c6df5 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 992496ac-e43a-4755-b468-5d4546fc4f47 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 45e0060c-7381-4e09-a172-eb33ae243ed6 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 966be9b3-f538-41b4-9ad9-7c8019afb018 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : be2f2f04-28fa-4968-9634-123b90cd9bfd cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 476bd314-290b-4f38-95e5-927a52e64979 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ee76a845-926d-4120-b83e-a2d543918428 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 345ffbb2-ced2-321a-8051-02136a24128d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d913f131-7fb5-46f8-81e0-f2df88b31198 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 14dfc5d0-9f67-4fca-8dac-ae044951aa79 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 41f8ba42-5582-43b8-b289-fde9337714ae cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8078860d-21d2-3af4-9bac-0dbdb6e72ee2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 03b007c5-d686-4929-8229-598715ee22c1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a630c040-d31d-4c93-8584-4e530b1f4cba cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 985b1e45-9fb5-46ee-858a-233f56bd3d2d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4204c171-1dea-4ddb-8038-0865ab5007fd cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3e35ebc5-0459-45be-984b-3b2171d71954 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e55cca95-07ea-3957-83d9-c7276ae1d121 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 712d55b2-9f62-4823-96d9-9e94efa88c07 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7899c275-badf-48b2-9c17-6283417db7e2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 880d2a7a-027b-4298-847a-2d2936e9d7a4 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3646ab59-da3e-4fac-b2bb-f4c5f022a116 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 460f96e6-91cf-410a-89de-d61ae57b6059 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : bd10f3f4-1f65-4256-83bc-12969ea301f8 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3a870bed-d7d9-42cc-9892-b4a91318918f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9663755d-d9d7-4bc6-b6d0-f6ff4bfa39e1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0a3bdeec-2757-4e0c-b8a4-406ef44da141 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ef838512-e1f1-474c-85c2-dcec808f7696 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : fc09bb8f-35c8-483d-9443-84c9592c71bf cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : dc8b6495-b89b-4d63-80ea-4f7b6140e6d9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d88e8fbf-09a3-41bd-ae23-71098ab8c299 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6cacaf20-c34d-455a-8eb7-c9e3deca48ab cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cd6c3477-e45e-4973-8187-c1c2f06bc12e cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 01dc310e-07ad-49d6-b697-a55263a8f74c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e1f62326-ebd6-44a4-a00d-9455f66a3cd7 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e680b228-a47b-454a-bdc3-ddca0937b437 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f4471b13-2578-46be-baee-3a8e8b3806af cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 08f4475b-a48d-4421-84c1-acf3f07e9d09 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1ead2d97-eb4b-41c5-be98-e73e85ce51a4 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3944ba73-c9b2-4da6-980e-6a4d8878bdcb cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8b611bd0-e86b-4c07-90b4-ce257463e137 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b20a11c1-afe9-4207-b31a-74a38d4ae10e cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0043751d-ea56-4ccf-a341-cdd84c2681ec cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ec0ba6ee-82ec-4f49-8c8c-6f9090cf4abd cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b3b7e934-445b-4c68-a097-730c6a6d47e6 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a1d3a1e3-ce19-4dc2-b9cf-859b126a8177 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 820be456-37d1-4d5d-9a0c-73322f0364e7 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c07dfda6-1f8d-4df7-9bb0-371025e0cee9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a79862c6-65e6-473a-8370-672a3808fe17 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 5b363ee5-021f-4e89-90da-e986618e79b8 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : da4220bc-fbdd-489f-bd83-452c87eed09a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f6944fe4-6492-4566-905b-b2553020ec6b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 202731b4-9768-437f-82b1-ad19bbaaa9d6 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1259a18b-3f10-47e3-9b61-2db06667f2e6 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : aae31785-7e21-4bbe-b166-3535ee34e577 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : db70ddb5-5225-4096-a6a8-305cdc0c3f0d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e12a47c5-6570-44f6-a2af-b43bf44cccc3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f7b194a3-f3e2-4e36-a46a-058f2c16befd cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : bb4397f2-7fb5-41af-b762-acbc682052d1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b9d5740c-4384-4c64-9638-45d6b904c7b2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9885dbc8-122f-4a92-b98f-6c0a79cdde16 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b810343b-be79-42ae-b93b-aa739f6ec9a2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f5edf643-86e2-4b46-9bfd-414308d5bbca cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ec48b596-d86d-45f5-88b9-aa0177882b55 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e681618e-773e-4ccb-85c0-623042c02706 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b2c1382c-d272-494b-af23-a72ad2424baf cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 36bc108f-8288-409c-b35e-218b0b1f3078 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e029543d-2612-425c-bd05-1b345e1c14a6 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2ac87a63-97c0-4a2a-93ce-23ab63f14f30 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 74c95670-1ef6-414e-84a9-01d6c8706d80 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 81e116d6-f70a-4564-b574-4e39e58f14df cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : feb2ead1-09b2-42ac-9036-3120d2ba6d64 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8c670df6-5c3f-4a34-b532-b7d260883e84 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6e605ceb-7c51-4a4d-8dd2-3744ade5d011 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : eba90d00-65a7-4a1b-827a-582d87225127 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3fcb1801-4bb7-4e81-bac4-f93a617a4686 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c1dd546c-f2e8-413d-b19e-420f19e1a643 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a039470a-e9e0-4004-baf5-a298803ba65d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 50a89f17-785e-432a-ae66-2ae18e83be03 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9b27628f-35c6-445f-ba90-be968d9473b7 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : da116158-4d84-38fb-b35c-e5ed3c90244c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6dff0733-428b-44df-b1cd-25ffc0152604 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 841ff4cb-88f0-4cab-a29b-d4800fbdb2ab cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ba0d8945-1e29-4965-b0f5-d1894afb364b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : bbe4448e-0dfd-4bac-9436-7e616994f456 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 47ab7132-f34f-4ba5-87e3-76a9fbfc4e39 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1668ffa5-35ce-4b58-a950-1419173c961d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 12eb8104-e254-471d-86fd-b6a6746fd130 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c53902d4-e32c-42ab-8307-4cb93a33e4f9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f245e018-420c-380b-a39b-a58ba8276c60 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6aac4e2d-e6b2-4bae-9407-321bdcb4cdd6 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 053352d7-14d0-42e0-9130-229e2681cb33 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9f713000-782d-43a9-ab9b-4bad0f8f3ce2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d8d8f546-9995-4060-a642-5904057c44e4 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c717bdea-8da9-4565-8c72-3fe8a1a695d2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7c24ebd0-2ae2-4660-a1be-6b7409238d62 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e065d3b4-f1da-4c52-92d3-cf04b9a21d34 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7b1403f3-f38e-4c08-90cf-03fa76f0c735 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ffad7202-7102-30e5-ad53-a97a86595a56 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0d7b68aa-5c54-49a9-8063-3e0bd90a6b03 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a7ef5c18-d8eb-348c-8a8c-10af5dcd3f2e cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4affdc30-6fc3-40ff-bfc0-c0d15b74a8bb cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d81803eb-8d8b-47c9-bd65-7ed6ed46027f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cc574bcd-8e58-4774-a686-2fd61d294ccb cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 63f18634-ad65-40cc-b008-b96b17802848 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0c4bfe90-400d-405a-adc2-292b753b5cb4 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ea4e4d3d-f043-4a03-8e3b-38b48b7aef53 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 478f1cf8-9859-4e1e-9e5e-e7b6f7530a49 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d4b77abc-b308-40b6-b867-837e01ecf2f3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9b2ec06f-4547-3cc9-b182-0d801062fc9c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ad5ab02a-a891-4e16-bc13-aac83b31749f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7b8a17d9-6d1e-4d19-b3a0-5f33da7ecaa2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cfa6f655-aa1f-4a52-bdc5-3aea5e5520a0 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4ef169f1-e114-4d5e-a911-41f74979a9a5 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e94c9610-fabb-47b3-9e80-bbee328fd62b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a776e81e-c00f-4176-ab39-51c508b2a2ac cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a67d6aa5-d62f-45a5-bb28-d53ef701abca cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 88141998-a9f7-45f3-b971-66c548e26ed3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9ad59806-2dd0-4686-9e20-00fce8e839cf cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ba556913-09ac-45d2-aa82-384e8299240c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 630bffed-8f02-4a35-a46a-d1781c274ee7 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4fa4b6cf-7f9e-4a6b-b69e-0cde5934db74 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 717ec955-a1d8-454f-a67a-c1b3191abef3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7ceeb79d-4be8-4a32-b9c5-cb4ff0708633 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b9133cf5-9a14-48dd-89c3-75c1c5d3fc97 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : da4f5e67-dae3-4293-adfb-e6a9846ab420 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 56da9611-26e8-4976-9c50-db6ddad5976d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 229b6124-e8a1-4583-b5ec-f2c74af1bc7f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 51c55b89-4854-41d0-ab97-d4055a288ba5 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f1ea6b57-48f9-4072-a833-0ce02b310e7e cover art not available\u001b[39m","level":"error"}
+{"message":"Speed 0 images/sec","level":"info"}
+{"message":"Retry::getCaaImageURLs - Error: getaddrinfo ENOTFOUND coverartarchive.org coverartarchive.org:443","level":"warn"}
+{"message":"Speed 0.17302335156684673 images/sec","level":"info"}
+{"message":"Speed 0.34602143275474245 images/sec","level":"info"}
+{"message":"Speed 0.5163906741975212 images/sec","level":"info"}
+{"message":"Speed 0.6756960808983539 images/sec","level":"info"}
+{"message":"Speed 0.8419175791335431 images/sec","level":"info"}
+{"message":"Speed 0.9863996782383977 images/sec","level":"info"}
+{"message":"Speed 1.150708425126687 images/sec","level":"info"}
+{"message":"Speed 1.3150033253327402 images/sec","level":"info"}
+{"message":"Speed 1.4741296342262449 images/sec","level":"info"}
+{"message":"Speed 1.6351337211245245 images/sec","level":"info"}
+{"message":"Speed 1.7911893773553056 images/sec","level":"info"}
+{"message":"Speed 1.9523955209703874 images/sec","level":"info"}
+{"message":"\u001b[31mError          : e8224eec-7b71-4318-869f-a06324a93c41 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8315e2d3-7d9c-4826-8da0-b9e58d33f403 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8fbb937c-c5b9-4a64-b385-6d4a4ca23872 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9166fb8c-d128-47f5-adc8-bb8c23743f19 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6ab9c70a-8099-4cd2-88d2-18193c6f83b3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : bd873189-4950-3b2b-89b8-e38bd69404f7 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1afdebbb-6bf5-4a6c-9955-a824775564fd cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9776d3da-9910-40a4-add9-deee41b09da7 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7725a644-72c3-44a6-91a2-d3b6916dfce1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 80085a84-e485-40e3-a3d5-6990cc7a9913 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d22fadba-b7a1-4d35-be9e-e2641ec465ad cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 03ace00e-783d-4ecd-941a-18bf677966bc cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c3fcfede-4ea6-4c67-9aaa-f126de5b8b1a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 64a0c7cc-b6db-46b0-a378-b5d637fda1c0 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c5a7f3e9-c93d-4643-a341-52e562a7e0af cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d477819b-580b-40ff-a208-3ea3d50d21d3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c688be39-9180-4615-904e-0bbfe2627c35 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 67b98123-f743-4417-9192-e042707eeeab cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2cea1e05-1af8-4574-bb2a-88fac6f58149 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 50660640-359d-4355-a028-b789fd786129 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 5dde8715-5ead-416f-a383-c4351b63cfd2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b56a526c-7eb8-4051-b265-38015258c9df cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c2086892-712e-3eac-9c9a-f37cf84f5d69 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a03fe7c3-2270-4564-ae11-a53338acee71 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2c6a3021-15dd-3bcb-ba33-f2461e12fd81 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f4f07e53-eb10-4851-b73f-2538b8b7f54c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 277189a9-a66c-42cc-98ed-f8daa19376cb cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 541197b3-2703-45cb-aeb8-2bc2eaef4a67 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2cfa783a-0c30-4b89-a412-e9304163aa55 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 441068fe-cdb9-4af9-9e08-ce3c73d2bdcb cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 20d51fd3-09ca-45b4-8110-86ee746f23e2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 296c5764-a05a-4aa7-b374-d72a92899cdc cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 162d4707-c50b-4909-bd4e-9a9ffabead5e cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8af08981-edf3-4b47-ba31-17a6bd6d7c6c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d45f4aae-69d0-4c90-8692-50af11a63fe4 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0f8dec95-34d5-4f20-b871-af8c1fe2c1af cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d01b38db-b40e-4080-8148-9719cf96c67d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : afc28d7c-71ae-424f-baa8-d16c2f19a51a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a207eaa3-4b80-45fa-8f44-d499815c5947 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a96c83cf-1c5e-4fe3-9467-1f1a5b5bfff4 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 19ff1fd8-2576-4502-97e2-dcb6e3410796 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 5f52a0e4-9eeb-40a2-9392-0814583daf11 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 19174b18-7217-4dec-b875-abb89428b683 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 80a3651d-eb29-4bad-a477-59cfb7a97e14 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cc903767-45ba-461f-90c8-ef3d710530e0 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : addbbdcb-ff8e-4baa-a9aa-6463c5452f06 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e2b7b9f5-89f4-4b0c-8a69-fc07539726b3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2a7160a4-5065-4b8c-bf8e-180b30fe1726 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 60dcc4c1-b9f5-4d02-bc5e-83fd0e40bf0f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 63060148-70ff-4ae1-944c-99817186e353 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 5dc5cb5f-9b7c-4755-882f-36d004941d4b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a8a9ebc2-30db-4e4c-81fd-22b74e1b2ecd cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ae61d3b9-5333-4e54-a617-4cef3ccdb530 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f59f9f15-da06-413a-a209-b32c0667d3f1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 31f242a8-b775-4971-88af-1d139972b133 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8ca4a0c9-d769-41d6-b0d9-f0c1daf0e0a9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 19be63b3-521b-45cb-9339-aabb4dd244f3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 49ab910d-5a97-4fa4-8197-34eaac00184b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 484cbf92-a1fe-4d3f-9dd2-3c6b06102d57 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : fae2dac6-6e35-49cb-9c4d-7a70bf0ef74f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b24a6fe0-d4ab-4902-82e9-30b8ced20eff cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 80c8f322-3e83-4f36-ad9e-6db1890b3142 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cb2707ea-1cb4-4fdc-90ab-69ff804fcf24 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e11eb55b-b11c-4bed-a7a6-06295cf95708 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 96f25de4-83c8-44ef-a0d2-92c1bee301ce cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7ae14282-d9a7-4c1c-ae54-1dfcb8327a80 cover art not available\u001b[39m","level":"error"}
+{"message":"Speed 2.050478063282207 images/sec","level":"info"}
+{"message":"Speed 2.2054242273711195 images/sec","level":"info"}
+{"message":"Speed 2.3628426491330763 images/sec","level":"info"}
+{"message":"Speed 2.520272335058724 images/sec","level":"info"}
+{"message":"Speed 2.67618800288601 images/sec","level":"info"}
+{"message":"Speed 2.8265512371229904 images/sec","level":"info"}
+{"message":"Speed 2.9809261279389605 images/sec","level":"info"}
+{"message":"Speed 3.137337017512585 images/sec","level":"info"}
+{"message":"Speed 3.2831132493598294 images/sec","level":"info"}
+{"message":"Speed 3.3381037460828256 images/sec","level":"info"}
+{"message":"Retry::getCaaImageURLs - Error: getaddrinfo ENOTFOUND coverartarchive.org coverartarchive.org:443","level":"warn"}
+{"message":"Retry::getCaaImageURLs - Error: getaddrinfo ENOTFOUND coverartarchive.org coverartarchive.org:443","level":"warn"}
+{"message":"Speed 3.4470000927096156 images/sec","level":"info"}
+{"message":"Speed 3.596580647517563 images/sec","level":"info"}
+{"message":"Speed 3.7462391675450895 images/sec","level":"info"}
+{"message":"Speed 3.894787800420826 images/sec","level":"info"}
+{"message":"Speed 4.021042466098279 images/sec","level":"info"}
+{"message":"Speed 4.166466766163332 images/sec","level":"info"}
+{"message":"Speed 4.300487551463953 images/sec","level":"info"}
+{"message":"Speed 4.418781629738328 images/sec","level":"info"}
+{"message":"Speed 4.560783166480533 images/sec","level":"info"}
+{"message":"Speed 4.702523675680224 images/sec","level":"info"}
+{"message":"Speed 4.8423797042167065 images/sec","level":"info"}
+{"message":"Speed 4.980415082379722 images/sec","level":"info"}
+{"message":"Speed 5.124817683787269 images/sec","level":"info"}
+{"message":"Speed 5.186201183019195 images/sec","level":"info"}
+{"message":"Speed 5.32918851980177 images/sec","level":"info"}
+{"message":"Speed 5.472685305502852 images/sec","level":"info"}
+{"message":"Speed 5.589975508845269 images/sec","level":"info"}
+{"message":"\u001b[31mError          : b421ff9a-358b-48ac-b4d2-0683d6cce768 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c2b90877-ad3a-439e-910a-9e9789054161 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1aadca5e-5b0c-489e-8681-8c090ee57188 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 46ac9081-9ee5-4cfe-bf38-8319ca0a88ac cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 26583a14-edef-427d-bc02-12c5fad93af6 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 638be54d-b836-44e6-a110-568873870e9b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : dc211d7f-aa6d-4e85-898e-de93e5e54217 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e54a4b24-1ab6-4969-a112-070c8fb6a188 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b7ecf841-2807-4026-bb98-2051740114bd cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4255c712-d453-42ca-9339-67c0c9ed1b0d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9484db38-7fb3-4cb4-a8d9-3c96b6acc658 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4a3e31d9-7ee6-4d0f-a054-d466d37e9abe cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : dca915ca-d1dd-4bfc-b379-94b3eb3d0121 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : fa88c1aa-48f5-4a6f-a077-aeccdb1be8d9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 568b137b-8d1a-4de7-b64c-c73047aa36fc cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ce31abef-c390-4552-90d5-1dd765c38781 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6cc70328-91d5-4558-ac93-6e527a52ed1c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8e359ebb-b2ca-4723-b05d-ac4e71dbc04a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : dd785018-9fa3-468b-9338-2d58d7d29bc1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f158c68f-c51c-475a-a09d-39128fa68a5f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 60aa62e5-e7b8-4571-b698-4d88341bd9b9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6c3ee121-dd04-4d49-a86a-be20c6538382 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2f7c6110-a170-4673-85f6-a206f7221513 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4a64bb90-ef0c-4f7f-a6a2-1867660adcd9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f3b0c08d-1140-4fa3-b4e8-3e73345c62ed cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7bcdb92b-44ee-4740-a1cd-5687013d140f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f754b3be-d660-4f29-87cd-a34da809018d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 27e691b3-af41-40ef-8386-6489c7be973a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e42a8c09-5026-4258-b923-8f271c83a1ea cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4b31313f-c317-4a4f-a629-c39a8a2696bf cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e7344671-0830-45a9-889d-c0c86f870c3a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : fdd0dbb5-d478-4012-8797-4d849046305d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : bd068732-1125-4e9b-abfa-c9815ee7c272 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7b5a2f68-089e-454a-9677-0bfd27792cbd cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9e0f92c4-3e16-4e6b-bd3e-52f45cd15d88 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 70edc318-0700-47e0-a8f5-be13c57d6ad8 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c062b6d5-d6ca-4d4b-a389-1695dc92e964 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e040747d-b278-43d1-a8f2-bd5acbd071f1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2186b26c-53b0-449b-a5a9-4484eaf246d7 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a9a2fec8-f235-413d-9c77-e65b22591a70 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 5f4efe20-f91a-309d-8271-d9727384b71d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f6aa2809-3397-3b0f-865f-a831dec2f240 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d1ba7a37-d88d-4308-ac73-0e852888b0da cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b9574426-de17-4798-85ff-02835949fa92 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4516c28b-3d0d-4975-8aab-7089cba55618 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : bdbb1c0d-d89d-4bb5-9a92-b944014ae0ad cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f0b9e2e3-13fe-472d-a6ce-ef2aa49006ce cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 09d2e254-bfe2-4e09-8db3-177b5bafa598 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3919cfc8-7eb1-498a-b02e-c5ba79dc7e2c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d94ad4e7-afbd-4c4e-bc44-4ef997affbe1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : fe23dc9f-655f-48aa-bb36-ea9e05a21223 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1ff317f3-21db-4067-a57a-665af10f87e8 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 43a597a8-3fa2-4a5d-a46b-e8ab98243c7b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c57393f1-d73c-4479-928d-a67705937d26 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9c1a5b10-d05d-4c73-9997-af7c6b943fe5 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 581c7495-846a-4808-a76f-9ee90b7c7989 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a1985ace-7c73-4db3-922d-b713a3274ec2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6f97184b-3a6d-4b7c-af80-7535282f8b8c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 312c7ef8-0165-4ffb-b50e-55cb11587f2a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 072bc4ae-07dd-4f78-951a-898408068b11 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4386f152-f99f-4e3e-a33f-4c048364af87 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6e60f025-171c-4e0f-9e31-f07d468d7b6a cover art not available\u001b[39m","level":"error"}
+{"message":"Speed 5.535775331501467 images/sec","level":"info"}
+{"message":"Speed 5.6676626210582155 images/sec","level":"info"}
+{"message":"Speed 5.805486429916606 images/sec","level":"info"}
+{"message":"Speed 5.943524360611337 images/sec","level":"info"}
+{"message":"Speed 6.074839114112773 images/sec","level":"info"}
+{"message":"Speed 6.204150569009947 images/sec","level":"info"}
+{"message":"Speed 6.337849605049875 images/sec","level":"info"}
+{"message":"Speed 6.438533221401178 images/sec","level":"info"}
+{"message":"Speed 6.569319910339223 images/sec","level":"info"}
+{"message":"Speed 6.557866654370783 images/sec","level":"info"}
+{"message":"Speed 6.691154316235333 images/sec","level":"info"}
+{"message":"Speed 6.824799582724688 images/sec","level":"info"}
+{"message":"Speed 6.95625240978797 images/sec","level":"info"}
+{"message":"Speed 7.089582776919245 images/sec","level":"info"}
+{"message":"Speed 7.203739391001473 images/sec","level":"info"}
+{"message":"Speed 7.295105736189682 images/sec","level":"info"}
+{"message":"Speed 7.423269159282358 images/sec","level":"info"}
+{"message":"Speed 7.540798061111273 images/sec","level":"info"}
+{"message":"Speed 7.664558006550512 images/sec","level":"info"}
+{"message":"Speed 7.764074559178082 images/sec","level":"info"}
+{"message":"Speed 7.864843650735125 images/sec","level":"info"}
+{"message":"Speed 7.901781939640798 images/sec","level":"info"}
+{"message":"Speed 8.02457213448616 images/sec","level":"info"}
+{"message":"Speed 8.136484269781455 images/sec","level":"info"}
+{"message":"Speed 8.259880038827356 images/sec","level":"info"}
+{"message":"Speed 8.127537897872394 images/sec","level":"info"}
+{"message":"Speed 8.239288669311945 images/sec","level":"info"}
+{"message":"Speed 8.3629213448909 images/sec","level":"info"}
+{"message":"Speed 8.487180097488384 images/sec","level":"info"}
+{"message":"Speed 8.61159869899741 images/sec","level":"info"}
+{"message":"Speed 8.73616751817873 images/sec","level":"info"}
+{"message":"Speed 8.860776301974287 images/sec","level":"info"}
+{"message":"Speed 8.984706045813079 images/sec","level":"info"}
+{"message":"Speed 9.011822827515312 images/sec","level":"info"}
+{"message":"Speed 9.11929732456241 images/sec","level":"info"}
+{"message":"Speed 9.221030892666661 images/sec","level":"info"}
+{"message":"Speed 9.304855178596128 images/sec","level":"info"}
+{"message":"Speed 9.42474824021006 images/sec","level":"info"}
+{"message":"Speed 9.488957105731442 images/sec","level":"info"}
+{"message":"Speed 9.597743861703565 images/sec","level":"info"}
+{"message":"Speed 9.704249696878572 images/sec","level":"info"}
+{"message":"Speed 9.728363667644944 images/sec","level":"info"}
+{"message":"Speed 9.84797638620036 images/sec","level":"info"}
+{"message":"Speed 9.967123683901164 images/sec","level":"info"}
+{"message":"Speed 10.08212625186806 images/sec","level":"info"}
+{"message":"Speed 10.174489776494621 images/sec","level":"info"}
+{"message":"\u001b[31mError          : ca2f5d06-99cb-4e52-b212-aebc952b372b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ee9e3499-71dd-4e3a-bfb7-07c502319459 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 087207f1-7de2-4c67-a512-351aabc9fce7 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 77ca1ef5-3fc2-4e27-89f1-3e4989c8895a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 35e1f9ed-2bad-4981-ac8f-ec025d4dbeb1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ab698200-5f90-47f3-911a-af522547a5b2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4ea461fa-1a67-4ec1-a632-bd0b395241d8 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cace1666-9675-3736-91e4-8aab04137064 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2cab86a2-685f-4ee1-80bf-8de09599e98d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 42024feb-932a-4786-8ac7-4f25865a5a40 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3439a2f8-9b34-44bf-bde9-9cbb581f8cea cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3ee556e3-2a40-4ad6-9317-5464b5f4dc72 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9df1fed6-a794-48c6-b78a-76baab4e9729 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3c7d07d3-8a65-4652-b85f-9a7d4c0bdcda cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 47469e4e-8358-49f3-9117-f17ba0be5536 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9ab8cd14-bfc3-43a4-83f2-28bf14a00620 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9535e03a-51e0-4919-b508-4391c046c538 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : fe46ba5a-cc8d-4c8e-b54d-28e1bd697473 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 36bb7141-2af4-4464-8fea-cc17bd228392 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4b98da0c-0fce-497a-bd5e-5837e5ed14f7 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : bd68e085-7b4e-4613-be74-05c8c9047c98 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0941b2f5-156e-438d-93b1-43b809710c6f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 673b00d8-91f8-4b79-ba60-69d83a520a23 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c1259b75-2571-43ba-8c50-bf50e047d8ed cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3ffb985b-23d6-463c-9014-de5e99d1ed58 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 81ecb988-8d66-49ec-80c2-b68fb2269aa9 cover art not available\u001b[39m","level":"error"}
+{"message":"Retry::getCaaImageURLs - Error: getaddrinfo ENOTFOUND archive.org archive.org:443","level":"warn"}
+{"message":"\u001b[31mError          : 009ca046-888b-401b-a5fa-24f82fb5a3c1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c78b9ddc-478a-4874-83d2-7d40ab147c25 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a61ea26e-936e-4547-ac78-0b377e5f76d6 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 82cec3c7-cece-4730-84d4-e089ddfb1b66 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 05e63293-52e9-42d3-a202-3944984826f0 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 5c554315-bbf1-4ec3-902b-f2d2db839bde cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 32758724-0efb-45ef-aa1a-ba8dafd0ad6f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a50322fc-67ee-4e80-a487-8c3c725ef755 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 643240be-afe4-49e1-8439-3e661e8b56c7 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1338e7be-162f-4046-a443-6d0405e52f49 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4c35c46f-d3a5-4406-80b4-82dea0c4ac7c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 62f5dab3-8cca-4d6c-a984-e9c6e1b02214 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 5d6ffcb9-5299-410f-a98b-95352698f27a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 78a81087-d5c2-48a5-a84d-3ceaa098fc22 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 422fc1d1-29d7-4e94-a5b8-bbab48c78deb cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1a6fe52b-ee33-486f-ac1d-d85c399b1de3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : eecdd1e5-863e-4a81-be05-218657221068 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cf826907-305a-4b77-9f6d-bc172810ef8d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f386dc5d-c7a4-48d1-87d3-9f40c3093103 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 431d9b87-5e4a-4d44-95a7-79279ad04cfe cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d601aa55-15f8-3694-b64a-e5a136bc169c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : dde00bcf-9339-3020-b868-7d775c317695 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e04a8281-c295-4f9f-8c10-e91c8f7d8a6f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a5c6f500-7569-4d88-b37c-0ba0934893de cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3dd93de9-4d69-41e8-82d6-a8b6f7f8febc cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c55795b9-552a-45d1-94cc-e504a0aabe9c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9a0c3c01-268d-4670-8eeb-436c4698db49 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c7c86ccb-0eb5-464a-8c3e-d6c0f38823bf cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2faf8ecc-3179-425d-b10a-8583c4c3b34f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : daec8fe8-5ca0-4174-a3d3-00ff6baa5c75 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : db58c015-7f66-4a15-877a-dac13338839e cover art not available\u001b[39m","level":"error"}
+{"message":"Retry::getCaaImageURLs - Error: getaddrinfo ENOTFOUND archive.org archive.org:443","level":"warn"}
+{"message":"\u001b[31mError          : 9893398a-a2d8-40e5-9b53-75bdf075b6ab cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 728684cc-7179-4f8d-ab77-25c95d3a812d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 885ef73c-db06-427e-a0af-362cf3b01dba cover art not available\u001b[39m","level":"error"}
+{"message":"Speed 10.055766616879058 images/sec","level":"info"}
+{"message":"Speed 10.171801639667699 images/sec","level":"info"}
+{"message":"Speed 10.278076720051486 images/sec","level":"info"}
+{"message":"Speed 10.378705791025887 images/sec","level":"info"}
+{"message":"Speed 10.494935021742684 images/sec","level":"info"}
+{"message":"Speed 10.610296941479511 images/sec","level":"info"}
+{"message":"Speed 10.726606792452149 images/sec","level":"info"}
+{"message":"Speed 10.842967403143865 images/sec","level":"info"}
+{"message":"Speed 10.528073841046286 images/sec","level":"info"}
+{"message":"Speed 10.639591566848232 images/sec","level":"info"}
+{"message":"Speed 10.751309807883446 images/sec","level":"info"}
+{"message":"Speed 10.863042133444495 images/sec","level":"info"}
+{"message":"Speed 10.974840471404328 images/sec","level":"info"}
+{"message":"Speed 11.086679429248873 images/sec","level":"info"}
+{"message":"Speed 11.196925116548064 images/sec","level":"info"}
+{"message":"Speed 11.308590167307775 images/sec","level":"info"}
+{"message":"Speed 11.394721344999073 images/sec","level":"info"}
+{"message":"Speed 11.457020343391548 images/sec","level":"info"}
+{"message":"Speed 11.37527567198541 images/sec","level":"info"}
+{"message":"Speed 11.48368609349182 images/sec","level":"info"}
+{"message":"Speed 11.59219497949472 images/sec","level":"info"}
+{"message":"\u001b[33mChecking Preqreqs\u001b[39m","level":"info"}
+{"message":"\nWarning: Max heap allocation set to 1.5GB (Recommended 4GB).\n\nTo increase maximum heap size use the \u001b[36m--max-old-space-size=X\u001b[39m switch where X is the max number of MB to allocate.\n\nExample:\n\n\t\t\u001b[36mnode --max-old-space-size=4096 getCoverArt.js\u001b[39m\n\t\t\t\t","level":"warn"}
+{"message":"\u001b[31mError          : d5ce4219-f891-4069-b9fe-3cf6d6685011 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d5934214-41f6-450a-8481-fdddf3233d45 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 5376f6ab-9965-44db-8d82-b3bcc5f1440c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9b33f17e-1dc7-4079-9b1a-69e5e37357aa cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 24e9a9d2-548b-43e8-92d4-ac4db835f57b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : aa291112-0014-4eeb-93b2-a94cc2ba0773 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cb8fa6d1-8e76-483e-86dc-35875ae43bab cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4511f16f-32b9-45a4-90c2-677d9fddc529 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b39a1a76-bc7b-4c7b-9003-a9795109d291 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ec60d971-32e3-422e-9248-a9d3d10061f2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 56211927-cde8-4507-b24f-dcc1324723fe cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2b48ba0c-1d2b-4992-9313-015e04ba267d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9180e389-ac6d-4511-a9bc-2c74702ab7cf cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7dc0f8a5-68c7-40a4-8a57-db8be35e9ea9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9a39d004-fcbb-34d1-a4d5-b6347a159724 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 19f8cac3-89c4-48d5-ba82-5003126b3a3c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7ed59289-8454-4c56-b6f6-39e0433e0d9d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 17f38263-1be0-4638-8fae-f007583f1ef3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c9ebbe41-cfc2-4ab3-8ea3-3471f849b6b0 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 71998628-690e-4d0c-82c6-145620132a7e cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : da3a739d-44d3-44bb-9d97-c9e6eef36315 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 44b66b58-7220-4130-9b76-6ff28fc0158f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : bd47fc15-c0a7-4018-b9e7-bdaa9239d19f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d44fd74f-34d5-4a62-973f-e953b79be330 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0357e210-b50b-405b-ab56-c2a7faa463fe cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 987b9790-3c60-4e45-8449-ca9c6a7be859 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 896968ac-a7e4-4ad1-b700-ad423573ed94 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4e480635-9028-47a3-a0e5-40ee0dac72f1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0f24cd32-69fc-467e-8ffa-b774eca53b6d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4abdb1bf-a5b8-30b5-9d6b-4a6f89de530b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d6a5e1f9-2857-4f4c-bc02-12fbe482553b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7eef7992-5dd6-411d-967c-09f258488708 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9f1d59ad-1bd5-4824-b066-47deb6e8b98b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 98cd28c6-ac3b-4152-96e6-d65c43a58fd9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ced47ee9-8565-4d9f-944f-b3273c52a655 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a7cb63e1-5b43-4c6a-9cc2-033648a1fe8a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7dd0f040-e1ab-48a9-b090-fba94d474313 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1c8a578c-e7ff-4738-88b5-c0276effa3b2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ece34197-dc67-3e66-b912-4f74d76b76e9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a2ae3b31-e219-4680-bcd1-92bb4049b0d2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6503e505-95c3-4d46-b18d-21845d83eb13 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 508e8343-ae4f-4147-8fc1-df660b821a02 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6a024479-6131-4414-894e-a872389bcc10 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e9e091a3-ea60-4d7a-a9a1-ee9cea3be01d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : bdc8a98e-5fee-41bd-bc21-c9efbf633cae cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8f808df7-dc16-4992-88d0-4df1f1056007 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : dafd094b-d2b9-4e08-b820-1d2558a647a0 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 72659f67-7d42-4fd6-8f98-9dcb15514533 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d8ca47b9-f427-41f3-a803-66cd59b134e1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 34628d91-93b5-4a78-b212-f10add1e650f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1c6ebbf9-1c57-4987-af4b-140a90d69120 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 550c8645-2c8f-4d12-963f-ed13707b622a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 18205f90-1188-4c99-9219-1087063a53e1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4851dc31-e765-4cc3-86b5-40c9c5518027 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c09c59b7-23a1-48e0-bd1d-1a1b1f88d344 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2afd6d06-cdc4-43a2-8fd0-c8aa5d0ef04f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 75bed0d6-96de-400d-8750-4f055efd3ed4 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : aeeed1b6-5419-405f-8aca-24e78d2f6a89 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8b7f8ddc-d0ef-4f31-8e1b-40e08be19609 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8e1d3d90-dc4e-4c13-aaea-719b7950c98c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 284bbee1-45cc-425d-aee7-9397bdc46aa8 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : db27d0d3-dbe3-4bf0-983c-a764eced88a5 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 97e54fc7-d6dc-40f2-8c6b-1ae6f11da0d6 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ab3046da-3f32-4d2d-8992-e5db307ee975 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 780e8845-0c2b-4fe0-86c0-f0eb57bd0fc3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 915b6db1-a037-429a-812a-19804d0a0fee cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4f11bf1c-cfc9-41db-b52d-e766c8faa886 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 149ec374-53af-417d-b2b3-8ba309497e0f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e6963cf0-d4d1-4aa6-b665-3e4e15c899ab cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 112d066b-6bc2-4653-bddf-43933bb9c4c2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 768564b6-fd87-4666-b482-b0508ad41da3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 240ca06a-01d1-41ed-acba-009d78bec4ab cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4882d7b3-a037-4a21-80fe-d08aacafbeb2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2a46ece9-ce00-30d5-8443-1a9d0f2c50ad cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 262cbe0d-bbd5-4009-8f82-0cf76e216778 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : fb8bf856-7b2f-4d86-8073-b8235999589a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3a6d8215-ecd8-46ed-8d81-7f715fe51255 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7e4ce45c-af0b-480c-a540-5a4571a977af cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8b09ccef-769b-3f10-a6e7-24c6efbefd26 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 927aa1fd-f9c9-44f0-b4a3-83d5e2d8eddf cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3df1a59e-240e-4878-a3f1-0d4b202f7c34 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 5f4588e7-7026-4454-b594-c2979ee0de7d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d6f920c0-2392-41ed-b263-e319a25e3253 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7a15c6ac-6784-4c1f-b09f-9482b489d21c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e13bdb3f-66a4-407a-a21c-f867f763cb20 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : caff1c96-0ab5-4224-8c95-b5ed2f635f39 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b718b174-20c1-475d-a9a4-4dd461d25e3a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 70bc985f-731a-4f85-b21c-ae548062386f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : fc5aa7ce-b56a-3b2d-b160-c96980b20fbc cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e9278eaf-5d2d-4879-bbd8-475fcbabbd5b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0309ab16-d582-4b4e-8e01-87865a436e2f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8e4e04ba-f7f9-4ff7-b788-c1b3d97021d3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0a6d80bf-630d-4b14-a76a-d3ec5a01b29b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 863fb8dc-cb7c-41ca-b81f-305a673ee705 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b4599f29-16a4-4b31-b26e-aad32e1e88e6 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a2112fc2-ff93-4680-8020-8426d8852a89 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : fb819d5a-eb47-4129-895f-d3b038d91b07 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b0f98c96-c887-40d0-96ea-f8eb523cdfdc cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6cd0b443-e3fa-4036-9b72-2eb4439aa21a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4d9d3cc2-034a-45fe-8137-540fa5c05f00 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a993ba9a-333a-40d5-ac6c-e584cd148f81 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8acffd59-375f-4cb8-a255-a6b240e5969f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8463524d-650a-4af0-b53b-8a1aaddb7592 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e81405a9-c821-4c7c-97d5-b914d5189657 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 46f7ccce-b333-4586-94fd-bbeefde7c58e cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 86dd86f8-1da3-4522-afec-3606dbb75ef3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 19edd272-7a73-4078-b831-8e410e502b70 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7791b394-1448-48d2-92b9-0c9c70dc37a1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 69ad048b-dad0-38d5-a10b-f330ea44a46f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a89e32ab-485d-47f9-aadf-6a317b741e53 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3a608088-8f05-4153-badd-4c4af2e407ad cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 55b25404-f692-415a-a428-51f9a2361cb8 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b5faafa8-6ca0-4bb3-bb88-9ce9b27a383b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 99f2356e-6073-466e-bec5-e248b202c81e cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 85da0a7b-ca7f-4aba-8ed3-96fe07d5b734 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e72cb589-f38d-4134-8bb7-6b1f70898802 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1a46b7e5-784d-44b0-b352-b70fc4efe816 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 4063feca-0f1c-4049-a369-2e79d6ee0ed2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 682d0365-f383-475c-8f04-3a55679a6175 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b15e1ff0-252c-44fc-b267-38f872c37a8d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a0692029-b82a-4a96-be78-f242081b42d7 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0734cec5-5c85-378a-b986-7b8c76d9c515 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cfcc1f2a-bfba-4ffa-b291-31e12c3c0032 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3e0533dc-cac4-38f7-b0c9-ea7401fe5cd0 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 128bbcff-ebb0-44f4-aa58-9066713701bb cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e4143a32-c715-4658-8f15-8c8a063823d5 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 9d27d922-9add-4c7d-ac4f-03a066cf591a cover art not available\u001b[39m","level":"error"}
+{"message":"Speed 0 images/sec","level":"info"}
+{"message":"Speed 0.2042844437056393 images/sec","level":"info"}
+{"message":"\u001b[31mError          : 72746d77-fbb7-4492-bb67-c116cb3b2321 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 962461c8-f18a-42e4-a455-dbe762915049 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 848ef29a-9c37-49d0-b411-33620e66362c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cbd8f737-a888-47e1-aebd-c40d33637d23 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0025d962-930f-4f42-b73f-c34c2d33f54d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0e1f806e-da8d-44db-9de0-7aed1a04e4be cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e76138c9-f2c9-4472-ae63-521cd48423e5 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e7f252d1-9d58-4641-b053-b6bf08054f1d cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 39de71c6-0099-4f75-97eb-a6a8ee0a2af5 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : dd08931d-610e-4c41-b967-f4e8e29003d8 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 458d7f2b-2f3a-4eb9-a8a8-e5b7b853f026 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : ff62cf01-b225-44da-8bb6-6c0256fdab48 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : a58f6c0f-2608-4ff7-ad48-06a1fb07780b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : eeba8cf3-9179-474b-a085-2ffe5c9d5cc9 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 8a7756c4-e73f-416f-80be-228976d450a3 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1ba80758-8cd7-4070-a5dc-d780beda6a43 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7d5fe9e7-da3b-4055-86f2-70ec8744b777 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3f95b0fd-fb18-389a-b447-7766833e4e1f cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 05f1dc1f-e581-49a6-bc26-9f86da5ac1af cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 13a362a9-1188-424e-b57c-eb350777522b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 218f2173-157a-41c2-b7dd-d28e380be1aa cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : fa20febf-44aa-4379-a7a2-bfb94e376370 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c0eb7222-9d8d-3ef0-9c6d-7e340e780c51 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 054df796-e8e0-4926-bdd6-26fe411ca541 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c5f7b6c0-2a28-4a37-9b09-7d0e3dbf3865 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 06196b24-9fa9-4e3f-85d2-efb442355ffd cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 33d53608-7226-47c7-a2b6-2ffdb790c8f0 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e43f34a4-b529-44f6-8286-9b3b84725fb8 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0d7149ed-a840-4f46-9787-8513d9744693 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cbd2f0df-8085-45bc-a109-2f065bdf6fa7 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6f66238b-a8d4-4b59-982f-340cde117e2c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 50a1a9f0-b1b4-47b0-a8de-b33fa51e8907 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 92c89ffe-da0b-49c0-a879-af90d245a24a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : cc13f453-d7b7-4739-812a-f13b04f7b6f1 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 6dd50c71-6c90-4637-87a1-70cb932530a8 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 5fc5c1c3-6e2e-4c63-a099-0bc6fb6ead3e cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : b0d0c676-4fc1-4eee-8c67-f2c5c359a22c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 3502806e-cb74-4192-a7a6-7750fa72fd70 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 2a34670e-b524-4f47-ae4d-f60534dcccb2 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c3c0d871-f033-4096-bdb3-6aa15ebfc377 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 83d879f1-5dff-46ae-bc86-6cf974015115 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 20243765-faf4-45a3-a048-663c95e1792b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7053752d-5134-4f18-a1fa-c00d9263fa1e cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 81f7e383-a5fb-4d09-a36d-615260f0dafd cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : df91d37d-16f5-4355-8f52-3be3314b43aa cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 1af19719-958f-4124-a80a-a83ab41d329a cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 40a80e86-16e5-4901-a6f1-b4579d6c0188 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c1b4279f-26b5-4a91-84b5-d951d6837c44 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : eb908e31-1d84-4058-b62f-4beec1695cdf cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e8ec6d0a-a868-4aca-8dde-f69ba9046aa4 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : f8706757-44e6-4a85-a4d7-14c8d2bdbec4 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 677f5d1d-b61e-3979-ad39-6402b26c6f4c cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 63be05a7-5496-447b-a5f3-13fab4530c26 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7c5b6e88-db94-4d4a-8b6c-9dcd90a54b32 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e72d2caa-1241-46e5-bb7c-f99063f176cd cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : c469daa2-32da-4ebe-87ee-4633a0e2576b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : dfe86291-e5b2-4b01-9c4b-2873026f0498 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : d9f828eb-f7ac-4f13-aad3-85362cdb3b1b cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 7bcd2c73-63b9-4495-a6be-4703646bcd5e cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 049cacd3-e771-4dd9-afd4-cebf9e32632e cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e3c6a1e5-7cd0-4995-b1b3-b155a4241b13 cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : e643e9c7-e330-4620-a2b7-d5b269ba32cc cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : 0d9071b8-f52e-48b0-b13a-bad9545c9bab cover art not available\u001b[39m","level":"error"}
+{"message":"\u001b[31mError          : fdda1b0e-7256-4b90-8ded-e28e434d2368 cover art not available\u001b[39m","level":"error"}
+{"message":"Retry::downloadImage - Error: getaddrinfo ENOTFOUND archive.org archive.org:80","level":"warn"}
+{"message":"Speed 0.3929875971461828 images/sec","level":"info"}
+{"message":"Speed 0.5894426022444161 images/sec","level":"info"}
+{"message":"Speed 0.7858902780954324 images/sec","level":"info"}
+{"message":"Speed 0.9823219232730994 images/sec","level":"info"}
+{"message":"Speed 1.1786085895319989 images/sec","level":"info"}
+{"message":"Speed 1.3749488890986035 images/sec","level":"info"}
+{"message":"Speed 1.57129029476811 images/sec","level":"info"}
+{"message":"Speed 1.7676182549000585 images/sec","level":"info"}
+{"message":"Speed 1.9421482760936253 images/sec","level":"info"}
+{"message":"Speed 2.1306662874845133 images/sec","level":"info"}
+{"message":"Speed 2.309380300370588 images/sec","level":"info"}
+{"message":"Speed 2.495876993597588 images/sec","level":"info"}
+{"message":"Speed 2.681451589062094 images/sec","level":"info"}
+{"message":"Speed 2.87111408162614 images/sec","level":"info"}
+{"message":"Speed 2.9253240208778104 images/sec","level":"info"}
+{"message":"Speed 3.1063647550926636 images/sec","level":"info"}
+{"message":"Speed 3.288822663206811 images/sec","level":"info"}
+{"message":"Speed 3.4713445842221518 images/sec","level":"info"}
+{"message":"Speed 3.5983772413987323 images/sec","level":"info"}
+{"message":"Speed 3.77779652084549 images/sec","level":"info"}
+{"message":"Speed 3.945613267850319 images/sec","level":"info"}
+{"message":"Speed 4.104677770185649 images/sec","level":"info"}
+{"message":"Speed 4.277910458051963 images/sec","level":"info"}
+{"message":"\u001b[33mChecking Preqreqs\u001b[39m","level":"info"}
+{"message":"\nWarning: Max heap allocation set to 1.5GB (Recommended 4GB).\n\nTo increase maximum heap size use the \u001b[36m--max-old-space-size=X\u001b[39m switch where X is the max number of MB to allocate.\n\nExample:\n\n\t\t\u001b[36mnode --max-old-space-size=4096 getCoverArt.js\u001b[39m\n\t\t\t\t","level":"warn"}
+{"message":"Error          : c508d54e-0f18-4ba0-9bd7-5cfab4b5d171 cover art not available","level":"error"}
+{"message":"Error          : b3e11977-e13f-4f31-a9a2-283922bffe76 cover art not available","level":"error"}
+{"message":"Error          : ddf98c24-1f47-4bd4-b132-262c52c99a23 cover art not available","level":"error"}
+{"message":"Error          : 272ee5c0-af71-4134-96be-62a0dde5503b cover art not available","level":"error"}
+{"message":"Error          : 755876a9-0b42-4fc3-ad4b-be321c02f315 cover art not available","level":"error"}
+{"message":"Error          : c6d1dd67-dbd2-4cfe-a440-0318fe1bf6d4 cover art not available","level":"error"}
+{"message":"Error          : 6735d77b-fe45-4a35-8a11-16b75d2405db cover art not available","level":"error"}
+{"message":"Error          : 871a594e-d1ba-49d3-b791-15fbb2e30bb5 cover art not available","level":"error"}
+{"message":"Error          : 2b4fc1bc-9ff4-38d9-8fe0-8f7465875f08 cover art not available","level":"error"}
+{"message":"Error          : 86be6ed3-fd36-449c-a3d4-f8b2ab9c54d5 cover art not available","level":"error"}
+{"message":"Error          : 146841d5-20a6-42d2-954b-8e2eb1976163 cover art not available","level":"error"}
+{"message":"Error          : 4c4437d8-8432-4bd5-a9e1-ba4bb224b4db cover art not available","level":"error"}
+{"message":"Error          : cb44109d-c327-4f60-b747-28c6d9d20253 cover art not available","level":"error"}
+{"message":"Error          : d63d4c33-5921-423a-8cb9-42de5ba98a01 cover art not available","level":"error"}
+{"message":"Error          : 74f32427-05fc-4c99-bfe3-4e7f08160133 cover art not available","level":"error"}
+{"message":"Error          : ccaf6532-b1cc-473f-ba6a-a8efce4d35c2 cover art not available","level":"error"}
+{"message":"Error          : 907f6ae4-df53-4aa8-9a20-eed80da4ce67 cover art not available","level":"error"}
+{"message":"Error          : e17ff1c2-b9b9-3c1e-a37d-cab520f481b5 cover art not available","level":"error"}
+{"message":"Error          : 45faa742-90da-444b-af07-22c3909486f7 cover art not available","level":"error"}
+{"message":"Error          : 20d86280-d765-3d2c-9c42-7ac2b641ff0f cover art not available","level":"error"}
+{"message":"Error          : 0a0b197c-5627-4561-a9fc-e3375b250629 cover art not available","level":"error"}
+{"message":"Error          : 38735f41-35bf-494d-94cc-5b9793cc51e7 cover art not available","level":"error"}
+{"message":"Error          : 91478d57-a21d-4286-a0ae-a5fbe0071187 cover art not available","level":"error"}
+{"message":"Error          : 073f0190-fd83-478f-a6a7-fb73f81f442a cover art not available","level":"error"}
+{"message":"Error          : bfc5c29c-0959-42a3-b748-27fa03cba4e6 cover art not available","level":"error"}
+{"message":"Error          : 3b2a8dbd-04e2-48f1-afd0-3a9d9e54d187 cover art not available","level":"error"}
+{"message":"Error          : 5c4ece03-c098-3a98-8ca4-64a8d6b88051 cover art not available","level":"error"}
+{"message":"Error          : 7de868a2-393a-4493-857d-d46a993e3797 cover art not available","level":"error"}
+{"message":"Error          : fa5f37dc-f87d-49bb-973b-621870ed7064 cover art not available","level":"error"}
+{"message":"Error          : 4b4b757b-f7ee-4ddc-b523-e974bb010639 cover art not available","level":"error"}
+{"message":"Error          : fca50191-94ad-4172-8765-6f061626d807 cover art not available","level":"error"}
+{"message":"Error          : 96f87670-4f76-36ea-8356-f0dd02174d2c cover art not available","level":"error"}
+{"message":"Error          : 53de8ceb-d30e-4d07-b34d-64c469b74a27 cover art not available","level":"error"}
+{"message":"Error          : a8d4ca79-dd9a-4b7b-a69f-46213915f7c0 cover art not available","level":"error"}
+{"message":"Error          : 6710340c-7877-447f-8c3e-05d55c41f603 cover art not available","level":"error"}
+{"message":"Error          : ef20b733-3f42-4957-831b-1444c57e44ed cover art not available","level":"error"}
+{"message":"Error          : 00154a55-afbb-3471-a905-b3cbd8e41a95 cover art not available","level":"error"}
+{"message":"Error          : 61c44fcb-ae99-4ab5-96e6-367d6d803545 cover art not available","level":"error"}
+{"message":"Error          : 21c477ea-5c12-4174-be52-55d9a11c5456 cover art not available","level":"error"}
+{"message":"Error          : 7ddea366-7b7d-4d4e-8b69-c7ecfcb1d8e5 cover art not available","level":"error"}
+{"message":"Error          : 2f0f0da9-2ce0-42a5-898e-993940933d0e cover art not available","level":"error"}
+{"message":"Error          : 8ecc8e5f-65ee-4d2e-b5ca-60a8474342da cover art not available","level":"error"}
+{"message":"Error          : 83f1df52-cdee-4aae-9b83-7e4811781753 cover art not available","level":"error"}
+{"message":"Error          : 42bff12e-f14d-4d11-b9d1-bb92c44f4eac cover art not available","level":"error"}
+{"message":"Error          : d315145d-ef5d-4f08-a8de-98459b53e559 cover art not available","level":"error"}
+{"message":"Error          : 5e3c3ddb-1c8d-41d3-b17a-d1ffb862d200 cover art not available","level":"error"}
+{"message":"Error          : 694ca24a-f3ef-4517-a101-ad7e70692874 cover art not available","level":"error"}
+{"message":"Error          : 27918695-428a-48d2-8de3-d9f79d01cc17 cover art not available","level":"error"}
+{"message":"Error          : 6b0cc5ee-3938-432a-a905-93eebf2f417b cover art not available","level":"error"}
+{"message":"Error          : 5832383e-c665-485c-9034-ff15295c34a5 cover art not available","level":"error"}
+{"message":"Error          : 78afcb80-3612-4ece-b097-966cf08c8a01 cover art not available","level":"error"}
+{"message":"Error          : 51f07041-3d9a-4458-880e-70326cdb3182 cover art not available","level":"error"}
+{"message":"Error          : 53c88523-280c-42e5-a66f-07b2591218e3 cover art not available","level":"error"}
+{"message":"Error          : f624f06b-5762-4885-8c72-85a73ca75351 cover art not available","level":"error"}
+{"message":"Error          : d5e79685-5cc2-3177-9ce5-59df58d3da26 cover art not available","level":"error"}
+{"message":"Error          : 2615a788-7e98-4c4e-9964-307607578d01 cover art not available","level":"error"}
+{"message":"Error          : 62866cfe-0d36-4a59-91b6-9fc7c5bb0dfe cover art not available","level":"error"}
+{"message":"Error          : 527bed58-0cef-4f9e-8772-c2af59e7076f cover art not available","level":"error"}
+{"message":"Error          : d81ade6c-138b-4868-8c5f-124da2c244e6 cover art not available","level":"error"}
+{"message":"Error          : 2e5a1ec0-3afa-4f66-b870-e4c2230e2ae4 cover art not available","level":"error"}
+{"message":"Error          : 11c17a49-a286-4f7d-832c-e5c692397285 cover art not available","level":"error"}
+{"message":"Error          : adfca559-a83e-455d-b3ce-73a693b61003 cover art not available","level":"error"}
+{"message":"Error          : dd0600a2-89be-4681-b9e6-1803cdb83ca9 cover art not available","level":"error"}
+{"message":"Error          : 548e6ded-a39c-4432-9180-9395c348c038 cover art not available","level":"error"}
+{"message":"Error          : 8a810935-f9a2-4220-869a-ab4d76fe55dd cover art not available","level":"error"}
+{"message":"Error          : 37d0f04b-23ba-430b-b62c-cfd4891b4cd0 cover art not available","level":"error"}
+{"message":"Error          : ffcdaf49-d82e-4c83-80a6-5394ba046360 cover art not available","level":"error"}
+{"message":"Error          : d78f1004-521c-434a-afc8-45d4331c7186 cover art not available","level":"error"}
+{"message":"Error          : 7ca5e6e1-6030-4313-b20c-a3093f4e72ec cover art not available","level":"error"}
+{"message":"Error          : fa6ece59-36df-44bf-abac-a077a4e60136 cover art not available","level":"error"}
+{"message":"Error          : 57f036c1-dff3-4d56-9e31-21a0cdf17efd cover art not available","level":"error"}
+{"message":"Error          : a24e187e-12f2-476f-97ee-65acf003899e cover art not available","level":"error"}
+{"message":"Error          : 598885fb-9b4b-40c4-80c7-39f8017e045a cover art not available","level":"error"}
+{"message":"Error          : 4795108a-337c-39cf-87b6-df918cdea3e2 cover art not available","level":"error"}
+{"message":"Error          : 85a21132-b282-4362-a6e2-e50a03cb9b50 cover art not available","level":"error"}
+{"message":"Error          : 646384c5-6af1-4f06-a127-c146548fba1a cover art not available","level":"error"}
+{"message":"Error          : a64fcf05-ce34-42d0-afa9-912f8b1e9eb3 cover art not available","level":"error"}
+{"message":"Error          : 1c8d6946-3aa2-4f4d-8d37-022d8f5df61f cover art not available","level":"error"}
+{"message":"Error          : cc5fa90c-b3d5-4f95-bce8-80d9438f7280 cover art not available","level":"error"}
+{"message":"Error          : 8255ff77-0433-4ece-9f44-d056644607b1 cover art not available","level":"error"}
+{"message":"Error          : b8982cfd-624b-48ed-a849-7f3b5ab388a4 cover art not available","level":"error"}
+{"message":"Error          : f3e8b209-db6b-413e-a3b2-340255ad91f8 cover art not available","level":"error"}
+{"message":"Error          : a694e350-2d2e-49aa-82d7-4a87ed9dd763 cover art not available","level":"error"}
+{"message":"Error          : 353426dc-0654-48a8-842e-2e07f94e2844 cover art not available","level":"error"}
+{"message":"Error          : 90cb0669-4522-4319-b020-fee4b5140da3 cover art not available","level":"error"}
+{"message":"Error          : 7eed2c4d-965a-41d8-befc-02478b2d98f3 cover art not available","level":"error"}
+{"message":"Error          : 6c832119-c87b-46e2-bc1e-6c999638a3db cover art not available","level":"error"}
+{"message":"Error          : fd67420b-c09a-45b6-93f3-de29590947f9 cover art not available","level":"error"}
+{"message":"Error          : fc3f3a87-056a-4f21-a982-d295956324b0 cover art not available","level":"error"}
+{"message":"Error          : 4da67ff7-5997-4e3f-941e-e4817c8f1688 cover art not available","level":"error"}
+{"message":"Error          : c32e7419-9635-4544-b869-d6aa337951db cover art not available","level":"error"}
+{"message":"Error          : 8ee47889-6613-3472-a9da-bfa8b477a03c cover art not available","level":"error"}
+{"message":"Error          : a1231195-cae9-454c-89f7-3ab38b762acf cover art not available","level":"error"}
+{"message":"Error          : b80935fc-1b2d-41b3-ad09-e90fafa9b030 cover art not available","level":"error"}
+{"message":"Error          : 3a441228-d110-41a8-a32b-d237dd8c4b7f cover art not available","level":"error"}
+{"message":"Error          : 023c609b-2ccd-46fe-bb86-762e4b3a7fce cover art not available","level":"error"}
+{"message":"Error          : d4e8aed4-f57a-4adb-bdff-0359d7152621 cover art not available","level":"error"}
+{"message":"Error          : 546c7379-47d9-4524-8011-7fe7a6592f8e cover art not available","level":"error"}
+{"message":"Error          : 4cd1a974-6095-4698-99ca-91a5e7eb8b07 cover art not available","level":"error"}
+{"message":"Error          : 69058702-a7e7-387f-b3be-ed1be5a3e4f0 cover art not available","level":"error"}
+{"message":"Error          : 50c71901-5902-4d70-8634-520205e06bd2 cover art not available","level":"error"}
+{"message":"Error          : 47fd7576-3a73-48d0-b95e-250cd492f7ef cover art not available","level":"error"}
+{"message":"Error          : dabfd814-aca2-4d96-942c-b760552a2f08 cover art not available","level":"error"}
+{"message":"Error          : d6bd5969-4cd0-4884-8c62-fc0342883c6e cover art not available","level":"error"}
+{"message":"Error          : d4006693-5559-4871-933c-b8e9b90f5427 cover art not available","level":"error"}
+{"message":"Error          : 36824fb9-50d6-4e42-8bb8-b12dfe9261d3 cover art not available","level":"error"}
+{"message":"Error          : 2324d36d-664d-4a07-955f-f3bad2ae0560 cover art not available","level":"error"}
+{"message":"Error          : e1e9b096-b965-4927-a114-0d22e97bfc74 cover art not available","level":"error"}
+{"message":"Error          : 779f4c4a-0044-4e39-b361-12b48a9fd021 cover art not available","level":"error"}
+{"message":"Error          : d2f9c964-ffec-4f7c-9236-b9f8dca891af cover art not available","level":"error"}
+{"message":"Error          : 80c4bea7-0045-4c2e-ac79-2fba20e1a931 cover art not available","level":"error"}
+{"message":"Error          : d7838e10-132f-4764-ba76-ab974bc30aee cover art not available","level":"error"}
+{"message":"Error          : 09120403-a1ab-41de-883d-7c07f1e27924 cover art not available","level":"error"}
+{"message":"Error          : bfee6f81-15fe-4de5-94bf-7f6fb007c837 cover art not available","level":"error"}
+{"message":"Error          : 02b542ea-52e3-4b89-943f-ebb9ae404247 cover art not available","level":"error"}
+{"message":"Error          : 4a62f5e3-de16-4f8d-947f-a90f5ad9e969 cover art not available","level":"error"}
+{"message":"Error          : 067edf59-3bcd-432b-b62a-f16d5f46cb08 cover art not available","level":"error"}
+{"message":"Speed 0 images/sec","level":"info"}
+{"message":"Error          : ff6273a4-7c44-4428-a248-4b48218825d5 cover art not available","level":"error"}
+{"message":"Error          : 3ff2fc2e-99fb-413f-bc4e-0b22de2c95f2 cover art not available","level":"error"}
+{"message":"Error          : c24a1522-0d9b-4ffc-bbd5-d8c54d2ac5d3 cover art not available","level":"error"}
+{"message":"Error          : 1a4e83cf-ada9-4dac-a579-fc5bd944fcbc cover art not available","level":"error"}
+{"message":"Error          : 51c64130-f6d2-4634-a3d2-81ce0afd8d95 cover art not available","level":"error"}
+{"message":"Error          : 7bf6a1bb-4812-4747-93b5-c55bf103dcc8 cover art not available","level":"error"}
+{"message":"Error          : b4c65c07-cb69-42b1-80c0-5884c77c6dcc cover art not available","level":"error"}
+{"message":"Error          : 08dcfbe1-f00e-4445-b5d3-e7a55da854c0 cover art not available","level":"error"}
+{"message":"Error          : 7d95a8c4-6466-4ec4-9c28-ac887646bcca cover art not available","level":"error"}
+{"message":"Error          : 65a65ac7-21dd-437e-80a2-8d214b9a60bb cover art not available","level":"error"}
+{"message":"Error          : 12072386-1015-4973-9b56-8457dbcbbc6b cover art not available","level":"error"}
+{"message":"Error          : ceef22c9-d385-489a-9881-a29bba157349 cover art not available","level":"error"}
+{"message":"Error          : e7c6210b-41a7-4688-85f9-97a2c0ae7372 cover art not available","level":"error"}
+{"message":"Error          : 3b1b7509-7bff-4a95-9ee8-f5e050cf102e cover art not available","level":"error"}
+{"message":"Error          : 4a35707d-6a99-4e72-beaf-e6cd729dc0dd cover art not available","level":"error"}
+{"message":"Error          : 1a8caff9-7dac-4181-9f2c-52ec435ff886 cover art not available","level":"error"}
+{"message":"Error          : 8c5cf41f-bc08-469f-a8ec-d083f63d9908 cover art not available","level":"error"}
+{"message":"Error          : 2432c776-a074-4968-9892-caaa6f039e17 cover art not available","level":"error"}
+{"message":"Error          : cc8895df-964d-4da5-bd07-2877afcdd368 cover art not available","level":"error"}
+{"message":"Error          : c82d9f64-0ddb-4583-ae8b-d19bec46b0ae cover art not available","level":"error"}
+{"message":"Error          : 68673c87-5304-4e2d-9868-abae996bb1c7 cover art not available","level":"error"}
+{"message":"Error          : ae1d0ec7-6494-47d7-98a6-0c83fad58898 cover art not available","level":"error"}
+{"message":"Error          : 8de2d0a9-3d2c-4165-9049-ab596f1f042b cover art not available","level":"error"}
+{"message":"Error          : 4500dd0b-e5c2-462c-84f8-770ea9cc4336 cover art not available","level":"error"}
+{"message":"Error          : 6d1d79fb-7ede-4551-aedd-1c1f40e7d5c5 cover art not available","level":"error"}
+{"message":"Error          : e2a1f6b6-37de-460d-bd4c-279400fc085d cover art not available","level":"error"}
+{"message":"Error          : 0789697c-064a-424b-bc8c-76f5fe370a55 cover art not available","level":"error"}
+{"message":"Error          : 078ec2ec-42e0-45e6-b7f0-4ef77894e6d0 cover art not available","level":"error"}
+{"message":"Error          : 7b125c87-133c-4a6c-82ca-e93c2fee3a80 cover art not available","level":"error"}
+{"message":"Error          : 46b9c110-5ce4-4329-a3cc-c847f8aa6f2a cover art not available","level":"error"}
+{"message":"Error          : 08792ddf-6551-483c-a0a5-1aa5dc4e613d cover art not available","level":"error"}
+{"message":"Error          : 56867b20-ef13-43a3-b15f-d66191c1642d cover art not available","level":"error"}
+{"message":"Error          : 327180ca-58c0-41b2-8899-e1dccac02b21 cover art not available","level":"error"}
+{"message":"Error          : 798e4097-3490-4d2d-8ebb-5e492331fcff cover art not available","level":"error"}
+{"message":"Error          : 64eaa86a-a6ab-46cb-a95c-e4b2210aec09 cover art not available","level":"error"}
+{"message":"Error          : 1d1d64e7-20f6-4671-a15a-393ffd5e6389 cover art not available","level":"error"}
+{"message":"Error          : 58761949-729d-419c-baa7-c466ddd41f23 cover art not available","level":"error"}
+{"message":"Error          : 60b10103-ef56-4a94-97a3-dac2e7a1353e cover art not available","level":"error"}
+{"message":"Error          : 45e4c517-2588-4f62-b413-abfc89c54521 cover art not available","level":"error"}
+{"message":"Error          : 2e35141b-fe1c-478a-8e92-621c281614a4 cover art not available","level":"error"}
+{"message":"Error          : 34f8b3f1-a641-4d32-a519-ada32eae943c cover art not available","level":"error"}
+{"message":"Error          : e00840a3-65de-49b9-887f-aff5b7df360b cover art not available","level":"error"}
+{"message":"Error          : 191cc556-e619-4675-a846-a5591548b954 cover art not available","level":"error"}
+{"message":"Error          : cb8d9516-bc37-48f3-b8d0-195c65bea396 cover art not available","level":"error"}
+{"message":"Error          : b72973db-21a7-4d2c-80b2-98c2e5c8fe23 cover art not available","level":"error"}
+{"message":"Error          : 2d6a049f-1199-4479-aa8b-6ceedc3ea91d cover art not available","level":"error"}
+{"message":"Error          : 9dd42bad-cf87-4a88-916b-4af45a75efd9 cover art not available","level":"error"}
+{"message":"Error          : de99744b-7e07-4160-b6c9-1a6bef8c848f cover art not available","level":"error"}
+{"message":"Error          : 4e103226-5811-4f73-8cf7-d79c2bc29ae9 cover art not available","level":"error"}
+{"message":"Error          : 2c7f1706-589b-45d8-ac0b-cf968bde7401 cover art not available","level":"error"}
+{"message":"Error          : bf73dbf3-6704-4f9e-a4f1-dfee609f3406 cover art not available","level":"error"}
+{"message":"Error          : 9114aa6b-b68f-4d71-94f1-3befea8fdc6d cover art not available","level":"error"}
+{"message":"Error          : a8f104b0-b67d-420d-829e-ce344deb55e0 cover art not available","level":"error"}
+{"message":"Error          : 7bab9785-b38d-441d-a2ba-69c630725f0c cover art not available","level":"error"}
+{"message":"Error          : 4812749c-8703-41ed-ac5f-0f386aaa958d cover art not available","level":"error"}
+{"message":"Error          : fc27a681-e5d2-4d38-8aea-a9dc52c4c519 cover art not available","level":"error"}
+{"message":"Error          : 0966d97f-0fdc-4cbf-b503-4371f6ea6fc0 cover art not available","level":"error"}
+{"message":"Error          : 4b2fd392-e550-4528-b86c-7480f331ec20 cover art not available","level":"error"}
+{"message":"Error          : 8637e378-c6e8-4da0-b696-a1e594bb0843 cover art not available","level":"error"}
+{"message":"Error          : aa1d1567-a9a7-4a71-b7d1-3979446e3415 cover art not available","level":"error"}
+{"message":"Error          : 40195d0e-7824-41e3-9619-824da209de0f cover art not available","level":"error"}
+{"message":"Error          : e4513e7c-d9bc-4048-bacf-9eaf32497de6 cover art not available","level":"error"}
+{"message":"Error          : 70ca763d-ca8d-410e-8135-cdbba0d91e96 cover art not available","level":"error"}
+{"message":"Error          : de15eacf-062e-427e-a9c4-e3c5559fb287 cover art not available","level":"error"}
+{"message":"Error          : 381598c6-2209-46ed-8620-85dba0b13d0a cover art not available","level":"error"}
+{"message":"Error          : bc6eb860-6100-4d2b-a8b1-ce7a035e9802 cover art not available","level":"error"}
+{"message":"Error          : eb9a14c7-5b33-4e19-905b-6ca50fdb6eeb cover art not available","level":"error"}
+{"message":"Speed 0.20459042905035119 images/sec","level":"info"}
+{"message":"Speed 0.40875056988694214 images/sec","level":"info"}
+{"message":"Speed 0.6130830724798205 images/sec","level":"info"}
+{"message":"Speed 0.8173941247413763 images/sec","level":"info"}
+{"message":"Speed 1.0214755155393567 images/sec","level":"info"}
+{"message":"Speed 1.224493989435436 images/sec","level":"info"}
+{"message":"Speed 1.409509453422643 images/sec","level":"info"}
+{"message":"Speed 1.6020186790664037 images/sec","level":"info"}
+{"message":"Speed 1.7878820543934795 images/sec","level":"info"}
+{"message":"Speed 1.9655734720307496 images/sec","level":"info"}
+{"message":"Speed 2.1269478150373917 images/sec","level":"info"}
+{"message":"Checking Preqreqs","level":"info"}
+{"message":"\nWarning: Max heap allocation set to 1.5GB (Recommended 4GB).\n\nTo increase maximum heap size use the '--max-old-space-size=X' switch where X is the max number of MB to allocate.\n\nExample:\n\n\t\tnode --max-old-space-size=4096 getCoverArt.js\n\t\t\t\t","level":"warn"}
+{"message":"Error          : 75bed0d6-96de-400d-8750-4f055efd3ed4 cover art not available","level":"error"}
+{"message":"Error          : 7ed59289-8454-4c56-b6f6-39e0433e0d9d cover art not available","level":"error"}
+{"message":"Error          : 9b33f17e-1dc7-4079-9b1a-69e5e37357aa cover art not available","level":"error"}
+{"message":"Error          : 8b7f8ddc-d0ef-4f31-8e1b-40e08be19609 cover art not available","level":"error"}
+{"message":"Error          : 284bbee1-45cc-425d-aee7-9397bdc46aa8 cover art not available","level":"error"}
+{"message":"Error          : a2ae3b31-e219-4680-bcd1-92bb4049b0d2 cover art not available","level":"error"}
+{"message":"Error          : 550c8645-2c8f-4d12-963f-ed13707b622a cover art not available","level":"error"}
+{"message":"Error          : d5934214-41f6-450a-8481-fdddf3233d45 cover art not available","level":"error"}
+{"message":"Error          : 896968ac-a7e4-4ad1-b700-ad423573ed94 cover art not available","level":"error"}
+{"message":"Error          : 34628d91-93b5-4a78-b212-f10add1e650f cover art not available","level":"error"}
+{"message":"Error          : b39a1a76-bc7b-4c7b-9003-a9795109d291 cover art not available","level":"error"}
+{"message":"Error          : da3a739d-44d3-44bb-9d97-c9e6eef36315 cover art not available","level":"error"}
+{"message":"Error          : 7eef7992-5dd6-411d-967c-09f258488708 cover art not available","level":"error"}
+{"message":"Error          : cb8fa6d1-8e76-483e-86dc-35875ae43bab cover art not available","level":"error"}
+{"message":"Error          : db27d0d3-dbe3-4bf0-983c-a764eced88a5 cover art not available","level":"error"}
+{"message":"Error          : d44fd74f-34d5-4a62-973f-e953b79be330 cover art not available","level":"error"}
+{"message":"Error          : 987b9790-3c60-4e45-8449-ca9c6a7be859 cover art not available","level":"error"}
+{"message":"Error          : c9ebbe41-cfc2-4ab3-8ea3-3471f849b6b0 cover art not available","level":"error"}
+{"message":"Error          : c09c59b7-23a1-48e0-bd1d-1a1b1f88d344 cover art not available","level":"error"}
+{"message":"Error          : 8e1d3d90-dc4e-4c13-aaea-719b7950c98c cover art not available","level":"error"}
+{"message":"Error          : bdc8a98e-5fee-41bd-bc21-c9efbf633cae cover art not available","level":"error"}
+{"message":"Error          : bd47fc15-c0a7-4018-b9e7-bdaa9239d19f cover art not available","level":"error"}
+{"message":"Error          : 1c8a578c-e7ff-4738-88b5-c0276effa3b2 cover art not available","level":"error"}
+{"message":"Error          : dafd094b-d2b9-4e08-b820-1d2558a647a0 cover art not available","level":"error"}
+{"message":"Error          : aeeed1b6-5419-405f-8aca-24e78d2f6a89 cover art not available","level":"error"}
+{"message":"Error          : 0357e210-b50b-405b-ab56-c2a7faa463fe cover art not available","level":"error"}
+{"message":"Error          : ec60d971-32e3-422e-9248-a9d3d10061f2 cover art not available","level":"error"}
+{"message":"Error          : 4511f16f-32b9-45a4-90c2-677d9fddc529 cover art not available","level":"error"}
+{"message":"Error          : 9a39d004-fcbb-34d1-a4d5-b6347a159724 cover art not available","level":"error"}
+{"message":"Error          : 2b48ba0c-1d2b-4992-9313-015e04ba267d cover art not available","level":"error"}
+{"message":"Error          : 5376f6ab-9965-44db-8d82-b3bcc5f1440c cover art not available","level":"error"}
+{"message":"Error          : 18205f90-1188-4c99-9219-1087063a53e1 cover art not available","level":"error"}
+{"message":"Error          : 1c6ebbf9-1c57-4987-af4b-140a90d69120 cover art not available","level":"error"}
+{"message":"Error          : 7dc0f8a5-68c7-40a4-8a57-db8be35e9ea9 cover art not available","level":"error"}
+{"message":"Error          : 8f808df7-dc16-4992-88d0-4df1f1056007 cover art not available","level":"error"}
+{"message":"Error          : d5ce4219-f891-4069-b9fe-3cf6d6685011 cover art not available","level":"error"}
+{"message":"Error          : 508e8343-ae4f-4147-8fc1-df660b821a02 cover art not available","level":"error"}
+{"message":"Error          : d8ca47b9-f427-41f3-a803-66cd59b134e1 cover art not available","level":"error"}
+{"message":"Error          : 9180e389-ac6d-4511-a9bc-2c74702ab7cf cover art not available","level":"error"}
+{"message":"Error          : a7cb63e1-5b43-4c6a-9cc2-033648a1fe8a cover art not available","level":"error"}
+{"message":"Error          : 2afd6d06-cdc4-43a2-8fd0-c8aa5d0ef04f cover art not available","level":"error"}
+{"message":"Error          : d6a5e1f9-2857-4f4c-bc02-12fbe482553b cover art not available","level":"error"}
+{"message":"Error          : 6503e505-95c3-4d46-b18d-21845d83eb13 cover art not available","level":"error"}
+{"message":"Error          : aa291112-0014-4eeb-93b2-a94cc2ba0773 cover art not available","level":"error"}
+{"message":"Error          : ece34197-dc67-3e66-b912-4f74d76b76e9 cover art not available","level":"error"}
+{"message":"Error          : 4abdb1bf-a5b8-30b5-9d6b-4a6f89de530b cover art not available","level":"error"}
+{"message":"Error          : 9f1d59ad-1bd5-4824-b066-47deb6e8b98b cover art not available","level":"error"}
+{"message":"Error          : 56211927-cde8-4507-b24f-dcc1324723fe cover art not available","level":"error"}
+{"message":"Error          : 71998628-690e-4d0c-82c6-145620132a7e cover art not available","level":"error"}
+{"message":"Error          : 17f38263-1be0-4638-8fae-f007583f1ef3 cover art not available","level":"error"}
+{"message":"Error          : 4e480635-9028-47a3-a0e5-40ee0dac72f1 cover art not available","level":"error"}
+{"message":"Error          : 98cd28c6-ac3b-4152-96e6-d65c43a58fd9 cover art not available","level":"error"}
+{"message":"Error          : 72659f67-7d42-4fd6-8f98-9dcb15514533 cover art not available","level":"error"}
+{"message":"Error          : 0f24cd32-69fc-467e-8ffa-b774eca53b6d cover art not available","level":"error"}
+{"message":"Error          : 19f8cac3-89c4-48d5-ba82-5003126b3a3c cover art not available","level":"error"}
+{"message":"Error          : 6a024479-6131-4414-894e-a872389bcc10 cover art not available","level":"error"}
+{"message":"Error          : 44b66b58-7220-4130-9b76-6ff28fc0158f cover art not available","level":"error"}
+{"message":"Error          : ced47ee9-8565-4d9f-944f-b3273c52a655 cover art not available","level":"error"}
+{"message":"Error          : 4851dc31-e765-4cc3-86b5-40c9c5518027 cover art not available","level":"error"}
+{"message":"Error          : e9e091a3-ea60-4d7a-a9a1-ee9cea3be01d cover art not available","level":"error"}
+{"message":"Error          : 24e9a9d2-548b-43e8-92d4-ac4db835f57b cover art not available","level":"error"}
+{"message":"Error          : 7dd0f040-e1ab-48a9-b090-fba94d474313 cover art not available","level":"error"}
+{"message":"Error          : a68d7585-91cc-4498-83c9-b79878e8f27b cover art not available","level":"error"}
+{"message":"Error          : 198fa315-97c6-4e73-8488-883d780513e8 cover art not available","level":"error"}
+{"message":"Error          : d504c52c-30ce-4cf8-a195-ea7349937663 cover art not available","level":"error"}
+{"message":"Error          : 12b23eaf-831a-461c-a2da-cfdd7675159c cover art not available","level":"error"}
+{"message":"Error          : 8c1beda5-2199-4dac-b328-b11c263d1b55 cover art not available","level":"error"}
+{"message":"Error          : 2f848cda-7806-4d39-9b32-83cb7b743f39 cover art not available","level":"error"}
+{"message":"Error          : 1e30463e-a59d-4c02-90a6-9e28888e1b56 cover art not available","level":"error"}
+{"message":"Error          : 5d64f64b-bf9c-4dfa-ae12-5e7746a2f143 cover art not available","level":"error"}
+{"message":"Error          : b61ba108-744d-33ac-a2a3-357ee93476d4 cover art not available","level":"error"}
+{"message":"Error          : 5c4a2aa6-3e69-43aa-a71a-73800baf8d1e cover art not available","level":"error"}
+{"message":"Error          : 2ab16a8d-b532-4f32-97f4-9f827fe7e966 cover art not available","level":"error"}
+{"message":"Error          : acb18e48-6192-490a-a7ed-e2b8f0ea1991 cover art not available","level":"error"}
+{"message":"Error          : 333e195b-21b2-4b1b-9359-c3d78aee7b60 cover art not available","level":"error"}
+{"message":"Error          : 8b0224df-f159-4629-85a1-1807201a1546 cover art not available","level":"error"}
+{"message":"Error          : 28fcfa96-d8bd-48aa-9514-8e8b522792a4 cover art not available","level":"error"}
+{"message":"Error          : d325f89a-d3ab-4047-9a4c-e6d682dec963 cover art not available","level":"error"}
+{"message":"Error          : f5ef2b3e-2a12-413b-be84-f3f27074daaf cover art not available","level":"error"}
+{"message":"Error          : dcb8c12c-4bae-4e68-9774-a76b0c8b3f5d cover art not available","level":"error"}
+{"message":"Error          : 19e580d2-2caf-4df6-a7e1-d68304e679f2 cover art not available","level":"error"}
+{"message":"Error          : ba7c689a-a136-451f-8ef1-67ff353ddba4 cover art not available","level":"error"}
+{"message":"Error          : 6eaac028-d578-4a98-a2b9-48ca0f9a9b13 cover art not available","level":"error"}
+{"message":"Error          : 543bd772-dd3b-4e7e-af31-274a43e0358a cover art not available","level":"error"}
+{"message":"Error          : 94d72262-b214-432e-a80d-24bac0cddb37 cover art not available","level":"error"}
+{"message":"Error          : 5668b368-3d01-471e-8518-bac592f28f16 cover art not available","level":"error"}
+{"message":"Error          : 75aff3b1-78f8-4944-8cc2-5b37543b992b cover art not available","level":"error"}
+{"message":"Error          : 12c3488e-6418-4d16-8217-b5a8dbccf008 cover art not available","level":"error"}
+{"message":"Error          : cdf8e12e-ba4d-483b-aab6-508506b5511d cover art not available","level":"error"}
+{"message":"Error          : 047e6df5-7af1-4f7f-9055-9a3b17dd7c61 cover art not available","level":"error"}
+{"message":"Error          : c711e006-6938-4bdd-ab57-d95586542083 cover art not available","level":"error"}
+{"message":"Error          : ea4ea663-fe7a-4dbb-bc27-48ed9c92b7d1 cover art not available","level":"error"}
+{"message":"Error          : ae55f7e3-ce6f-4296-a9bf-635ddbb443b3 cover art not available","level":"error"}
+{"message":"Error          : 681f1e2b-68af-4bd8-b817-50e83c7777e4 cover art not available","level":"error"}
+{"message":"Error          : b6ecff83-9880-4a72-93f3-1438c9e48ffa cover art not available","level":"error"}
+{"message":"Error          : 31824634-55d6-46fa-be0d-6c0fa3956c7d cover art not available","level":"error"}
+{"message":"Error          : 482137fc-8d2c-4163-bc2f-3baf520c830d cover art not available","level":"error"}
+{"message":"Error          : 36f831d1-6413-4319-a61d-1d412b2851f7 cover art not available","level":"error"}
+{"message":"Error          : 049b9994-9ead-43f3-87df-081b08a43cc0 cover art not available","level":"error"}
+{"message":"Error          : 133c39b9-0966-44cb-a56b-83af4d209124 cover art not available","level":"error"}
+{"message":"Error          : f8f1da09-a3ea-429a-ae54-2b852f5b857e cover art not available","level":"error"}
+{"message":"Error          : 22044221-801e-41d4-9b4a-8a23758fbfe0 cover art not available","level":"error"}
+{"message":"Error          : 022ac4d0-60d7-4e44-b015-3ae3ed41a3cb cover art not available","level":"error"}
+{"message":"Error          : 7e4f01e8-1947-48bf-9522-b8412719c2d6 cover art not available","level":"error"}
+{"message":"Error          : 4deeee0b-dea5-4a7e-ba0d-25475ca3c3d0 cover art not available","level":"error"}
+{"message":"Error          : c1bed262-ba1f-4f7c-ac0d-679e56044f37 cover art not available","level":"error"}
+{"message":"Error          : 59a35bdb-2823-4700-93d8-61a667a1aecc cover art not available","level":"error"}
+{"message":"Error          : bcf37573-128f-4772-a87d-34fe9c6137f9 cover art not available","level":"error"}
+{"message":"Error          : 800687d3-b300-4eff-affb-277e70a3ad66 cover art not available","level":"error"}
+{"message":"Error          : 0742d65b-a013-40f9-a5dd-7b3b8649b527 cover art not available","level":"error"}
+{"message":"Error          : 1fff8e76-e7be-40f2-9e79-c70e72316a18 cover art not available","level":"error"}
+{"message":"Error          : 85b1e274-d72c-4364-8176-9d6dcb88ef12 cover art not available","level":"error"}
+{"message":"Error          : 5b77560f-b2ab-35a0-a192-d6148a4f0657 cover art not available","level":"error"}
+{"message":"Error          : 6f027317-b14a-457d-aef7-64847cb1cd3c cover art not available","level":"error"}
+{"message":"Error          : 7f6d8f87-afc5-45f0-94a0-598b2157fa3d cover art not available","level":"error"}
+{"message":"Error          : 5b220764-eb2c-495f-8049-8755f9f0f954 cover art not available","level":"error"}
+{"message":"Error          : a6559865-dfc8-4076-9ab0-419cc556742b cover art not available","level":"error"}
+{"message":"Error          : 9c3b6ea8-a573-4089-acb3-4092089b6555 cover art not available","level":"error"}
+{"message":"Error          : 844c39a3-f147-4c04-be9f-d96e0e982ce1 cover art not available","level":"error"}
+{"message":"Error          : 2b37e26c-e4c0-42b4-ae68-d417bdb7bc6d cover art not available","level":"error"}
+{"message":"Error          : 2c85a6e7-d28d-48c1-8a50-73b83fa65ff4 cover art not available","level":"error"}
+{"message":"Error          : bca8eddd-01c6-4c71-8a10-0f7caa214e94 cover art not available","level":"error"}
+{"message":"Error          : 1ecb98e5-3ac5-499f-aee7-6ba67e17a2b9 cover art not available","level":"error"}
+{"message":"Error          : 679ca41b-0265-4914-82fc-98732cc5fa85 cover art not available","level":"error"}
+{"message":"Retry::getCaaImageURLs - Error: getaddrinfo ENOTFOUND archive.org archive.org:443","level":"warn"}
+{"message":"Error          : e1fe8db3-c3b4-455d-88ac-e90e380d11f6 cover art not available","level":"error"}
+{"message":"Retry::getCaaImageURLs - Error: getaddrinfo ENOTFOUND coverartarchive.org coverartarchive.org:443","level":"warn"}
+{"message":"Error          : 060976a7-5829-3948-a4ee-713f67128a44 cover art not available","level":"error"}
+{"message":"Error          : cc8c187a-f580-462f-b6af-34096dcf3544 cover art not available","level":"error"}
+{"message":"Error          : 86f660ce-1099-4164-b1d7-d48addfc1884 cover art not available","level":"error"}
+{"message":"Error          : 407f94ea-41d0-41f0-987e-176fa5867c98 cover art not available","level":"error"}
+{"message":"Error          : 7e0a2929-7b3b-4f7a-96f6-1594d28b1691 cover art not available","level":"error"}
+{"message":"Error          : 903d04a6-c706-4fdf-9201-c28368539cb6 cover art not available","level":"error"}
+{"message":"Error          : 4c6b803d-1ed3-3638-ac94-afbcd4f98735 cover art not available","level":"error"}
+{"message":"Error          : 6a805705-56ea-42f4-aeac-154f7b27b37a cover art not available","level":"error"}
+{"message":"Error          : 3d7b53cd-f1ea-49a1-bd67-a0966b4daaee cover art not available","level":"error"}
+{"message":"Error          : e2f283e0-3718-4cc5-9a75-d5e0802e68c2 cover art not available","level":"error"}
+{"message":"Error          : cec45326-a1a8-477d-a7b5-89100ecc7ad4 cover art not available","level":"error"}
+{"message":"Retry::downloadImage - Error: getaddrinfo ENOTFOUND coverartarchive.org coverartarchive.org:80","level":"warn"}
+{"message":"Error          : d822bbdd-b323-4621-9357-c63152460515 cover art not available","level":"error"}
+{"message":"Error          : 793f8686-020a-47a8-8a2e-2fbe756c6031 cover art not available","level":"error"}
+{"message":"Error          : 1fd377ea-a49c-462c-b128-f61d4cd47d9b cover art not available","level":"error"}
+{"message":"Error          : 4c34574d-da60-42c1-b3de-ce50171606e0 cover art not available","level":"error"}
+{"message":"Error          : d9585165-0985-4185-81af-2791d25f32d5 cover art not available","level":"error"}
+{"message":"Error          : ab5d6043-5f6f-4505-bfb0-3ec9e1391828 cover art not available","level":"error"}
+{"message":"Error          : 5ddedadf-1d8f-49d3-bfd9-af655b0bd91f cover art not available","level":"error"}
+{"message":"Error          : 296531f8-df06-30b1-9989-d0b887fa793f cover art not available","level":"error"}
+{"message":"Error          : 7b6a9ff9-c9a7-43e4-b03f-76542118eae7 cover art not available","level":"error"}
+{"message":"Error          : 9b8815ca-24fd-4c0e-9674-de56e3626b8d cover art not available","level":"error"}
+{"message":"Error          : f29ea635-89ef-4560-8269-f1277c588dc0 cover art not available","level":"error"}
+{"message":"Error          : 6128b171-2f8d-4142-8d3e-6b8ce6a94238 cover art not available","level":"error"}
+{"message":"Error          : a9e477ac-a69a-42f5-a305-b3b41dd832d8 cover art not available","level":"error"}
+{"message":"Error          : e28671b4-e428-4901-bdbf-286014514c18 cover art not available","level":"error"}
+{"message":"Error          : 096edbba-f688-47f6-af98-74fb60476aa7 cover art not available","level":"error"}
+{"message":"Error          : d21a17c5-bc8b-4806-bb7e-b38229898754 cover art not available","level":"error"}
+{"message":"Error          : 09881436-a27b-46a9-aafd-2f3ef5c64706 cover art not available","level":"error"}
+{"message":"Error          : 90d431b5-6c93-41a7-af0f-d91f26ae10d1 cover art not available","level":"error"}
+{"message":"Error          : 340e59d3-806d-40a8-b392-6bfbeb7722bf cover art not available","level":"error"}
+{"message":"Error          : e723a95b-8505-44b9-9b57-ea0987da7b8a cover art not available","level":"error"}
+{"message":"Error          : a7a420fa-a0c5-33e9-b3c8-f1753068e867 cover art not available","level":"error"}
+{"message":"Error          : 4a8ef5a5-651b-44d5-a651-4b34a10885ca cover art not available","level":"error"}
+{"message":"Error          : bb9fe053-633f-445d-a5e0-b0ddeb754a63 cover art not available","level":"error"}
+{"message":"Error          : 977c8ea1-3666-4f37-8577-f6e07d28e04f cover art not available","level":"error"}
+{"message":"Error          : ff680db2-6daf-4c08-841b-4dbf71730ee4 cover art not available","level":"error"}
+{"message":"Error          : 43d121a2-16fa-44ec-bfcd-455170e4819f cover art not available","level":"error"}
+{"message":"Error          : 99703fe6-e782-443d-a006-44535cf8c91b cover art not available","level":"error"}
+{"message":"Error          : eda876de-46b6-405f-ba7d-1c674c466cf2 cover art not available","level":"error"}
+{"message":"Error          : d7ac0e64-53e1-3aaf-8915-1d92b8ba8f20 cover art not available","level":"error"}
+{"message":"Error          : 009527db-9d00-4b10-97bb-123131cc24d3 cover art not available","level":"error"}
+{"message":"Error          : 47c1bf34-7234-49b1-b806-35e040e966cd cover art not available","level":"error"}
+{"message":"Error          : 3609e5ca-853c-4e70-9cca-66145f2e7987 cover art not available","level":"error"}
+{"message":"Error          : 99c19018-8d89-42a6-9a53-12f3de4b3669 cover art not available","level":"error"}
+{"message":"Error          : 96c4a861-c5e7-4aa8-b687-8873956f3eeb cover art not available","level":"error"}
+{"message":"Error          : 9a46ee78-c548-315c-8057-c5f28fcda72b cover art not available","level":"error"}
+{"message":"Error          : 2b18b218-0269-41d9-839f-c5ab4ea4d495 cover art not available","level":"error"}
+{"message":"Error          : f828030a-b742-4ab3-a69a-7be37d2d93af cover art not available","level":"error"}
+{"message":"Error          : e09e3866-ef23-491e-bc2a-6b1f57645f09 cover art not available","level":"error"}
+{"message":"Error          : 842aebbc-4555-4736-b529-f52c95e0436d cover art not available","level":"error"}
+{"message":"Error          : a68c617e-4041-45eb-883a-1db5db0b5484 cover art not available","level":"error"}
+{"message":"Error          : 6610ffc3-9997-48ae-a288-7e3bd0b197c6 cover art not available","level":"error"}
+{"message":"Error          : f8f12594-afea-40f4-80bc-ed5507af2535 cover art not available","level":"error"}
+{"message":"Error          : cd126d62-cfe5-4fc9-b712-c973b169c23e cover art not available","level":"error"}
+{"message":"Error          : e066cdd8-c095-43c0-b28b-32ec5796572b cover art not available","level":"error"}
+{"message":"Error          : e661d84a-0f80-4d57-a8a9-5a4e6015a3e6 cover art not available","level":"error"}
+{"message":"Error          : 3676b5f4-1efb-4e0e-9bde-2d063a1e05e0 cover art not available","level":"error"}
+{"message":"Error          : e066249a-5014-4c0a-bc3f-35d990729dca cover art not available","level":"error"}
+{"message":"Error          : 97e9f484-d73c-4bd1-861c-177fa3d23b7e cover art not available","level":"error"}
+{"message":"Error          : 77278d03-3d57-40d9-988e-28a92fc03e60 cover art not available","level":"error"}
+{"message":"Error          : 21034582-f8cc-4868-a7e4-cca7acad348f cover art not available","level":"error"}
+{"message":"Error          : 050ff500-f8ce-4da7-bcd8-9bb9d3e6c7f2 cover art not available","level":"error"}
+{"message":"Error          : b38c13dc-d30a-438c-88b2-91238442a12b cover art not available","level":"error"}
+{"message":"Error          : a52f0bde-cb85-4362-bb32-59ff115e26e1 cover art not available","level":"error"}
+{"message":"Error          : 0dc395c6-1bd6-4fc2-b754-865154b81063 cover art not available","level":"error"}
+{"message":"Error          : 0e5670b4-3c63-4176-9c43-fd11609c111e cover art not available","level":"error"}
+{"message":"Retry::downloadImage - Error: getaddrinfo ENOTFOUND coverartarchive.org coverartarchive.org:80","level":"warn"}
+{"message":"Error          : ff791373-dc7b-35b4-9de3-8029dc44f444 cover art not available","level":"error"}
+{"message":"Error          : 3fc76c21-9051-45a2-b3c8-0adcd6c8a2e6 cover art not available","level":"error"}
+{"message":"Error          : 2132e4b0-668a-4dc7-ad9e-43e7d6069819 cover art not available","level":"error"}
+{"message":"Error          : 6f627011-914d-421d-bc60-c8f281d8dcb4 cover art not available","level":"error"}
+{"message":"Error          : bdd86bcb-0c55-4897-8e12-4245ee9182f7 cover art not available","level":"error"}
+{"message":"Error          : fd5a14fd-6b6b-4ade-aac0-8681e40f8221 cover art not available","level":"error"}
+{"message":"Error          : a2de2f6e-cd39-4195-8bad-6fb1bffeece0 cover art not available","level":"error"}
+{"message":"Error          : b7b7e762-1907-42c7-a736-6421a4bbeafe cover art not available","level":"error"}
+{"message":"Error          : d10b05a8-cad8-4a13-b537-93bbec91fe2d cover art not available","level":"error"}
+{"message":"Error          : 2abf3cd3-2f45-4188-ad40-fb3055b2eb22 cover art not available","level":"error"}
+{"message":"Error          : 0e7525d2-0d27-4a1a-935d-c27382655c95 cover art not available","level":"error"}
+{"message":"Error          : 387575a0-73af-467d-9369-34487f8d8640 cover art not available","level":"error"}
+{"message":"Error          : de525cff-21c9-4066-9d7c-bafcb2537b61 cover art not available","level":"error"}
+{"message":"Error          : 7b027891-e197-42bc-bb21-4f79e4a4b74b cover art not available","level":"error"}
+{"message":"Error          : a3265204-4056-3beb-941f-d21cc8a93564 cover art not available","level":"error"}
+{"message":"Error          : c898bf1f-d910-4888-b40c-362452d96a5e cover art not available","level":"error"}
+{"message":"Error          : d8eb7f89-fbd3-4c6b-ad7d-6539637dcccc cover art not available","level":"error"}
+{"message":"Error          : 6b8770d1-38c9-4c84-b1f0-01c0b7ee79e2 cover art not available","level":"error"}
+{"message":"Error          : a8ec6c1a-3680-4e25-98ef-cc00ec464e5b cover art not available","level":"error"}
+{"message":"Error          : 0b50687f-5e09-40c4-99ab-c3d9298afff7 cover art not available","level":"error"}
+{"message":"Error          : f571e6d9-0771-4ea8-bc61-b0389cb80e40 cover art not available","level":"error"}
+{"message":"Error          : 2f6ac54c-0da1-3f8a-9d0a-c6ddd3b00122 cover art not available","level":"error"}
+{"message":"Error          : 9a87a83a-f935-461b-93dd-9563cfe44d2c cover art not available","level":"error"}
+{"message":"Error          : bcaa54eb-3ebf-47e4-8cf0-e6fb8b3270e1 cover art not available","level":"error"}
+{"message":"Error          : 04d7b35a-e587-422d-a9a6-39e6fa92e4f3 cover art not available","level":"error"}
+{"message":"Error          : cf708a45-b8e8-4ec3-bc76-673c4e54c9d0 cover art not available","level":"error"}
+{"message":"Error          : dfbbfbb3-0f41-4ea5-959e-488d261c46b4 cover art not available","level":"error"}
+{"message":"Error          : 4236b7a1-5486-4f38-90f5-7e9d320d7b55 cover art not available","level":"error"}
+{"message":"Error          : d93888d4-7649-43d1-989e-80e1ec004543 cover art not available","level":"error"}
+{"message":"Error          : 1536f158-4505-4625-8d36-947b479c41f4 cover art not available","level":"error"}
+{"message":"Error          : 0a13d9eb-b6e3-43b3-86d7-c6cbbe4e1bf1 cover art not available","level":"error"}
+{"message":"Error          : 6137982e-0ac0-33f2-97a9-a8335d114af7 cover art not available","level":"error"}
+{"message":"Error          : 7ff7a883-d3c1-4cdd-bffc-e7c97438e2c7 cover art not available","level":"error"}
+{"message":"Error          : f959ef0a-dfc6-4647-a59a-055bbc250227 cover art not available","level":"error"}
+{"message":"Error          : e12a258b-9b41-48c5-8ea3-f4e367d691be cover art not available","level":"error"}
+{"message":"Error          : 3b14755f-c9a1-421c-a87a-dd9231fe9262 cover art not available","level":"error"}
+{"message":"Error          : a2bb6108-716a-4441-82cb-0ce1352c2b7c cover art not available","level":"error"}
+{"message":"Error          : 582944db-e30c-4581-aae6-1113e8a39d70 cover art not available","level":"error"}
+{"message":"Error          : b9f6620c-9431-43e0-9ae9-e99fac3b7e75 cover art not available","level":"error"}
+{"message":"Error          : f25b2f55-c198-4d54-a256-0ae1549e8d68 cover art not available","level":"error"}
+{"message":"Error          : e7dd1c6c-9264-4652-8cc9-b52854cb180e cover art not available","level":"error"}
+{"message":"Error          : 0ae1ff3c-c763-425e-9cad-446bcb4f7560 cover art not available","level":"error"}
+{"message":"Error          : 96d88fa5-8bf7-4e1f-96c8-e42db4ff2c70 cover art not available","level":"error"}
+{"message":"Error          : 535651d2-2957-42e2-8aa6-e49426cfd115 cover art not available","level":"error"}
+{"message":"Error          : 75e1f48a-5155-41c7-a98f-9ff38b23f166 cover art not available","level":"error"}
+{"message":"Error          : 9d90f276-47bf-4c32-8212-5132f2e324e3 cover art not available","level":"error"}
+{"message":"Error          : b2cdd03e-d866-4dcc-8d79-1aad185a11b1 cover art not available","level":"error"}
+{"message":"Error          : b5e4ffd9-c216-4468-964d-41cf2d25197e cover art not available","level":"error"}
+{"message":"Error          : 2e7bb4a4-cef3-411d-b218-77aa014eeb5d cover art not available","level":"error"}
+{"message":"Error          : e2ac176c-2516-4d0a-bf9b-33e006a518fb cover art not available","level":"error"}
+{"message":"Error          : 13351f95-35fa-48d4-9384-0e08383bd21a cover art not available","level":"error"}
+{"message":"Error          : e5ad7d18-6ed8-403c-8378-8d87abae2f96 cover art not available","level":"error"}
+{"message":"Error          : 27c2801b-02cc-4e7a-92fc-b01394360f3c cover art not available","level":"error"}
+{"message":"Error          : 1cea1e76-b869-4f37-8b13-ebe15f92d345 cover art not available","level":"error"}
+{"message":"Error          : 2fb72e93-1fd6-4354-995c-7006feae8bef cover art not available","level":"error"}
+{"message":"Error          : 37d60614-9032-4880-bb61-62681585b281 cover art not available","level":"error"}
+{"message":"Error          : 19a21dd7-df4e-487d-8fb9-5b3def1eb1d2 cover art not available","level":"error"}
+{"message":"Error          : 473f0c36-ea43-4969-812b-d9fa715bcad7 cover art not available","level":"error"}
+{"message":"Error          : 6ca51538-cd48-43e9-ae35-e9c37654324e cover art not available","level":"error"}
+{"message":"Error          : e5f07211-cea9-403f-914b-a5f2d9ba8b63 cover art not available","level":"error"}
+{"message":"Speed 0 images/sec","level":"info"}
+{"message":"Speed 0.1298230484625562 images/sec","level":"info"}
+{"message":"Error          : 5f6e88f7-0b6f-4e50-b77a-691525085fd7 cover art not available","level":"error"}
+{"message":"Error          : 3c2a87e1-62eb-4245-a7ec-384affcee859 cover art not available","level":"error"}
+{"message":"Error          : 664825e8-dbf6-4ef0-acf7-f618c1a3dfe4 cover art not available","level":"error"}
+{"message":"Error          : 7fb52e34-6178-3f3c-9406-4d019b0dfe69 cover art not available","level":"error"}
+{"message":"Error          : 40a55890-b1d5-4d6b-97e0-2f95baace6b7 cover art not available","level":"error"}
+{"message":"Error          : d969ffdf-08bc-4c57-92d8-83b16a21267c cover art not available","level":"error"}
+{"message":"Error          : 14290af1-9126-4e30-ba92-2243f67cc70c cover art not available","level":"error"}
+{"message":"Error          : 0d8660df-665a-4bfc-9c2b-44d9a851b72e cover art not available","level":"error"}
+{"message":"Error          : cf2d3635-94f7-4d20-983d-0e3b9c6a1f4e cover art not available","level":"error"}
+{"message":"Error          : 899311b0-a1ac-49fb-9ee2-896b0bb7634e cover art not available","level":"error"}
+{"message":"Error          : 6e81cab2-ad6a-4df4-b1cf-375421ce27de cover art not available","level":"error"}
+{"message":"Error          : 9abd9b4c-aeb2-4197-9f49-ed01a14fa768 cover art not available","level":"error"}
+{"message":"Error          : b6708633-c760-4b54-908c-576d46390507 cover art not available","level":"error"}
+{"message":"Error          : 893bfee7-10a7-4045-badc-8192622b31d2 cover art not available","level":"error"}
+{"message":"Error          : b4ab7a6e-66d9-438d-a5f6-16222250b1ef cover art not available","level":"error"}
+{"message":"Error          : d04d1acf-9f85-4559-ab61-fea9eedd81cf cover art not available","level":"error"}
+{"message":"Error          : 33ce7266-abe4-4ddc-914c-3cee9016cefa cover art not available","level":"error"}
+{"message":"Error          : 5107b320-1b71-484c-997e-a10c740dbea2 cover art not available","level":"error"}
+{"message":"Error          : 857dc74f-1c65-48d5-a452-def06214183f cover art not available","level":"error"}
+{"message":"Error          : 98291f57-9bcc-3fc4-87fe-26ef746bdfba cover art not available","level":"error"}
+{"message":"Error          : b9d79567-b9d4-4a74-817c-254edf5ccad7 cover art not available","level":"error"}
+{"message":"Error          : 5b4536c8-b937-4655-92fe-5c22abafa2d5 cover art not available","level":"error"}
+{"message":"Error          : ed097c5f-ba99-4492-93a7-76b13d3e43be cover art not available","level":"error"}
+{"message":"Error          : 977a7330-f8d5-4feb-b2cc-7fd84d01c890 cover art not available","level":"error"}
+{"message":"Error          : 08cba48f-4aea-4ad3-8b14-a0b0c45859c6 cover art not available","level":"error"}
+{"message":"Error          : 7386cca7-a5bf-4908-9d1b-421876cdafa1 cover art not available","level":"error"}
+{"message":"Error          : 4207cc1e-4c3e-4265-880a-0f9094aab12d cover art not available","level":"error"}
+{"message":"Error          : 3f294035-ba8d-49e0-b4e3-1171d98d88b0 cover art not available","level":"error"}
+{"message":"Error          : 4ba2e6f9-6643-4798-a080-f6a4605a6736 cover art not available","level":"error"}
+{"message":"Error          : 85c022e0-938f-455f-88f1-db3c84f3aabd cover art not available","level":"error"}
+{"message":"Error          : 4296c47f-0d64-4ca9-9dfc-a40b5e5ee66e cover art not available","level":"error"}
+{"message":"Error          : 5241777f-6a4a-45e8-990b-94bbf793f0ca cover art not available","level":"error"}
+{"message":"Error          : 09ce3444-4784-4af6-853d-d8aa95620970 cover art not available","level":"error"}
+{"message":"Error          : 8c8df8ba-0457-44a3-9c58-c1c585601645 cover art not available","level":"error"}
+{"message":"Error          : 9806c28c-b0b3-41a8-9b1b-eb84598219b0 cover art not available","level":"error"}
+{"message":"Error          : c833fccc-55c0-45e1-bfdb-8e314cedae11 cover art not available","level":"error"}
+{"message":"Error          : 6b44ba04-f88f-411f-baa6-f14007093602 cover art not available","level":"error"}
+{"message":"Error          : b25d1b13-e442-4882-82d6-b8bae6e17009 cover art not available","level":"error"}
+{"message":"Error          : 22c35ba8-a25a-444d-9cd9-77537c5741ff cover art not available","level":"error"}
+{"message":"Error          : de9f8922-1866-42bf-88ec-088a53807f6f cover art not available","level":"error"}
+{"message":"Error          : f6ddea68-110d-42bd-baba-e45e88cdf9d5 cover art not available","level":"error"}
+{"message":"Error          : 0db640d4-bbd6-4c38-bef9-7abf0f9b0ddc cover art not available","level":"error"}
+{"message":"Error          : ae93e2ff-f34e-480f-8c5f-71928448ca77 cover art not available","level":"error"}
+{"message":"Error          : 64ac9d57-195c-4bb1-a8ce-f2cf10c2a5da cover art not available","level":"error"}
+{"message":"Error          : b50728a7-adf1-42ba-bd3b-7644e7a22d38 cover art not available","level":"error"}
+{"message":"Error          : cf431960-d2e1-4fbf-9bfd-5ccc5e85c956 cover art not available","level":"error"}
+{"message":"Error          : 45119ce6-e663-47e7-b90f-88c05fd21d57 cover art not available","level":"error"}
+{"message":"Error          : 2d8d6315-bb53-4c11-9c17-660f78071722 cover art not available","level":"error"}
+{"message":"Error          : 2a17efe3-46be-46ea-ac02-397e933da5de cover art not available","level":"error"}
+{"message":"Error          : c270f72e-9790-4a8a-9c7e-31afd4a335bf cover art not available","level":"error"}
+{"message":"Error          : 4c53820d-f069-4d34-8472-64189adfe1e8 cover art not available","level":"error"}
+{"message":"Error          : 15d86622-061f-489c-b631-8730db7865bb cover art not available","level":"error"}
+{"message":"Error          : a11c11b4-a3ca-4eb9-b4d3-3dd493f267bf cover art not available","level":"error"}
+{"message":"Error          : 39fbcad5-950b-461d-b123-0c16b544849c cover art not available","level":"error"}
+{"message":"Error          : a53e4b37-bdf5-4148-8cc3-f92d368cbef2 cover art not available","level":"error"}
+{"message":"Error          : b3d4b4da-6f35-406b-aa6a-e405335ec227 cover art not available","level":"error"}
+{"message":"Error          : f1f56ddd-0321-42f7-9706-3a53ce31a867 cover art not available","level":"error"}
+{"message":"Error          : 77db2004-9c6e-49d6-887a-c05f26a87e49 cover art not available","level":"error"}
+{"message":"Error          : 621f0171-7ddd-4dd7-8a86-5638c6c01581 cover art not available","level":"error"}
+{"message":"Error          : 3304cbac-2527-47d2-9e72-78fda295ef86 cover art not available","level":"error"}
+{"message":"Speed 0.22596886404782385 images/sec","level":"info"}
+{"message":"Speed 0.3389311429110153 images/sec","level":"info"}
+{"message":"Speed 0.4518704432938982 images/sec","level":"info"}
+{"message":"Speed 0.5648049749697633 images/sec","level":"info"}
+{"message":"Speed 0.6655652038791346 images/sec","level":"info"}
+{"message":"Speed 0.7764215801189036 images/sec","level":"info"}
+{"message":"Speed 0.8872485851096722 images/sec","level":"info"}
+{"message":"Speed 0.9981079841762768 images/sec","level":"info"}
+{"message":"Speed 1.108940076652757 images/sec","level":"info"}
+{"message":"Speed 1.2197762438178035 images/sec","level":"info"}
+{"message":"Speed 1.330605481655684 images/sec","level":"info"}
+{"message":"Speed 1.4413900164813689 images/sec","level":"info"}
+{"message":"Speed 1.552156315461129 images/sec","level":"info"}
+{"message":"Error          : 91e8c89e-7613-4dcd-924c-47f8d7da319d cover art not available","level":"error"}
+{"message":"Error          : faaf03a7-6118-414e-a933-e08515398e21 cover art not available","level":"error"}
+{"message":"Error          : ab728d52-dbec-4f1e-a9a5-7a663b71beed cover art not available","level":"error"}
+{"message":"Error          : df9bafc4-8628-4a5c-9b24-3ec714edd740 cover art not available","level":"error"}
+{"message":"Error          : 9df3b8e0-0717-49df-bf56-0d58daffd851 cover art not available","level":"error"}
+{"message":"Error          : fa5eef10-2ec4-491c-8249-746199018edb cover art not available","level":"error"}
+{"message":"Error          : 6f25b43b-8256-4eba-b568-ee78ac85efcb cover art not available","level":"error"}
+{"message":"Error          : 0b2393d3-ba8c-3db6-8838-46af9e94476a cover art not available","level":"error"}
+{"message":"Error          : 9bcff2b5-fe8a-41b7-9f90-da7c46505177 cover art not available","level":"error"}
+{"message":"Error          : e9f5270d-a425-399b-b7c1-7d70f8587e9b cover art not available","level":"error"}
+{"message":"Error          : 15b90222-be79-4d51-a800-b330d7203d0b cover art not available","level":"error"}
+{"message":"Error          : 9adc306d-beec-480e-8e24-c46a7dc66f9c cover art not available","level":"error"}
+{"message":"Error          : 4606322e-a3af-4d54-80b6-f1a8ad8418f9 cover art not available","level":"error"}
+{"message":"Error          : c34d5b97-c6d2-42d0-a055-a74408d14b57 cover art not available","level":"error"}
+{"message":"Error          : 2c4522fa-aad9-48a4-8352-71ce6343a623 cover art not available","level":"error"}
+{"message":"Error          : 29149450-9935-4691-bb71-318337da2bf9 cover art not available","level":"error"}
+{"message":"Error          : 72da1e5f-fd51-39f5-9ce3-32005203ac45 cover art not available","level":"error"}
+{"message":"Error          : 289e3fdf-e100-413c-a7c1-382ef1bae3e0 cover art not available","level":"error"}
+{"message":"Error          : fb7c6104-a22d-4786-9a56-274a70680e81 cover art not available","level":"error"}
+{"message":"Error          : a5475037-d144-4dc9-a705-7459ed006682 cover art not available","level":"error"}
+{"message":"Error          : 00133506-dc82-45ec-8341-06e2de5c3eb5 cover art not available","level":"error"}
+{"message":"Error          : d120261f-8bbb-40c0-a8e7-3d74393e741b cover art not available","level":"error"}
+{"message":"Error          : ecb0b4f1-14ee-4649-9f18-a05121071356 cover art not available","level":"error"}
+{"message":"Error          : 98717146-64cf-4062-a46e-04cce6919261 cover art not available","level":"error"}
+{"message":"Error          : 75f8db2f-1568-403e-a0fd-4cf22537c6fd cover art not available","level":"error"}
+{"message":"Error          : 2bb9167a-adb0-435a-92d3-f0684aecb751 cover art not available","level":"error"}
+{"message":"Error          : 421c8a78-b4ca-4b7a-8f3f-7316368eb7c3 cover art not available","level":"error"}
+{"message":"Error          : 67521140-0f06-49ea-816d-b7f3394420f7 cover art not available","level":"error"}
+{"message":"Error          : 855499cf-5165-4d18-b1c2-b0ee598892d7 cover art not available","level":"error"}
+{"message":"Error          : 5174a907-64a9-46ca-889f-c30d54179e82 cover art not available","level":"error"}
+{"message":"Error          : d325fb43-6e2d-46d6-8e48-952b7fa7a6bd cover art not available","level":"error"}
+{"message":"Error          : c41c91e5-87d1-442f-ab77-dbdc50493759 cover art not available","level":"error"}
+{"message":"Error          : 7cd8ebc9-fcab-4958-8e74-ce8729b35e8d cover art not available","level":"error"}
+{"message":"Error          : 5647197e-648a-45ae-9994-21d2c29fc98e cover art not available","level":"error"}
+{"message":"Error          : f2d77253-81ac-41f0-bab7-e6621f8ae041 cover art not available","level":"error"}
+{"message":"Error          : 0c8e504f-c3ea-4533-a717-2f99b9f77615 cover art not available","level":"error"}
+{"message":"Error          : 3309b586-85ef-4ad1-bc37-a8b5102fabdf cover art not available","level":"error"}
+{"message":"Error          : a2c50a13-3f7e-4c6f-b332-c18ebad40c88 cover art not available","level":"error"}
+{"message":"Error          : 391d88db-eee3-4f7a-80ce-2f36455c6e05 cover art not available","level":"error"}
+{"message":"Error          : 4a549d2f-8282-4a8f-b1f0-c044c325d08b cover art not available","level":"error"}
+{"message":"Error          : dee6e9ee-8e3a-40b6-8024-da7f1ffafdee cover art not available","level":"error"}
+{"message":"Error          : 9888c878-c783-42d6-8205-dfc5b216bcba cover art not available","level":"error"}
+{"message":"Error          : efb89b6b-0b98-31f3-a142-5ae480502215 cover art not available","level":"error"}
+{"message":"Error          : b7cf596f-9c2b-4ff1-ae81-b27d2e7ce4b2 cover art not available","level":"error"}
+{"message":"Error          : fa3cdbfe-b1b7-4f6e-aa61-f8ad35d5dce4 cover art not available","level":"error"}
+{"message":"Error          : 1c24d829-8362-475a-b7c4-1730213c4673 cover art not available","level":"error"}
+{"message":"Error          : f1b3c73b-8d22-4d52-a027-632efbf61af6 cover art not available","level":"error"}
+{"message":"Error          : b7f96241-42b4-3b4d-97e8-955db3c6b92e cover art not available","level":"error"}
+{"message":"Error          : dc25eb68-38bf-452c-aceb-0401034dfd88 cover art not available","level":"error"}
+{"message":"Error          : b61095e5-b501-44aa-85d5-ec0d2d4f2ecc cover art not available","level":"error"}
+{"message":"Error          : af35f2ef-1699-4ade-9130-16c28b703089 cover art not available","level":"error"}
+{"message":"Error          : 0729ce4e-6848-3593-b4e1-e1b25f5a7f09 cover art not available","level":"error"}
+{"message":"Error          : eec5bbf6-3005-47e1-844e-4eb4303cb635 cover art not available","level":"error"}
+{"message":"Error          : e636bab8-e4a5-435e-b5e7-607749e69d21 cover art not available","level":"error"}
+{"message":"Error          : cf811b61-e56c-49dd-90b3-3fa40947f577 cover art not available","level":"error"}
+{"message":"Error          : 899acdf7-3487-4c84-b159-67104458c1a4 cover art not available","level":"error"}
+{"message":"Error          : 57945262-0e16-47a5-adc1-e3bf6f514d87 cover art not available","level":"error"}
+{"message":"Error          : 9c5534ba-edb8-408f-871e-8c62b4acbbcf cover art not available","level":"error"}
+{"message":"Error          : 34685afb-3b9d-4fd1-9fe2-94f861245100 cover art not available","level":"error"}
+{"message":"Error          : 0e50b8e3-bad4-4cb7-964c-523324a835f8 cover art not available","level":"error"}
+{"message":"Error          : 601b3f28-0d95-4777-b3a6-4261649af6f6 cover art not available","level":"error"}
+{"message":"Error          : 00055492-830d-4d2f-ae29-69cd09eeab23 cover art not available","level":"error"}
+{"message":"Error          : 21e803ba-75ef-4b6d-9013-e4814ace9bfd cover art not available","level":"error"}
+{"message":"Error          : 3a9a3cd7-0274-4025-b467-44cbd174f1ba cover art not available","level":"error"}
+{"message":"Speed 1.6057259452427162 images/sec","level":"info"}
+{"message":"Speed 1.7126577807067576 images/sec","level":"info"}
+{"message":"Speed 1.8196145133680646 images/sec","level":"info"}
+{"message":"Speed 1.92654516975841 images/sec","level":"info"}
+{"message":"Speed 2.0334131869710577 images/sec","level":"info"}
+{"message":"Speed 2.1403232647473653 images/sec","level":"info"}
+{"message":"Speed 2.24724066190821 images/sec","level":"info"}
+{"message":"Speed 2.3540461632219083 images/sec","level":"info"}
+{"message":"Retry::downloadImage - Error: getaddrinfo ENOTFOUND ia801006.us.archive.org ia801006.us.archive.org:80","level":"warn"}
+{"message":"Checking Preqreqs","level":"info"}
+{"message":"Max heap allocation set to 1.5GB (Recommended 4GB).\n\nTo increase maximum heap size use the '--max-old-space-size=X' switch where X is the max number of MB to allocate.\n\nExample:\n\n\t\tnode --max-old-space-size=4096 getCoverArt.js\n\t\t\t\t","level":"warn"}
+{"message":"91478d57-a21d-4286-a0ae-a5fbe0071187 cover art not available","level":"error"}
+{"message":"11c17a49-a286-4f7d-832c-e5c692397285 cover art not available","level":"error"}
+{"message":"d63d4c33-5921-423a-8cb9-42de5ba98a01 cover art not available","level":"error"}
+{"message":"2b4fc1bc-9ff4-38d9-8fe0-8f7465875f08 cover art not available","level":"error"}
+{"message":"62866cfe-0d36-4a59-91b6-9fc7c5bb0dfe cover art not available","level":"error"}
+{"message":"00154a55-afbb-3471-a905-b3cbd8e41a95 cover art not available","level":"error"}
+{"message":"2e5a1ec0-3afa-4f66-b870-e4c2230e2ae4 cover art not available","level":"error"}
+{"message":"74f32427-05fc-4c99-bfe3-4e7f08160133 cover art not available","level":"error"}
+{"message":"a8d4ca79-dd9a-4b7b-a69f-46213915f7c0 cover art not available","level":"error"}
+{"message":"38735f41-35bf-494d-94cc-5b9793cc51e7 cover art not available","level":"error"}
+{"message":"7ddea366-7b7d-4d4e-8b69-c7ecfcb1d8e5 cover art not available","level":"error"}
+{"message":"ef20b733-3f42-4957-831b-1444c57e44ed cover art not available","level":"error"}
+{"message":"21c477ea-5c12-4174-be52-55d9a11c5456 cover art not available","level":"error"}
+{"message":"ddf98c24-1f47-4bd4-b132-262c52c99a23 cover art not available","level":"error"}
+{"message":"5832383e-c665-485c-9034-ff15295c34a5 cover art not available","level":"error"}
+{"message":"272ee5c0-af71-4134-96be-62a0dde5503b cover art not available","level":"error"}
+{"message":"146841d5-20a6-42d2-954b-8e2eb1976163 cover art not available","level":"error"}
+{"message":"5e3c3ddb-1c8d-41d3-b17a-d1ffb862d200 cover art not available","level":"error"}
+{"message":"e17ff1c2-b9b9-3c1e-a37d-cab520f481b5 cover art not available","level":"error"}
+{"message":"d5e79685-5cc2-3177-9ce5-59df58d3da26 cover art not available","level":"error"}
+{"message":"78afcb80-3612-4ece-b097-966cf08c8a01 cover art not available","level":"error"}
+{"message":"7de868a2-393a-4493-857d-d46a993e3797 cover art not available","level":"error"}
+{"message":"694ca24a-f3ef-4517-a101-ad7e70692874 cover art not available","level":"error"}
+{"message":"20d86280-d765-3d2c-9c42-7ac2b641ff0f cover art not available","level":"error"}
+{"message":"3b2a8dbd-04e2-48f1-afd0-3a9d9e54d187 cover art not available","level":"error"}
+{"message":"0a0b197c-5627-4561-a9fc-e3375b250629 cover art not available","level":"error"}
+{"message":"83f1df52-cdee-4aae-9b83-7e4811781753 cover art not available","level":"error"}
+{"message":"f624f06b-5762-4885-8c72-85a73ca75351 cover art not available","level":"error"}
+{"message":"907f6ae4-df53-4aa8-9a20-eed80da4ce67 cover art not available","level":"error"}
+{"message":"5c4ece03-c098-3a98-8ca4-64a8d6b88051 cover art not available","level":"error"}
+{"message":"d81ade6c-138b-4868-8c5f-124da2c244e6 cover art not available","level":"error"}
+{"message":"c6d1dd67-dbd2-4cfe-a440-0318fe1bf6d4 cover art not available","level":"error"}
+{"message":"6735d77b-fe45-4a35-8a11-16b75d2405db cover art not available","level":"error"}
+{"message":"53de8ceb-d30e-4d07-b34d-64c469b74a27 cover art not available","level":"error"}
+{"message":"53c88523-280c-42e5-a66f-07b2591218e3 cover art not available","level":"error"}
+{"message":"755876a9-0b42-4fc3-ad4b-be321c02f315 cover art not available","level":"error"}
+{"message":"61c44fcb-ae99-4ab5-96e6-367d6d803545 cover art not available","level":"error"}
+{"message":"ccaf6532-b1cc-473f-ba6a-a8efce4d35c2 cover art not available","level":"error"}
+{"message":"b3e11977-e13f-4f31-a9a2-283922bffe76 cover art not available","level":"error"}
+{"message":"527bed58-0cef-4f9e-8772-c2af59e7076f cover art not available","level":"error"}
+{"message":"871a594e-d1ba-49d3-b791-15fbb2e30bb5 cover art not available","level":"error"}
+{"message":"2615a788-7e98-4c4e-9964-307607578d01 cover art not available","level":"error"}
+{"message":"c508d54e-0f18-4ba0-9bd7-5cfab4b5d171 cover art not available","level":"error"}
+{"message":"adfca559-a83e-455d-b3ce-73a693b61003 cover art not available","level":"error"}
+{"message":"96f87670-4f76-36ea-8356-f0dd02174d2c cover art not available","level":"error"}
+{"message":"8ecc8e5f-65ee-4d2e-b5ca-60a8474342da cover art not available","level":"error"}
+{"message":"51f07041-3d9a-4458-880e-70326cdb3182 cover art not available","level":"error"}
+{"message":"cb44109d-c327-4f60-b747-28c6d9d20253 cover art not available","level":"error"}
+{"message":"fca50191-94ad-4172-8765-6f061626d807 cover art not available","level":"error"}
+{"message":"fa5f37dc-f87d-49bb-973b-621870ed7064 cover art not available","level":"error"}
+{"message":"86be6ed3-fd36-449c-a3d4-f8b2ab9c54d5 cover art not available","level":"error"}
+{"message":"27918695-428a-48d2-8de3-d9f79d01cc17 cover art not available","level":"error"}
+{"message":"2f0f0da9-2ce0-42a5-898e-993940933d0e cover art not available","level":"error"}
+{"message":"4c4437d8-8432-4bd5-a9e1-ba4bb224b4db cover art not available","level":"error"}
+{"message":"45faa742-90da-444b-af07-22c3909486f7 cover art not available","level":"error"}
+{"message":"6710340c-7877-447f-8c3e-05d55c41f603 cover art not available","level":"error"}
+{"message":"4b4b757b-f7ee-4ddc-b523-e974bb010639 cover art not available","level":"error"}
+{"message":"d315145d-ef5d-4f08-a8de-98459b53e559 cover art not available","level":"error"}
+{"message":"bfc5c29c-0959-42a3-b748-27fa03cba4e6 cover art not available","level":"error"}
+{"message":"42bff12e-f14d-4d11-b9d1-bb92c44f4eac cover art not available","level":"error"}
+{"message":"6b0cc5ee-3938-432a-a905-93eebf2f417b cover art not available","level":"error"}
+{"message":"073f0190-fd83-478f-a6a7-fb73f81f442a cover art not available","level":"error"}
+{"message":"e8026575-bf49-4cca-a13a-0452f0cddb92 cover art not available","level":"error"}
+{"message":"311395f7-0a66-4b21-b65e-36fcfeef63ed cover art not available","level":"error"}
+{"message":"6c147e78-8329-4385-a639-268a589e5e1c cover art not available","level":"error"}
+{"message":"f8eb5521-b964-434d-9757-774b11c1edf7 cover art not available","level":"error"}
+{"message":"9fe7d773-04eb-4eae-9569-a9cd88d3cdf7 cover art not available","level":"error"}
+{"message":"6312636d-6a66-4654-94a1-723d13e79c15 cover art not available","level":"error"}
+{"message":"b2599420-2905-4931-8ba8-4e7bb377b8cd cover art not available","level":"error"}
+{"message":"72e480d8-7c5f-4e09-a7c5-8537568fb840 cover art not available","level":"error"}
+{"message":"920a62ad-0230-4e47-aed2-b7597ac4719c cover art not available","level":"error"}
+{"message":"3c3175ca-bef8-4b8e-bb21-04b1c441e9d3 cover art not available","level":"error"}
+{"message":"Retry::getCaaImageURLs - Error: getaddrinfo ENOTFOUND ia801207.us.archive.org ia801207.us.archive.org:443","level":"warn"}
+{"message":"23c3d294-7b72-4fe1-8942-3c3da2e4e1d1 cover art not available","level":"error"}
+{"message":"c934a6da-36d1-49f1-9fe2-8d332b43b536 cover art not available","level":"error"}
+{"message":"14074a3a-1482-3279-a2b5-a184aea9d1c3 cover art not available","level":"error"}
+{"message":"1d8dc236-7407-436d-b109-f566a55e48ef cover art not available","level":"error"}
+{"message":"19ad0ce7-1b38-4561-8aab-8a8be0438cce cover art not available","level":"error"}
+{"message":"32d07148-d688-4220-9c0e-cd6124079d16 cover art not available","level":"error"}
+{"message":"b6ee716a-90d7-4a7f-8c9b-f16d530ed426 cover art not available","level":"error"}
+{"message":"572e3384-5550-4d7c-b2d9-f03430d51f15 cover art not available","level":"error"}
+{"message":"a48a09c8-e537-49af-ad6c-a106fe2d57f5 cover art not available","level":"error"}
+{"message":"442da131-d227-4e1d-add4-16e5293e97e8 cover art not available","level":"error"}
+{"message":"942e557c-6612-4810-93a4-42f22afd4c07 cover art not available","level":"error"}
+{"message":"b592f3df-6ed6-3c1d-aa8a-2caad8321d12 cover art not available","level":"error"}
+{"message":"955de1b6-81c9-4d30-baa7-72ffc8425eed cover art not available","level":"error"}
+{"message":"9c8111a2-290a-427c-b977-527e372e3a1e cover art not available","level":"error"}
+{"message":"ccd6da00-b900-4365-93c0-a44d936225ac cover art not available","level":"error"}
+{"message":"3dd2c839-1b3a-4e16-954f-5e3d19be9248 cover art not available","level":"error"}
+{"message":"d489b1af-af3d-4ee7-a0e4-419cb731d2af cover art not available","level":"error"}
+{"message":"2a5998a3-b78c-4406-a375-035c941807fb cover art not available","level":"error"}
+{"message":"5af715bf-f3f8-4206-920c-881d527673d8 cover art not available","level":"error"}
+{"message":"bfa6e760-b537-3b81-a62c-e76f33ccf791 cover art not available","level":"error"}
+{"message":"e0d2f3ac-3c73-4381-a65a-7e32b845e405 cover art not available","level":"error"}
+{"message":"7dec703b-3494-4b41-9a51-0bc69242243e cover art not available","level":"error"}
+{"message":"b2a3b086-5dc1-4e05-b8ea-d24131e0a32d cover art not available","level":"error"}
+{"message":"f17b4cc7-4263-418c-9420-3436640d6705 cover art not available","level":"error"}
+{"message":"d90f07fd-c9d5-4b57-8a5c-244e520f7f0b cover art not available","level":"error"}
+{"message":"5a76399b-cf43-41f5-a3b2-cd8f028854cb cover art not available","level":"error"}
+{"message":"2fec9840-ddf7-4b5a-bc4d-32ef3b605143 cover art not available","level":"error"}
+{"message":"565b9b9a-f328-43dd-b223-6af6bd8a9c06 cover art not available","level":"error"}
+{"message":"4a835d99-8faa-4cea-be2b-6da88fa5e272 cover art not available","level":"error"}
+{"message":"9875bdf1-d2d6-452e-a279-eb5688b4bf58 cover art not available","level":"error"}
+{"message":"3dfe271b-f725-4144-8596-2f5695ebe074 cover art not available","level":"error"}
+{"message":"0e12cdae-25a1-4a87-8ff4-571f505b9f85 cover art not available","level":"error"}
+{"message":"5a0332ec-d0fb-4487-b3f8-509fd38adc7e cover art not available","level":"error"}
+{"message":"e5f127d7-371d-468f-9a2d-b3135674c130 cover art not available","level":"error"}
+{"message":"e1cfdc20-a9bb-47b9-991c-0e376e526703 cover art not available","level":"error"}
+{"message":"f42e45e8-efd1-4aa1-b64c-9259883d2ebc cover art not available","level":"error"}
+{"message":"668bd877-cfcf-4a9f-a731-8bba74820c8d cover art not available","level":"error"}
+{"message":"481c336e-a8aa-4b22-850b-a77d307a32d2 cover art not available","level":"error"}
+{"message":"00100008-ecde-415c-92c6-c3cf39b7a6f4 cover art not available","level":"error"}
+{"message":"5236456c-1612-4396-99ec-d04a1f5ef1e4 cover art not available","level":"error"}
+{"message":"e9af47d2-6b1e-4d77-b0dd-e31736c1e814 cover art not available","level":"error"}
+{"message":"5d069f98-49f6-443f-ae94-440c01e5ee57 cover art not available","level":"error"}
+{"message":"ce8dd592-13e7-42a6-bb37-82fca6097dc0 cover art not available","level":"error"}
+{"message":"f20cf7c0-f093-4940-ae7a-a8e8ea002a1d cover art not available","level":"error"}
+{"message":"d9696baa-f340-4766-8e5d-802964e5b46e cover art not available","level":"error"}
+{"message":"8a88477a-96ad-4b22-b395-04e61c326f60 cover art not available","level":"error"}
+{"message":"4d47f86a-8f70-43c4-8e72-cabce8773fa3 cover art not available","level":"error"}
+{"message":"eb0c2a79-09e3-4494-abe6-1c3c0afbaf55 cover art not available","level":"error"}
+{"message":"08290523-bd0b-4732-96d3-bbc2493fe462 cover art not available","level":"error"}
+{"message":"a3b380db-3ce4-424f-97e5-08d40f51dc24 cover art not available","level":"error"}
+{"message":"c683a314-fe32-4609-a76e-9c5d26b278d9 cover art not available","level":"error"}
+{"message":"1ee5bf2c-1efb-459d-914e-52d253e9bbc5 cover art not available","level":"error"}
+{"message":"34bcbc35-5ebc-404b-8eb9-5633c21f7c08 cover art not available","level":"error"}
+{"message":"67c5df1f-cace-49ae-ac47-f04ea5c8c078 cover art not available","level":"error"}
+{"message":"cc7b348b-4aad-363d-b7d3-f0f0cbd9a960 cover art not available","level":"error"}
+{"message":"59dd8120-de4b-4351-beeb-9fd1174fa0b3 cover art not available","level":"error"}
+{"message":"f132fc81-ee4e-4d81-a76e-36aab266cd19 cover art not available","level":"error"}
+{"message":"Retry::getCaaImageURLs - Error: getaddrinfo ENOTFOUND archive.org archive.org:443","level":"warn"}
+{"message":"9a8180e3-6dcc-40dd-932e-669407af965a cover art not available","level":"error"}
+{"message":"Checking Preqreqs","level":"info"}
+{"message":"Max heap allocation set to 1.5GB (Recommended 4GB).\n\nTo increase maximum heap size use the '--max-old-space-size=X' switch where X is the max number of MB to allocate.\n\nExample:\n\n\t\tnode --max-old-space-size=4096 getCoverArt.js\n\t\t\t\t","level":"warn"}
+{"message":"f624f06b-5762-4885-8c72-85a73ca75351 cover art not available","level":"error"}
+{"message":"83f1df52-cdee-4aae-9b83-7e4811781753 cover art not available","level":"error"}
+{"message":"7ddea366-7b7d-4d4e-8b69-c7ecfcb1d8e5 cover art not available","level":"error"}
+{"message":"8ecc8e5f-65ee-4d2e-b5ca-60a8474342da cover art not available","level":"error"}
+{"message":"527bed58-0cef-4f9e-8772-c2af59e7076f cover art not available","level":"error"}
+{"message":"c508d54e-0f18-4ba0-9bd7-5cfab4b5d171 cover art not available","level":"error"}
+{"message":"adfca559-a83e-455d-b3ce-73a693b61003 cover art not available","level":"error"}
+{"message":"20d86280-d765-3d2c-9c42-7ac2b641ff0f cover art not available","level":"error"}
+{"message":"96f87670-4f76-36ea-8356-f0dd02174d2c cover art not available","level":"error"}
+{"message":"27918695-428a-48d2-8de3-d9f79d01cc17 cover art not available","level":"error"}
+{"message":"45faa742-90da-444b-af07-22c3909486f7 cover art not available","level":"error"}
+{"message":"74f32427-05fc-4c99-bfe3-4e7f08160133 cover art not available","level":"error"}
+{"message":"d5e79685-5cc2-3177-9ce5-59df58d3da26 cover art not available","level":"error"}
+{"message":"907f6ae4-df53-4aa8-9a20-eed80da4ce67 cover art not available","level":"error"}
+{"message":"a8d4ca79-dd9a-4b7b-a69f-46213915f7c0 cover art not available","level":"error"}
+{"message":"11c17a49-a286-4f7d-832c-e5c692397285 cover art not available","level":"error"}
+{"message":"ef20b733-3f42-4957-831b-1444c57e44ed cover art not available","level":"error"}
+{"message":"51f07041-3d9a-4458-880e-70326cdb3182 cover art not available","level":"error"}
+{"message":"c6d1dd67-dbd2-4cfe-a440-0318fe1bf6d4 cover art not available","level":"error"}
+{"message":"2e5a1ec0-3afa-4f66-b870-e4c2230e2ae4 cover art not available","level":"error"}
+{"message":"871a594e-d1ba-49d3-b791-15fbb2e30bb5 cover art not available","level":"error"}
+{"message":"6735d77b-fe45-4a35-8a11-16b75d2405db cover art not available","level":"error"}
+{"message":"6b0cc5ee-3938-432a-a905-93eebf2f417b cover art not available","level":"error"}
+{"message":"00154a55-afbb-3471-a905-b3cbd8e41a95 cover art not available","level":"error"}
+{"message":"7de868a2-393a-4493-857d-d46a993e3797 cover art not available","level":"error"}
+{"message":"bfc5c29c-0959-42a3-b748-27fa03cba4e6 cover art not available","level":"error"}
+{"message":"5c4ece03-c098-3a98-8ca4-64a8d6b88051 cover art not available","level":"error"}
+{"message":"3b2a8dbd-04e2-48f1-afd0-3a9d9e54d187 cover art not available","level":"error"}
+{"message":"694ca24a-f3ef-4517-a101-ad7e70692874 cover art not available","level":"error"}
+{"message":"cb44109d-c327-4f60-b747-28c6d9d20253 cover art not available","level":"error"}
+{"message":"146841d5-20a6-42d2-954b-8e2eb1976163 cover art not available","level":"error"}
+{"message":"91478d57-a21d-4286-a0ae-a5fbe0071187 cover art not available","level":"error"}
+{"message":"d81ade6c-138b-4868-8c5f-124da2c244e6 cover art not available","level":"error"}
+{"message":"ccaf6532-b1cc-473f-ba6a-a8efce4d35c2 cover art not available","level":"error"}
+{"message":"21c477ea-5c12-4174-be52-55d9a11c5456 cover art not available","level":"error"}
+{"message":"86be6ed3-fd36-449c-a3d4-f8b2ab9c54d5 cover art not available","level":"error"}
+{"message":"61c44fcb-ae99-4ab5-96e6-367d6d803545 cover art not available","level":"error"}
+{"message":"2b4fc1bc-9ff4-38d9-8fe0-8f7465875f08 cover art not available","level":"error"}
+{"message":"53de8ceb-d30e-4d07-b34d-64c469b74a27 cover art not available","level":"error"}
+{"message":"0a0b197c-5627-4561-a9fc-e3375b250629 cover art not available","level":"error"}
+{"message":"4b4b757b-f7ee-4ddc-b523-e974bb010639 cover art not available","level":"error"}
+{"message":"d63d4c33-5921-423a-8cb9-42de5ba98a01 cover art not available","level":"error"}
+{"message":"b3e11977-e13f-4f31-a9a2-283922bffe76 cover art not available","level":"error"}
+{"message":"755876a9-0b42-4fc3-ad4b-be321c02f315 cover art not available","level":"error"}
+{"message":"fca50191-94ad-4172-8765-6f061626d807 cover art not available","level":"error"}
+{"message":"53c88523-280c-42e5-a66f-07b2591218e3 cover art not available","level":"error"}
+{"message":"ddf98c24-1f47-4bd4-b132-262c52c99a23 cover art not available","level":"error"}
+{"message":"5832383e-c665-485c-9034-ff15295c34a5 cover art not available","level":"error"}
+{"message":"38735f41-35bf-494d-94cc-5b9793cc51e7 cover art not available","level":"error"}
+{"message":"62866cfe-0d36-4a59-91b6-9fc7c5bb0dfe cover art not available","level":"error"}
+{"message":"272ee5c0-af71-4134-96be-62a0dde5503b cover art not available","level":"error"}
+{"message":"42bff12e-f14d-4d11-b9d1-bb92c44f4eac cover art not available","level":"error"}
+{"message":"2f0f0da9-2ce0-42a5-898e-993940933d0e cover art not available","level":"error"}
+{"message":"6710340c-7877-447f-8c3e-05d55c41f603 cover art not available","level":"error"}
+{"message":"d315145d-ef5d-4f08-a8de-98459b53e559 cover art not available","level":"error"}
+{"message":"fa5f37dc-f87d-49bb-973b-621870ed7064 cover art not available","level":"error"}
+{"message":"5e3c3ddb-1c8d-41d3-b17a-d1ffb862d200 cover art not available","level":"error"}
+{"message":"78afcb80-3612-4ece-b097-966cf08c8a01 cover art not available","level":"error"}
+{"message":"e17ff1c2-b9b9-3c1e-a37d-cab520f481b5 cover art not available","level":"error"}
+{"message":"2615a788-7e98-4c4e-9964-307607578d01 cover art not available","level":"error"}
+{"message":"073f0190-fd83-478f-a6a7-fb73f81f442a cover art not available","level":"error"}
+{"message":"ffa90ccc-c93e-4ac0-9829-2552e50f4579 cover art not available","level":"error"}
+{"message":"2a0e2d72-d133-4901-830b-10687d7195aa cover art not available","level":"error"}
+{"message":"b0824124-decf-4d7a-a9f0-754d98ba9dee cover art not available","level":"error"}
+{"message":"8d26ae1b-4bf2-47d1-903f-a999c305ed5e cover art not available","level":"error"}
+{"message":"98d64f69-361a-499f-9bd2-14d27fd3d17d cover art not available","level":"error"}
+{"message":"5db59dab-b2a8-44e2-9483-22f979a473de cover art not available","level":"error"}
+{"message":"bc8fe014-649f-4859-8007-a35244e888c0 cover art not available","level":"error"}
+{"message":"5805d773-5751-4150-b12f-b8f26babba18 cover art not available","level":"error"}
+{"message":"711b0434-4131-4ce0-93b8-d1236f3bce68 cover art not available","level":"error"}
+{"message":"f5aa9338-4e6f-4fb2-990f-82989c15bea4 cover art not available","level":"error"}
+{"message":"e0f26ffb-1882-4e03-90f9-678abe30b58e cover art not available","level":"error"}
+{"message":"bd4144cd-e456-43c0-846e-53fd9a960c00 cover art not available","level":"error"}
+{"message":"cb8673e2-d57a-3fa9-8c2a-83ed7ebc8bac cover art not available","level":"error"}
+{"message":"a2e5b3d9-bf35-4a68-967d-fefa154bc8ff cover art not available","level":"error"}
+{"message":"a2c2cd22-7a48-418f-bd89-cd5c0ecb41e1 cover art not available","level":"error"}
+{"message":"afbafb74-35b9-446f-b411-991c329541bc cover art not available","level":"error"}
+{"message":"c7a46826-8c13-4197-afc1-d2b4441b57a8 cover art not available","level":"error"}
+{"message":"b2c02cb9-806c-42da-85e2-a1d3e3af4f9c cover art not available","level":"error"}
+{"message":"09f96bbc-d57c-40fe-a783-da2198528234 cover art not available","level":"error"}
+{"message":"e59eb4e2-377e-4c15-869f-646cf953bd6c cover art not available","level":"error"}
+{"message":"505223b9-8fcd-4a9b-a77e-d2db8210df50 cover art not available","level":"error"}
+{"message":"c3789c5d-728b-42c1-bf83-667356a1728b cover art not available","level":"error"}
+{"message":"b829d145-8fae-4ae3-9c1c-ffb5bda93866 cover art not available","level":"error"}
+{"message":"304cc82d-4c6b-4579-8ab8-d1a12ad9386e cover art not available","level":"error"}
+{"message":"28e027c1-1d9e-4883-ae61-eb5e8b3d8691 cover art not available","level":"error"}
+{"message":"d09491e9-47c5-4634-99fd-1af2b49ff8a2 cover art not available","level":"error"}
+{"message":"f7826447-8ae6-40ff-91a0-3b33b74c0a1c cover art not available","level":"error"}
+{"message":"7b443698-d332-4a90-b0b6-48829ad1a621 cover art not available","level":"error"}
+{"message":"7eae8bb4-831c-4775-8b4b-21a84d060a39 cover art not available","level":"error"}
+{"message":"549875c7-c85d-40f2-af6b-415a46faa1ae cover art not available","level":"error"}
+{"message":"ccab91af-73c5-4cd3-9c80-6e8440c9749e cover art not available","level":"error"}
+{"message":"1518162f-8044-4897-8516-f8f2a26436ab cover art not available","level":"error"}
+{"message":"cd287d26-ba75-419c-a394-c920e75d20b4 cover art not available","level":"error"}
+{"message":"92644050-694e-429c-9285-75cd368bfeba cover art not available","level":"error"}
+{"message":"f50505df-2f98-403a-94cd-f5790193b3b9 cover art not available","level":"error"}
+{"message":"d34e803d-6044-371a-af47-6b29cbd5050b cover art not available","level":"error"}
+{"message":"80199ce0-a48e-4850-8217-401682faf7fc cover art not available","level":"error"}
+{"message":"29529ba7-ebf4-46dd-8e29-c15a6b0bfc32 cover art not available","level":"error"}
+{"message":"7ddd8e0d-3a3a-4932-bfbd-ee6659a10f28 cover art not available","level":"error"}
+{"message":"c46e42d3-a145-4c95-baef-bd3776e2b573 cover art not available","level":"error"}
+{"message":"ec81212d-dfe2-4880-a88f-a65d8c4edaec cover art not available","level":"error"}
+{"message":"96cf72bb-49f5-42aa-bbce-4daa56fed2ea cover art not available","level":"error"}
+{"message":"a5ee5910-622e-421c-a2b7-277ce9df81b5 cover art not available","level":"error"}
+{"message":"c43bda8b-fe15-4fd6-b910-da271ebe8ce3 cover art not available","level":"error"}
+{"message":"037ed930-f1b6-4225-af00-4ca4b7809aaa cover art not available","level":"error"}
+{"message":"58759f44-1518-4667-9baf-e067cf008446 cover art not available","level":"error"}
+{"message":"ada87296-a45e-4e60-b7be-da35a15684ba cover art not available","level":"error"}
+{"message":"095fd384-f171-4044-9445-72ac56d4216e cover art not available","level":"error"}
+{"message":"9ea25303-298f-35cb-a618-a14fd0b65f76 cover art not available","level":"error"}
+{"message":"5424de4b-c52b-4b11-9264-9a75f3463c25 cover art not available","level":"error"}
+{"message":"aacaf8c2-6347-4116-9350-dda467f80f81 cover art not available","level":"error"}
+{"message":"fd41e8de-5534-47a2-8e00-84d7f4bf12e7 cover art not available","level":"error"}
+{"message":"c3111a34-a6c0-47d9-8b0f-c217e22f0ab6 cover art not available","level":"error"}
+{"message":"61905852-cf82-4ba2-b8f4-81374ff13810 cover art not available","level":"error"}
+{"message":"7fdb4a1a-e91f-4b72-99d4-48977d285917 cover art not available","level":"error"}
+{"message":"33804981-d725-4585-89bd-76762a12cbe7 cover art not available","level":"error"}
+{"message":"e8ac76fd-a6f4-4874-81bd-15f47352f7fa cover art not available","level":"error"}
+{"message":"51700dec-46b3-4a7c-a7d4-71ab0c3e1611 cover art not available","level":"error"}
+{"message":"b07cfae8-28d1-4ed7-8617-7a6c62d955ea cover art not available","level":"error"}
+{"message":"4c4437d8-8432-4bd5-a9e1-ba4bb224b4db cover art not available","level":"error"}
+{"message":"Checking Preqreqs","level":"info"}
+{"message":"Max heap allocation set to 1.5GB (Recommended 4GB).\n\nTo increase maximum heap size use the '--max-old-space-size=X' switch where X is the max number of MB to allocate.\n\nExample:\n\n\t\tnode --max-old-space-size=4096 getCoverArt.js\n\t\t\t\t","level":"warn"}
+{"message":"e9e091a3-ea60-4d7a-a9a1-ee9cea3be01d cover art not available","level":"error"}
+{"message":"8b7f8ddc-d0ef-4f31-8e1b-40e08be19609 cover art not available","level":"error"}
+{"message":"19f8cac3-89c4-48d5-ba82-5003126b3a3c cover art not available","level":"error"}
+{"message":"aa291112-0014-4eeb-93b2-a94cc2ba0773 cover art not available","level":"error"}
+{"message":"6a024479-6131-4414-894e-a872389bcc10 cover art not available","level":"error"}
+{"message":"5376f6ab-9965-44db-8d82-b3bcc5f1440c cover art not available","level":"error"}
+{"message":"a7cb63e1-5b43-4c6a-9cc2-033648a1fe8a cover art not available","level":"error"}
+{"message":"550c8645-2c8f-4d12-963f-ed13707b622a cover art not available","level":"error"}
+{"message":"ece34197-dc67-3e66-b912-4f74d76b76e9 cover art not available","level":"error"}
+{"message":"4511f16f-32b9-45a4-90c2-677d9fddc529 cover art not available","level":"error"}
+{"message":"d8ca47b9-f427-41f3-a803-66cd59b134e1 cover art not available","level":"error"}
+{"message":"508e8343-ae4f-4147-8fc1-df660b821a02 cover art not available","level":"error"}
+{"message":"8e1d3d90-dc4e-4c13-aaea-719b7950c98c cover art not available","level":"error"}
+{"message":"c09c59b7-23a1-48e0-bd1d-1a1b1f88d344 cover art not available","level":"error"}
+{"message":"ec60d971-32e3-422e-9248-a9d3d10061f2 cover art not available","level":"error"}
+{"message":"8f808df7-dc16-4992-88d0-4df1f1056007 cover art not available","level":"error"}
+{"message":"db27d0d3-dbe3-4bf0-983c-a764eced88a5 cover art not available","level":"error"}
+{"message":"896968ac-a7e4-4ad1-b700-ad423573ed94 cover art not available","level":"error"}
+{"message":"2b48ba0c-1d2b-4992-9313-015e04ba267d cover art not available","level":"error"}
+{"message":"bd47fc15-c0a7-4018-b9e7-bdaa9239d19f cover art not available","level":"error"}
+{"message":"18205f90-1188-4c99-9219-1087063a53e1 cover art not available","level":"error"}
+{"message":"9180e389-ac6d-4511-a9bc-2c74702ab7cf cover art not available","level":"error"}
+{"message":"da3a739d-44d3-44bb-9d97-c9e6eef36315 cover art not available","level":"error"}
+{"message":"d44fd74f-34d5-4a62-973f-e953b79be330 cover art not available","level":"error"}
+{"message":"d5934214-41f6-450a-8481-fdddf3233d45 cover art not available","level":"error"}
+{"message":"4851dc31-e765-4cc3-86b5-40c9c5518027 cover art not available","level":"error"}
+{"message":"bdc8a98e-5fee-41bd-bc21-c9efbf633cae cover art not available","level":"error"}
+{"message":"987b9790-3c60-4e45-8449-ca9c6a7be859 cover art not available","level":"error"}
+{"message":"0357e210-b50b-405b-ab56-c2a7faa463fe cover art not available","level":"error"}
+{"message":"4abdb1bf-a5b8-30b5-9d6b-4a6f89de530b cover art not available","level":"error"}
+{"message":"9f1d59ad-1bd5-4824-b066-47deb6e8b98b cover art not available","level":"error"}
+{"message":"7dc0f8a5-68c7-40a4-8a57-db8be35e9ea9 cover art not available","level":"error"}
+{"message":"75bed0d6-96de-400d-8750-4f055efd3ed4 cover art not available","level":"error"}
+{"message":"1c6ebbf9-1c57-4987-af4b-140a90d69120 cover art not available","level":"error"}
+{"message":"34628d91-93b5-4a78-b212-f10add1e650f cover art not available","level":"error"}
+{"message":"d6a5e1f9-2857-4f4c-bc02-12fbe482553b cover art not available","level":"error"}
+{"message":"b39a1a76-bc7b-4c7b-9003-a9795109d291 cover art not available","level":"error"}
+{"message":"a2ae3b31-e219-4680-bcd1-92bb4049b0d2 cover art not available","level":"error"}
+{"message":"284bbee1-45cc-425d-aee7-9397bdc46aa8 cover art not available","level":"error"}
+{"message":"aeeed1b6-5419-405f-8aca-24e78d2f6a89 cover art not available","level":"error"}
+{"message":"c9ebbe41-cfc2-4ab3-8ea3-3471f849b6b0 cover art not available","level":"error"}
+{"message":"17f38263-1be0-4638-8fae-f007583f1ef3 cover art not available","level":"error"}
+{"message":"0f24cd32-69fc-467e-8ffa-b774eca53b6d cover art not available","level":"error"}
+{"message":"4e480635-9028-47a3-a0e5-40ee0dac72f1 cover art not available","level":"error"}
+{"message":"dafd094b-d2b9-4e08-b820-1d2558a647a0 cover art not available","level":"error"}
+{"message":"9b33f17e-1dc7-4079-9b1a-69e5e37357aa cover art not available","level":"error"}
+{"message":"6503e505-95c3-4d46-b18d-21845d83eb13 cover art not available","level":"error"}
+{"message":"2afd6d06-cdc4-43a2-8fd0-c8aa5d0ef04f cover art not available","level":"error"}
+{"message":"d5ce4219-f891-4069-b9fe-3cf6d6685011 cover art not available","level":"error"}
+{"message":"7ed59289-8454-4c56-b6f6-39e0433e0d9d cover art not available","level":"error"}
+{"message":"71998628-690e-4d0c-82c6-145620132a7e cover art not available","level":"error"}
+{"message":"56211927-cde8-4507-b24f-dcc1324723fe cover art not available","level":"error"}
+{"message":"7dd0f040-e1ab-48a9-b090-fba94d474313 cover art not available","level":"error"}
+{"message":"24e9a9d2-548b-43e8-92d4-ac4db835f57b cover art not available","level":"error"}
+{"message":"7eef7992-5dd6-411d-967c-09f258488708 cover art not available","level":"error"}
+{"message":"98cd28c6-ac3b-4152-96e6-d65c43a58fd9 cover art not available","level":"error"}
+{"message":"9a39d004-fcbb-34d1-a4d5-b6347a159724 cover art not available","level":"error"}
+{"message":"44b66b58-7220-4130-9b76-6ff28fc0158f cover art not available","level":"error"}
+{"message":"ced47ee9-8565-4d9f-944f-b3273c52a655 cover art not available","level":"error"}
+{"message":"72659f67-7d42-4fd6-8f98-9dcb15514533 cover art not available","level":"error"}
+{"message":"1c8a578c-e7ff-4738-88b5-c0276effa3b2 cover art not available","level":"error"}
+{"message":"cb8fa6d1-8e76-483e-86dc-35875ae43bab cover art not available","level":"error"}
+{"message":"a24e187e-12f2-476f-97ee-65acf003899e cover art not available","level":"error"}
+{"message":"779f4c4a-0044-4e39-b361-12b48a9fd021 cover art not available","level":"error"}
+{"message":"d2f9c964-ffec-4f7c-9236-b9f8dca891af cover art not available","level":"error"}
+{"message":"fa6ece59-36df-44bf-abac-a077a4e60136 cover art not available","level":"error"}
+{"message":"b8982cfd-624b-48ed-a849-7f3b5ab388a4 cover art not available","level":"error"}
+{"message":"548e6ded-a39c-4432-9180-9395c348c038 cover art not available","level":"error"}
+{"message":"fd67420b-c09a-45b6-93f3-de29590947f9 cover art not available","level":"error"}
+{"message":"d7838e10-132f-4764-ba76-ab974bc30aee cover art not available","level":"error"}
+{"message":"8255ff77-0433-4ece-9f44-d056644607b1 cover art not available","level":"error"}
+{"message":"d6bd5969-4cd0-4884-8c62-fc0342883c6e cover art not available","level":"error"}
+{"message":"dd0600a2-89be-4681-b9e6-1803cdb83ca9 cover art not available","level":"error"}
+{"message":"85a21132-b282-4362-a6e2-e50a03cb9b50 cover art not available","level":"error"}
+{"message":"4cd1a974-6095-4698-99ca-91a5e7eb8b07 cover art not available","level":"error"}
+{"message":"b80935fc-1b2d-41b3-ad09-e90fafa9b030 cover art not available","level":"error"}
+{"message":"546c7379-47d9-4524-8011-7fe7a6592f8e cover art not available","level":"error"}
+{"message":"7ca5e6e1-6030-4313-b20c-a3093f4e72ec cover art not available","level":"error"}
+{"message":"02b542ea-52e3-4b89-943f-ebb9ae404247 cover art not available","level":"error"}
+{"message":"ffcdaf49-d82e-4c83-80a6-5394ba046360 cover art not available","level":"error"}
+{"message":"47fd7576-3a73-48d0-b95e-250cd492f7ef cover art not available","level":"error"}
+{"message":"3a441228-d110-41a8-a32b-d237dd8c4b7f cover art not available","level":"error"}
+{"message":"f3e8b209-db6b-413e-a3b2-340255ad91f8 cover art not available","level":"error"}
+{"message":"fc3f3a87-056a-4f21-a982-d295956324b0 cover art not available","level":"error"}
+{"message":"4da67ff7-5997-4e3f-941e-e4817c8f1688 cover art not available","level":"error"}
+{"message":"1c8d6946-3aa2-4f4d-8d37-022d8f5df61f cover art not available","level":"error"}
+{"message":"353426dc-0654-48a8-842e-2e07f94e2844 cover art not available","level":"error"}
+{"message":"80c4bea7-0045-4c2e-ac79-2fba20e1a931 cover art not available","level":"error"}
+{"message":"2324d36d-664d-4a07-955f-f3bad2ae0560 cover art not available","level":"error"}
+{"message":"50c71901-5902-4d70-8634-520205e06bd2 cover art not available","level":"error"}
+{"message":"37d0f04b-23ba-430b-b62c-cfd4891b4cd0 cover art not available","level":"error"}
+{"message":"8ee47889-6613-3472-a9da-bfa8b477a03c cover art not available","level":"error"}
+{"message":"d4006693-5559-4871-933c-b8e9b90f5427 cover art not available","level":"error"}
+{"message":"a694e350-2d2e-49aa-82d7-4a87ed9dd763 cover art not available","level":"error"}
+{"message":"d78f1004-521c-434a-afc8-45d4331c7186 cover art not available","level":"error"}
+{"message":"598885fb-9b4b-40c4-80c7-39f8017e045a cover art not available","level":"error"}
+{"message":"8a810935-f9a2-4220-869a-ab4d76fe55dd cover art not available","level":"error"}
+{"message":"4a62f5e3-de16-4f8d-947f-a90f5ad9e969 cover art not available","level":"error"}
+{"message":"e1e9b096-b965-4927-a114-0d22e97bfc74 cover art not available","level":"error"}
+{"message":"69058702-a7e7-387f-b3be-ed1be5a3e4f0 cover art not available","level":"error"}
+{"message":"c32e7419-9635-4544-b869-d6aa337951db cover art not available","level":"error"}
+{"message":"57f036c1-dff3-4d56-9e31-21a0cdf17efd cover art not available","level":"error"}
+{"message":"d4e8aed4-f57a-4adb-bdff-0359d7152621 cover art not available","level":"error"}
+{"message":"36824fb9-50d6-4e42-8bb8-b12dfe9261d3 cover art not available","level":"error"}
+{"message":"a1231195-cae9-454c-89f7-3ab38b762acf cover art not available","level":"error"}
+{"message":"09120403-a1ab-41de-883d-7c07f1e27924 cover art not available","level":"error"}
+{"message":"4795108a-337c-39cf-87b6-df918cdea3e2 cover art not available","level":"error"}
+{"message":"dabfd814-aca2-4d96-942c-b760552a2f08 cover art not available","level":"error"}
+{"message":"7eed2c4d-965a-41d8-befc-02478b2d98f3 cover art not available","level":"error"}
+{"message":"bfee6f81-15fe-4de5-94bf-7f6fb007c837 cover art not available","level":"error"}
+{"message":"023c609b-2ccd-46fe-bb86-762e4b3a7fce cover art not available","level":"error"}
+{"message":"6c832119-c87b-46e2-bc1e-6c999638a3db cover art not available","level":"error"}
+{"message":"90cb0669-4522-4319-b020-fee4b5140da3 cover art not available","level":"error"}
+{"message":"cc5fa90c-b3d5-4f95-bce8-80d9438f7280 cover art not available","level":"error"}
+{"message":"646384c5-6af1-4f06-a127-c146548fba1a cover art not available","level":"error"}
+{"message":"a64fcf05-ce34-42d0-afa9-912f8b1e9eb3 cover art not available","level":"error"}
+{"message":"Checking Preqreqs","level":"info"}
+{"message":"Max heap allocation set to 1.5GB (Recommended 4GB).\n\nTo increase maximum heap size use the '--max-old-space-size=X' switch where X is the max number of MB to allocate.\n\nExample:\n\n\t\tnode --max-old-space-size=4096 getCoverArt.js\n\t\t\t\t","level":"warn"}
+{"message":"4511f16f-32b9-45a4-90c2-677d9fddc529 cover art not available","level":"error"}
+{"message":"44b66b58-7220-4130-9b76-6ff28fc0158f cover art not available","level":"error"}
+{"message":"75bed0d6-96de-400d-8750-4f055efd3ed4 cover art not available","level":"error"}
+{"message":"e9e091a3-ea60-4d7a-a9a1-ee9cea3be01d cover art not available","level":"error"}
+{"message":"aeeed1b6-5419-405f-8aca-24e78d2f6a89 cover art not available","level":"error"}
+{"message":"4abdb1bf-a5b8-30b5-9d6b-4a6f89de530b cover art not available","level":"error"}
+{"message":"4851dc31-e765-4cc3-86b5-40c9c5518027 cover art not available","level":"error"}
+{"message":"8e1d3d90-dc4e-4c13-aaea-719b7950c98c cover art not available","level":"error"}
+{"message":"a2ae3b31-e219-4680-bcd1-92bb4049b0d2 cover art not available","level":"error"}
+{"message":"c9ebbe41-cfc2-4ab3-8ea3-3471f849b6b0 cover art not available","level":"error"}
+{"message":"8b7f8ddc-d0ef-4f31-8e1b-40e08be19609 cover art not available","level":"error"}
+{"message":"5376f6ab-9965-44db-8d82-b3bcc5f1440c cover art not available","level":"error"}
+{"message":"ced47ee9-8565-4d9f-944f-b3273c52a655 cover art not available","level":"error"}
+{"message":"d6a5e1f9-2857-4f4c-bc02-12fbe482553b cover art not available","level":"error"}
+{"message":"7dd0f040-e1ab-48a9-b090-fba94d474313 cover art not available","level":"error"}
+{"message":"7ed59289-8454-4c56-b6f6-39e0433e0d9d cover art not available","level":"error"}
+{"message":"da3a739d-44d3-44bb-9d97-c9e6eef36315 cover art not available","level":"error"}
+{"message":"18205f90-1188-4c99-9219-1087063a53e1 cover art not available","level":"error"}
+{"message":"1c6ebbf9-1c57-4987-af4b-140a90d69120 cover art not available","level":"error"}
+{"message":"8f808df7-dc16-4992-88d0-4df1f1056007 cover art not available","level":"error"}
+{"message":"7dc0f8a5-68c7-40a4-8a57-db8be35e9ea9 cover art not available","level":"error"}
+{"message":"aa291112-0014-4eeb-93b2-a94cc2ba0773 cover art not available","level":"error"}
+{"message":"db27d0d3-dbe3-4bf0-983c-a764eced88a5 cover art not available","level":"error"}
+{"message":"2afd6d06-cdc4-43a2-8fd0-c8aa5d0ef04f cover art not available","level":"error"}
+{"message":"b39a1a76-bc7b-4c7b-9003-a9795109d291 cover art not available","level":"error"}
+{"message":"19f8cac3-89c4-48d5-ba82-5003126b3a3c cover art not available","level":"error"}
+{"message":"c09c59b7-23a1-48e0-bd1d-1a1b1f88d344 cover art not available","level":"error"}
+{"message":"284bbee1-45cc-425d-aee7-9397bdc46aa8 cover art not available","level":"error"}
+{"message":"71998628-690e-4d0c-82c6-145620132a7e cover art not available","level":"error"}
+{"message":"ec60d971-32e3-422e-9248-a9d3d10061f2 cover art not available","level":"error"}
+{"message":"9180e389-ac6d-4511-a9bc-2c74702ab7cf cover art not available","level":"error"}
+{"message":"d44fd74f-34d5-4a62-973f-e953b79be330 cover art not available","level":"error"}
+{"message":"550c8645-2c8f-4d12-963f-ed13707b622a cover art not available","level":"error"}
+{"message":"9f1d59ad-1bd5-4824-b066-47deb6e8b98b cover art not available","level":"error"}
+{"message":"987b9790-3c60-4e45-8449-ca9c6a7be859 cover art not available","level":"error"}
+{"message":"d5ce4219-f891-4069-b9fe-3cf6d6685011 cover art not available","level":"error"}
+{"message":"d5934214-41f6-450a-8481-fdddf3233d45 cover art not available","level":"error"}
+{"message":"6503e505-95c3-4d46-b18d-21845d83eb13 cover art not available","level":"error"}
+{"message":"98cd28c6-ac3b-4152-96e6-d65c43a58fd9 cover art not available","level":"error"}
+{"message":"72659f67-7d42-4fd6-8f98-9dcb15514533 cover art not available","level":"error"}
+{"message":"0f24cd32-69fc-467e-8ffa-b774eca53b6d cover art not available","level":"error"}
+{"message":"bd47fc15-c0a7-4018-b9e7-bdaa9239d19f cover art not available","level":"error"}
+{"message":"0357e210-b50b-405b-ab56-c2a7faa463fe cover art not available","level":"error"}
+{"message":"17f38263-1be0-4638-8fae-f007583f1ef3 cover art not available","level":"error"}
+{"message":"bdc8a98e-5fee-41bd-bc21-c9efbf633cae cover art not available","level":"error"}
+{"message":"9b33f17e-1dc7-4079-9b1a-69e5e37357aa cover art not available","level":"error"}
+{"message":"4e480635-9028-47a3-a0e5-40ee0dac72f1 cover art not available","level":"error"}
+{"message":"34628d91-93b5-4a78-b212-f10add1e650f cover art not available","level":"error"}
+{"message":"508e8343-ae4f-4147-8fc1-df660b821a02 cover art not available","level":"error"}
+{"message":"56211927-cde8-4507-b24f-dcc1324723fe cover art not available","level":"error"}
+{"message":"2b48ba0c-1d2b-4992-9313-015e04ba267d cover art not available","level":"error"}
+{"message":"896968ac-a7e4-4ad1-b700-ad423573ed94 cover art not available","level":"error"}
+{"message":"9a39d004-fcbb-34d1-a4d5-b6347a159724 cover art not available","level":"error"}
+{"message":"ece34197-dc67-3e66-b912-4f74d76b76e9 cover art not available","level":"error"}
+{"message":"dafd094b-d2b9-4e08-b820-1d2558a647a0 cover art not available","level":"error"}
+{"message":"6a024479-6131-4414-894e-a872389bcc10 cover art not available","level":"error"}
+{"message":"24e9a9d2-548b-43e8-92d4-ac4db835f57b cover art not available","level":"error"}
+{"message":"1c8a578c-e7ff-4738-88b5-c0276effa3b2 cover art not available","level":"error"}
+{"message":"cb8fa6d1-8e76-483e-86dc-35875ae43bab cover art not available","level":"error"}
+{"message":"d8ca47b9-f427-41f3-a803-66cd59b134e1 cover art not available","level":"error"}
+{"message":"a7cb63e1-5b43-4c6a-9cc2-033648a1fe8a cover art not available","level":"error"}
+{"message":"7eef7992-5dd6-411d-967c-09f258488708 cover art not available","level":"error"}
+{"message":"919430c8-3a33-4c84-9bc0-bbf2249c5c80 cover art not available","level":"error"}
+{"message":"74815e13-f6c2-49d8-9f76-c45a4bb1366a cover art not available","level":"error"}
+{"message":"5032fd7a-6ebd-40ba-ad26-9356f498a712 cover art not available","level":"error"}
+{"message":"3848c36f-70ba-386f-bcf1-61011266b4fe cover art not available","level":"error"}
+{"message":"1700068e-db6a-47da-b65d-5c59a65a9598 cover art not available","level":"error"}
+{"message":"e99a9835-7308-4f4c-9111-f826713cf28f cover art not available","level":"error"}
+{"message":"c3b41b5e-78c4-40a4-a4c2-b646f03edc27 cover art not available","level":"error"}
+{"message":"d5c41842-f3b5-4212-b537-aa356967abb4 cover art not available","level":"error"}
+{"message":"04333eaa-2e01-4999-996d-43aaa4d9d4fe cover art not available","level":"error"}
+{"message":"1e948fba-e724-4dce-b805-9d8452749b41 cover art not available","level":"error"}
+{"message":"5ed8c037-8e41-411f-bbf8-47cca75204ee cover art not available","level":"error"}
+{"message":"4a76bfc5-2f1e-4f25-a3f4-5ba487ba6838 cover art not available","level":"error"}
+{"message":"a907fb36-1eaf-4244-929b-7204114b49b0 cover art not available","level":"error"}
+{"message":"f5ed719d-641e-4332-b7c5-a3b48a20eefa cover art not available","level":"error"}
+{"message":"db7beda4-9efa-479e-b577-b661ff6f7bfa cover art not available","level":"error"}
+{"message":"a0d99fa7-2e3a-4b7c-aeae-6c34c741a7db cover art not available","level":"error"}
+{"message":"5ee02a3d-2aea-4da0-9c9c-ee82eeb8782b cover art not available","level":"error"}
+{"message":"a3a7705d-6be3-497c-af56-fb1bee8eec32 cover art not available","level":"error"}
+{"message":"a856e5ea-d569-3624-852c-25947249f650 cover art not available","level":"error"}
+{"message":"2e04186d-0392-4a6a-b505-f5c6957d1a75 cover art not available","level":"error"}
+{"message":"089a5d8c-f3c4-48d6-96d1-df94417e7941 cover art not available","level":"error"}
+{"message":"6f70a368-29d6-4daa-b0b2-d73366722b02 cover art not available","level":"error"}
+{"message":"46f855c7-9a05-4f21-94c5-5d0a8ffe05d7 cover art not available","level":"error"}
+{"message":"19697315-70c5-46b1-99c1-fb338cdb4e30 cover art not available","level":"error"}
+{"message":"96d4d0a6-09d1-3a33-b9b0-788d28b84a31 cover art not available","level":"error"}
+{"message":"c7bf5942-5f2d-439d-ae11-34a9757ec125 cover art not available","level":"error"}
+{"message":"365851db-61a4-4bfc-bc74-9a19ce7244f6 cover art not available","level":"error"}
+{"message":"be923218-2f7e-4ebb-9970-5f56bd2a569b cover art not available","level":"error"}
+{"message":"3cb7be56-6037-4ec4-8b95-7311e332adc5 cover art not available","level":"error"}
+{"message":"7308e46c-4b87-400b-ba47-b12c51e4b13f cover art not available","level":"error"}
+{"message":"ce2fd798-d9eb-49b8-8fe9-8f27da39340c cover art not available","level":"error"}
+{"message":"dd9a6602-a5ba-3691-9509-9d3ace4fedbb cover art not available","level":"error"}
+{"message":"75d367e9-3065-4a57-a661-ecda2d594497 cover art not available","level":"error"}
+{"message":"0004836a-3a0c-44a7-b856-0c648389dae8 cover art not available","level":"error"}
+{"message":"b8ffeff7-3642-426f-bbbe-b789db5d7a00 cover art not available","level":"error"}
+{"message":"e6fc15c4-0f29-33bf-927b-e9a90cd0b925 cover art not available","level":"error"}
+{"message":"7d336b97-925d-4c82-824b-aa81d4898b69 cover art not available","level":"error"}
+{"message":"2a85f100-f59f-4723-8f9a-be90648b1727 cover art not available","level":"error"}
+{"message":"6a862aea-0a9e-426c-b7a1-de549226898f cover art not available","level":"error"}
+{"message":"4fabf10a-06e8-4730-9745-656aa7e5100e cover art not available","level":"error"}
+{"message":"d5b9f989-6743-4f54-b660-d3b63f69b429 cover art not available","level":"error"}
+{"message":"9a00491f-a0ed-4313-b68c-894fc13b22b9 cover art not available","level":"error"}
+{"message":"69ac8fd5-e04c-427c-8eec-bb212759eeee cover art not available","level":"error"}
+{"message":"ef4ceced-2d58-4f90-8b16-64ea80c4b7fa cover art not available","level":"error"}
+{"message":"6c0d76d1-b4c5-4174-ab34-d6b5a970cf29 cover art not available","level":"error"}
+{"message":"ff6c68db-2bfe-4f8b-98b1-b288cb8b240b cover art not available","level":"error"}
+{"message":"2f62bd74-ee13-44f1-bcde-cb0968ec8793 cover art not available","level":"error"}
+{"message":"2946f9c7-21fa-3936-a423-28102bd2a365 cover art not available","level":"error"}
+{"message":"3663a21d-d52a-45e9-9610-a7bb347bfa6e cover art not available","level":"error"}
+{"message":"f53810b5-d531-4683-ab14-3304ecf67786 cover art not available","level":"error"}
+{"message":"757a84ea-7cf2-490a-90f6-b0c013e82477 cover art not available","level":"error"}
+{"message":"2590b61f-8a50-374e-b1ba-7dcd561c734e cover art not available","level":"error"}
+{"message":"89d3695f-5649-336b-9117-33aa744bf5ed cover art not available","level":"error"}
+{"message":"12c56700-c5b8-42c0-b6bc-151d0f6ab62e cover art not available","level":"error"}
+{"message":"a120afae-897e-421d-9b6a-b0b4f186ee18 cover art not available","level":"error"}
+{"message":"b7b86b7d-ec82-4bff-bac6-1980cf77a34b cover art not available","level":"error"}
+{"message":"213bb4fa-18ac-4b1b-84f0-a80be40f2964 cover art not available","level":"error"}
+{"message":"02fd653f-fa1a-4824-a7f6-fc539d806974 cover art not available","level":"error"}
+{"message":"811e2b8f-f6c6-428e-a94c-0af6ac87c700 cover art not available","level":"error"}
+{"message":"c4ebab88-5a05-4601-8971-40a16697653d cover art not available","level":"error"}
+{"message":"bd3b5935-57f5-4d35-9a61-ed6bc190653c cover art not available","level":"error"}

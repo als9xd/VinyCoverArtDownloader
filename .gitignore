@@ -5,3 +5,15 @@ images/
 # Node Modules #
 ################
 node_modules/
+
+# Default database #
+####################
+data.db
+data.db-journal
+
+# Image caching file for windows
+####################
+**/Thumbs.db
+
+logs/
+logs/*

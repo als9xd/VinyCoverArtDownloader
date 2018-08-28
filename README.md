@@ -14,7 +14,26 @@ Downloads all Vinyl Front Covert art from [covertartarchive](https://coverartarc
 	* It is recommend that you increase the default maximum memory allocation for node. EX: ```node --max-old-space-size=4096 getCoverArt.js```
 
 ## Command Line Switches
-*  ```node getCoverArt.js -h,--help```
-*  ```node getCoverArt.js -n,--num-pages X``` where X the max number of MusicBrainz release pages to retrieve (100 releases per page)
-*  ```node getCoverArt.js -o,--output-directory X``` where X is the directory to store downloaded cover art
-*  ```node getCoverArt.js -s,--image-size X``` where X is the image size (large=500,small=250,default=up to 1200).
+```
+usage: getCoverArt.js [-h] [-v] [-n NUM_PAGES] [-x PAGE_OFFSET]
+                      [-o OUTPUT_DIRECTORY] [-s {large,small}]
+                      [--no-fingerprint] [-d DATABASE_FILE] [--no-sql]
+
+
+Optional arguments:
+  -h, --help            Show this help message and exit.
+  -v, --version         Show program's version number and exit.
+  -n NUM_PAGES, --num-pages NUM_PAGES
+                        Max number of MusicBrainz release pages of retrieve
+  -x PAGE_OFFSET, --page-offset PAGE_OFFSET
+                        Initial page offset for MusicBrainz release pages
+  -o OUTPUT_DIRECTORY, --output-directory OUTPUT_DIRECTORY
+                        Directory to download cover art to
+  -s {large,small}, --image-size {large,small}
+                        Cover art image size (large=500,small=250,default=up
+                        to 1200)
+  --no-fingerprint      Disable image fingerprinting for testing
+  -d DATABASE_FILE, --database-file DATABASE_FILE
+                        Set a custom datatabase filepath
+  --no-sql              Disable database for testing
+```
