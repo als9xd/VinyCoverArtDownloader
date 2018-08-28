@@ -398,15 +398,17 @@ function getCaaImageURLs(caaReleaseURL){
 
 				let imageURLs = [];
 				let imageObjs = res.body['images'];
-				for(let i = 0; i < imageObjs.length;i++){
-					if(imageObjs[i]['front'] === true){
-						if(args['image_size']){
-							imageURLs.push(imageObjs[i]['thumbnails'][args['image_size']]);
-						}else{
-							imageURLs.push(imageObjs[i]['image']);
+				if(typeof imageObjs !== 'undefined'){
+					for(let i = 0; i < imageObjs.length;i++){
+						if(imageObjs[i]['front'] === true){
+							if(args['image_size']){
+								imageURLs.push(imageObjs[i]['thumbnails'][args['image_size']]);
+							}else{
+								imageURLs.push(imageObjs[i]['image']);
+							}
 						}
-					}
-				};
+					};					
+				}
 				resolve(imageURLs);
 			}
 		);
