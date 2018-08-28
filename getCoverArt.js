@@ -41,41 +41,72 @@ const args = parser.parseArgs();
 
 const colors = require('colors/safe');
 
+const pHash = require("node-phash");
+
 // https://musicbrainz.org/doc/XML_Web_Service/Rate_Limiting
 const RateLimiter = require('limiter').RateLimiter;
 const limiter = new RateLimiter(1, 'second');
 
+const dbSchema = `
+CREATE TABLE IF NOT EXISTS releases(
+	mbid STRING PRIMARY KEY,
+	fileName INT NOT NULL,
+	imageHash TEXT NOT NULL
+)
+`;
+
 function main(){
+	let db = new sqlite3.Database('data.db');
+
 	const limit = 100;
 	const musicBrainzBaseURL = 'https://musicbrainz.org/ws/2/release';
 	const coverArtBaseURL = 'https://coverartarchive.org/release';
 
-	getCount(`${musicBrainzBaseURL}?query=*&type=album&format=Vinyl&limit=1&offset=0`,function(count){
-		let nPages =  (count/limit);
-		if(args['num_pages']){
-			nPages = args['num_pages'];
-		}
-		for(let cPage = 0;cPage < nPages; cPage++){
-			limiter.removeTokens(1,function(){
-				getReleaseList(`${musicBrainzBaseURL}?query=*&type=album&format=Vinyl&limit=${limit}&offset=${cPage*limit}`,function(releaseList){
-					if(typeof releaseList !== 'undefined'){
-						for(let rIndex = 0; rIndex < releaseList.length;rIndex++){
-							let mbid = releaseList[rIndex]['$']['id'];
-							getImageURL(`${coverArtBaseURL}/${mbid}`,function(imageURL){
-								if(imageURL===null){
-									console.log(colors.red(`Error: ${mbid} cover art not available`));
-									return;
-								}
-								downloadImage(imageURL,args['output_directory'],function(filePath){
-									console.log(colors.green(`Success: ${mbid} -> ${filePath}`));
+	let totalDownloaded = 0;
+
+	db.run(dbSchema,function(){
+		let dbInsStmt = db.prepare("INSERT INTO releases (mbid,filename,imageHash) VALUES (?,?,?)")
+		getCount(`${musicBrainzBaseURL}?query=*&type=album&format=Vinyl&limit=1&offset=0`,function(count){
+			let nPages =  (count/limit);
+			if(args['num_pages']){
+				nPages = args['num_pages'];
+			}
+			for(let cPage = 0;cPage < nPages; cPage++){
+				limiter.removeTokens(1,function(){
+					getReleaseList(`${musicBrainzBaseURL}?query=*&type=album&format=Vinyl&limit=${limit}&offset=${cPage*limit}`,function(releaseList){
+						if(typeof releaseList !== 'undefined'){
+							for(let rIndex = 0; rIndex < releaseList.length;rIndex++){
+								let mbid = releaseList[rIndex]['$']['id'];
+								getImageURL(`${coverArtBaseURL}/${mbid}`,function(imageURL){
+									if(imageURL===null){
+										console.log(colors.red(`Error: ${mbid} cover art not available`));
+										return;
+									}
+									downloadImage(imageURL,args['output_directory'],function(filePath){
+										pHash.imageHash(filePath,function(err,imageHash){
+    										if(err){
+    											console.log(filePath);
+    											throw err;
+    										}
+											dbInsStmt.run([mbid,filePath,imageHash]);
+											totalDownloaded++;
+											console.log(colors.green(`Success: ${mbid} -> ${filePath}`));
+											if(cPage === nPages && rIndex == releaseList.length){
+												console.log(`Total Downloaded: ${totalDownloaded}`);
+												dbInsStmt.finalize();
+												db.close();
+											}
+    									});
+
+									});
 								});
-							});
+							}
 						}
-					}
+					});
 				});
-			});
-		}
-	});
+			}
+		});		
+	});		
 }
 
 function verifyPrereqs(){
@@ -164,6 +195,9 @@ Example:
 const path = require('path');
 const fs = require('fs');
 const mkdirp = require('mkdirp');
+
+const sqlite3 = require('sqlite3');
+
 
 const request = require('request');
 const parseString = require('xml2js').parseString;
