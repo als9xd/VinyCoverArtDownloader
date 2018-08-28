@@ -10,7 +10,7 @@ parser.addArgument(
   ['-f','--image-file'],
   {
     action: 'store',
-    help: 'Max number of MusicBrainz release pages of retrieve',
+    help: 'Path of image file to search for',
     type: 'string',
     required: true
   }
@@ -18,7 +18,7 @@ parser.addArgument(
 
 const args = parser.parseArgs();
 
-var pHash = require("node-phash");
+var pHash = require("phash");
 
 const sqlite3 = require('sqlite3');
 let db = new sqlite3.Database('data.db');

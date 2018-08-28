@@ -14,6 +14,8 @@
     "is-admin": "^2.1.1",
     "limiter": "^1.1.3",
     "mkdirp": "^0.5.1",
+    "phash": "file:phash/",
+    "prettyjson": "^1.2.1",
     "request": "^2.88.0",
     "sqlite3": "^4.0.2",
     "xml2js": "^0.4.19"
