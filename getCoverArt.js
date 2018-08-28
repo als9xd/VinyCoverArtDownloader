@@ -1,5 +1,9 @@
 'use strict'
 
+const path = require('path');
+const fs = require('fs');
+const mkdirp = require('mkdirp');
+
 const ArgumentParser = require('argparse').ArgumentParser;
 const parser = new ArgumentParser({
 	version: '0.0.1',
@@ -76,8 +80,52 @@ parser.addArgument(
 
 const args = parser.parseArgs();
 
-const colors = require('colors/safe');
-const prettyjson = require('prettyjson');
+const winston = require('winston');
+
+
+const myCustomLevels = {
+  levels: {
+    http: 0,
+    info: 1,
+    warn: 2,
+    error: 3
+  },
+  colors: {
+    http: 'blue',
+    info: 'green',
+    warn: 'yellow',
+    error: 'red'
+  }
+};
+
+const logger = winston.createLogger({
+  levels: myCustomLevels.levels,
+	transports: [
+		new winston.transports.Console({ level: 'info', format: winston.format.colorize() })
+	]
+
+});
+
+winston.format.combine(
+  winston.format.colorize(),
+  winston.format.json()
+);
+
+logger.info('Test error log');
+
+logger.info('test')
+
+//
+// If we're not in production then log to the `console` with the format:
+// `${info.level}: ${info.message} JSON.stringify({ ...rest }) `
+// 
+if (process.env.NODE_ENV !== 'production') {
+  logger.add(new winston.transports.Console({
+    format: winston.format.simple()
+  }));
+}
+
+const timeSpan = require('time-span');
 
 // https://musicbrainz.org/doc/XML_Web_Service/Rate_Limiting
 const RateLimiter = require('limiter').RateLimiter;
@@ -101,8 +149,9 @@ function main(){
 		'Missing Cover Art'   : 0,
 	};
 
-	let db = new sqlite3.Database(args['database_file']);
+	let db = args['no_sql'] ? null : new sqlite3.Database(args['database_file']);
 	configureDb(db).then(dbQueries => {
+		let end = timeSpan();
 		let firstReleaseListURL = `${musicBrainzBaseURL}?query=*&type=album&format=Vinyl&limit=1&offset=0`;
 		getReleaseCount(firstReleaseListURL).then(releaseCount => {
 			let nPages =  (releaseCount/musicBrainzPageLimit);
@@ -121,30 +170,28 @@ function main(){
 							let releaseMBID = releases[caaReleasePageURL];
 							return getCaaImageURLs(caaReleasePageURL).then(caaImageURLs => {
 								if(caaImageURLs===null){
-									console.log(colors.red(`Error          : ${releaseMBID} cover art not available`));
+									logger.error(`${releaseMBID} cover art not available`);
 									metrics['Missing Cover Art']++;
 									return;
 								}
 								let caaImagePromises = caaImageURLs.map(caaImageURL => {
 									return downloadImage(caaImageURL,args['output_directory']).then(filePath => {
-										console.log(colors.green(`Downloaded     : ${releaseMBID} -> ${filePath}`));
+										//console.log(colors.green(` Downloaded     : ${releaseMBID} -> ${filePath}`));
+										logger.info(`Speed ${(metrics['Total Downloaded']/end())*1000} images/sec`);
 										metrics['Total Downloaded']++;
 										return new Promise((resolve,reject) => {
-											let imageHash = null;
 											if(args['no_sql']) resolve();
 											dbQueries['exists'].all([releaseMBID],(err,rows) => {
 												if(err) reject(err);
 												if(rows && rows.length){
-													dbQueries['update'].run([path.basename(filePath),imageHash,releaseMBID],err => {
+													dbQueries['update'].run([path.basename(filePath),releaseMBID],err => {
 														if(err) reject(err);
-														console.log(colors.magenta(`Updated        : ${releaseMBID}`));
 														metrics['Cover Art Updated']++;
 														resolve();
 													});
 												}else{
-													dbQueries['insert'].run([releaseMBID,path.basename(filePath),imageHash],err => {
+													dbQueries['insert'].run([releaseMBID,path.basename(filePath)],err => {
 														if(err) reject(err);
-														console.log(colors.magenta(`Added New Entry: ${releaseMBID}`));
 														metrics['New Cover Art']++;
 														resolve();
 													});
@@ -172,7 +219,7 @@ function main(){
 			});
 			return Promise.all(releaseListPromises).then(()=>{
 				cleanupDb(db,dbQueries).then(()=>{
-					console.log(`\n${prettyjson.render(metrics)}`);
+					logger.info(`\n${metrics}`);
 				}).catch(err => {
 					throw err;
 				});
@@ -189,15 +236,14 @@ function main(){
 const dbSchema = `
 CREATE TABLE IF NOT EXISTS releases(
 	mbid STRING PRIMARY KEY,
-	fileName INT NOT NULL,
-	imageHash TEXT
+	fileName INT NOT NULL
 )
 `;
 
 const dbQueryStrings = {
-	insert: 'INSERT INTO releases (mbid,filename,imageHash) VALUES (?,?,?)',
+	insert: 'INSERT INTO releases (mbid,filename) VALUES (?,?)',
 	exists: 'SELECT 1 FROM releases WHERE mbid = ? LIMIT 1',
-	update: 'UPDATE releases SET filename = ?, imageHash = ? WHERE mbid = ?'
+	update: 'UPDATE releases SET filename = ? WHERE mbid = ?'
 }
 
 function configureDb(db){
@@ -228,17 +274,17 @@ function cleanupDb(db,dbQueries){
 }
 
 function verifyPrereqs(){
-	console.log(colors.yellow('Checking Preqreqs'));
+	logger.info('Checking Preqreqs');
 	return [
 		// Increase max tcp connections on windows
 		new Promise((resolve,reject) => {
 			switch (process.platform){
 				case 'win32':
-					const helpURL = colors.cyan("https://support.microsoft.com/en-us/help/196271/when-you-try-to-connect-from-tcp-ports-greater-than-5000-you-receive-t");
+					const helpURL = "https://support.microsoft.com/en-us/help/196271/when-you-try-to-connect-from-tcp-ports-greater-than-5000-you-receive-t";
 					const defaultMaxTCP = 5000;
 
 					function warningMessage(numTCP){
-						return `\nWarning: Max number of allowed tcp connections is ${numTCP}. This may or may not cause issues. If you start receiving errors rerun this script with admin priveleges or follow the steps outlined here:\n\n\t\t${helpURL}\n`;
+						return `\nMax number of allowed tcp connections is ${numTCP}. This may or may not cause issues. If you start receiving errors rerun this script with admin priveleges or follow the steps outlined here:\n\n\t\t${helpURL}\n`;
 					}
 
 					const regedit = require('regedit');
@@ -250,7 +296,7 @@ function verifyPrereqs(){
 							if(result[keyPath].values[valueName].value !== valueData){
 								isAdmin().then(admin => {
 									if(admin){
-										console.log(colors.yellow('Attempting to modifying registry to allow for a larger number of tcp connections'));
+										logger.warn('Attempting to modifying registry to allow for a larger number of tcp connections');
 										regedit.putValue({
 											'HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters': {
 												'MaxUserPort': {
@@ -264,19 +310,19 @@ function verifyPrereqs(){
 											return;
 										});
 									}else{
-										console.log(colors.yellow(warningMessage(result[keyPath].values[valueName].value)));
+										logger.warn(warningMessage(result[keyPath].values[valueName].value));
 										resolve();
 										return;
 									}
 								});
 
 							}else{
-								console.log(colors.yellow(warningMessage(result[keyPath].values[valueName].value)));
+								logger.warn(warningMessage(result[keyPath].values[valueName].value));
 								resolve();
 								return;
 							}
 						}else{
-							console.log(colors.yellow(warningMessage(defaultMaxTCP)));
+							logger.warn(warningMessage(defaultMaxTCP));
 							resolve();
 						}
 					});
@@ -293,24 +339,19 @@ function verifyPrereqs(){
 			// GB
 			let maxMemoryAllocation = Math.round(heap_size_limit/b2gb * 100) / 100;
 			if(maxMemoryAllocation < 4.){
-				console.log(colors.yellow(`
-Warning: Max heap allocation set to ${maxMemoryAllocation}GB (Recommended 4GB).`));
-				console.log(`
-To increase maximum heap size use the `+(colors.cyan('--max-old-space-size=X'))+` switch where X is the max number of MB to allocate.
+				logger.warn(`Max heap allocation set to ${maxMemoryAllocation}GB (Recommended 4GB).
+
+To increase maximum heap size use the '--max-old-space-size=X' switch where X is the max number of MB to allocate.
 
 Example:
 
-		`+(colors.cyan(`node --max-old-space-size=4096 ${path.basename(__filename)}`))+`
+		node --max-old-space-size=4096 ${path.basename(__filename)}
 				`);
 			}
 			resolve();
 		})
 	];
 }
-
-const path = require('path');
-const fs = require('fs');
-const mkdirp = require('mkdirp');
 
 const sqlite3 = require('sqlite3');
 
@@ -336,7 +377,7 @@ function downloadImage(imageURL,dir){
 			(err,res,body) => {
 				if(err){
 					if(retryErrorCodes[err.code] === true){
-						console.log(colors.yellow(`Retry::downloadImage - ${err.toString()}`));
+						logger.warn(`Retry::downloadImage - ${err.toString()}`);
 						return downloadImage(imageURL,dir);
 					}
 					reject(err);
@@ -356,10 +397,9 @@ function downloadImage(imageURL,dir){
 					}
 
 					if(err && err.code === 'ENOENT'){
-						console.log(colors.yellow(`Attempting to build directory ${dir}`));
+						logger.warn(`Building a new directory at \"${dir}\"`);
 						mkdirp(dir,err => {
 							if(err) reject(err);
-							console.log(colors.green('Success'));
 							_writeImageFile();
 						});
 					}else{
@@ -381,7 +421,7 @@ function getCaaImageURLs(caaReleaseURL){
 			},(err,res,body) => {
 				if(err){
 					if(retryErrorCodes[err.code] === true){
-						console.log(colors.yellow(`Retry::getCaaImageURLs - ${err.toString()}`));
+						logger.warn(`Retry::getCaaImageURLs - ${err.toString()}`);
 						return getCaaImageURLs(caaReleaseURL);
 					}
 					reject(err);					
@@ -424,16 +464,16 @@ function getReleases(releaseListURL){
 			},(err,res,body) => {
 				if(err){
 					if(retryErrorCodes[err.code] === true){
-						console.log(colors.yellow(`Retry::getReleaseList - ${err.toString()}`));
-						return getReleaseList(releaseListURL,callback);	
+						logger.warn(`Retry::getReleaseList - ${err.toString()}`);
+						return getReleases(releaseListURL);	
 					}
 					reject(err);						
 				}
 
 				// Rate limiting
 				if(res.statusCode === 503){
-					console.log(colors.cyan(`Retry::getReleaseList - Error: Rate Limiting`));
-					getReleaseList(url);
+					logger.warn(`Retry::getReleaseList - Rate Limiting`);
+					getReleases(url);
 					return;
 				}		
 				parseString(body,(err, result) => {
@@ -465,7 +505,7 @@ function getReleaseCount(firstReleaseListURL){
 			},(err,res,body) => {
 				if(err){
 					if(retryErrorCodes[err.code] === true){
-						console.log(colors.yellow(`Retry::getReleaseCount - ${err.toString()}`));
+						logger.warn(`Retry::getReleaseCount - ${err.toString()}`);
 						return getReleaseCount(firstReleaseListURL,callback);
 					}
 					reject(err);
@@ -481,7 +521,6 @@ function getReleaseCount(firstReleaseListURL){
 }
 
 Promise.all(verifyPrereqs()).then(() => {
-	console.log(colors.green('Prereqs Check Successful'));
 	main();
 }).catch(err =>{
 	if(err) throw err;
