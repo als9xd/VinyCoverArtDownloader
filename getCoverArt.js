@@ -80,50 +80,55 @@ parser.addArgument(
 
 const args = parser.parseArgs();
 
-const winston = require('winston');
+// Logging with Winston
+const os = require('os')
+const winston = require('winston')
+const { createLogger, format, transports } = winston;
+const { combine, timestamp, label, printf } = format;
 
-
-const myCustomLevels = {
-  levels: {
-    http: 0,
-    info: 1,
-    warn: 2,
-    error: 3
-  },
-  colors: {
-    http: 'blue',
-    info: 'green',
-    warn: 'yellow',
-    error: 'red'
-  }
-};
-
-const logger = winston.createLogger({
-  levels: myCustomLevels.levels,
-	transports: [
-		new winston.transports.Console({ level: 'info', format: winston.format.colorize() })
-	]
-
-});
-
-winston.format.combine(
-  winston.format.colorize(),
-  winston.format.json()
-);
-
-logger.info('Test error log');
-
-logger.info('test')
-
-//
-// If we're not in production then log to the `console` with the format:
-// `${info.level}: ${info.message} JSON.stringify({ ...rest }) `
-// 
-if (process.env.NODE_ENV !== 'production') {
-  logger.add(new winston.transports.Console({
-    format: winston.format.simple()
-  }));
+const logDir = path.resolve(__dirname , 'logs')
+if (!fs.existsSync(logDir)) {
+  fs.mkdirSync(logDir)
 }
+
+const loggerConfig = {
+	levels: {
+		error: 0,
+		http: 1, 
+		ratelimit: 2, 
+		warn: 3, 
+		success: 4, 
+		info: 5, 
+		verbose: 6, 
+		debug: 7, 
+		silly: 8 
+	},
+	colors: {
+		error: 'red',
+		http: 'cyan', 
+		ratelimit: 'magenta', 
+		warn: 'yellow',
+		success: 'green', 
+		info: 'gray', 
+		verbose: 'blue', 
+		debug: 'white', 
+		silly: 'pink' 
+	}
+}
+
+const logger = createLogger({
+	levels: loggerConfig.levels,
+  json: false,
+  format: combine(
+  	 winston.format.colorize(),
+  ),
+  transports: [
+  	new winston.transports.Console({format: winston.format.simple()}),
+    new transports.File({ filename: path.resolve(logDir, 'info.log'), level: 'info' }),
+    new transports.File({ filename: path.resolve(logDir, 'error.log'), level: 'error' })
+  ]
+})
+winston.addColors(loggerConfig.colors);
 
 const timeSpan = require('time-span');
 
@@ -169,15 +174,15 @@ function main(){
 						let caaReleasePagePromises = Object.keys(releases).map(caaReleasePageURL => {
 							let releaseMBID = releases[caaReleasePageURL];
 							return getCaaImageURLs(caaReleasePageURL).then(caaImageURLs => {
+								process.stdout.write(`\rSpeed ${Math.round((metrics['Total Downloaded']/end())*1000 * 100) / 100} images/second : Images Checked ${metrics['Total Downloaded']}/${releaseCount} : ETIMEDOUT ${retryErrorsHit['ETIMEDOUT']} | ECONNRESET ${retryErrorsHit['ECONNRESET']} | ENOTFOUND ${retryErrorsHit['ENOTFOUND']} | ECONNREFUSED ${retryErrorsHit['ECONNREFUSED']}`);
 								if(caaImageURLs===null){
-									logger.error(`${releaseMBID} cover art not available`);
+									//logger.error(`${releaseMBID} : Cover art not available`);
 									metrics['Missing Cover Art']++;
 									return;
 								}
 								let caaImagePromises = caaImageURLs.map(caaImageURL => {
 									return downloadImage(caaImageURL,args['output_directory']).then(filePath => {
-										//console.log(colors.green(` Downloaded     : ${releaseMBID} -> ${filePath}`));
-										logger.info(`Speed ${(metrics['Total Downloaded']/end())*1000} images/sec`);
+										//logger.success(`${releaseMBID} : Downloaded to ${filePath} : images/sec`);
 										metrics['Total Downloaded']++;
 										return new Promise((resolve,reject) => {
 											if(args['no_sql']) resolve();
@@ -274,7 +279,7 @@ function cleanupDb(db,dbQueries){
 }
 
 function verifyPrereqs(){
-	logger.info('Checking Preqreqs');
+	logger.info('Checking Preqreqs\n');
 	return [
 		// Increase max tcp connections on windows
 		new Promise((resolve,reject) => {
@@ -284,7 +289,7 @@ function verifyPrereqs(){
 					const defaultMaxTCP = 5000;
 
 					function warningMessage(numTCP){
-						return `\nMax number of allowed tcp connections is ${numTCP}. This may or may not cause issues. If you start receiving errors rerun this script with admin priveleges or follow the steps outlined here:\n\n\t\t${helpURL}\n`;
+						return `Max number of allowed tcp connections is ${numTCP}. This may or may not cause issues. If you start receiving errors rerun this script with admin priveleges or follow the steps outlined here:\n\n${helpURL}\n`;
 					}
 
 					const regedit = require('regedit');
@@ -339,14 +344,7 @@ function verifyPrereqs(){
 			// GB
 			let maxMemoryAllocation = Math.round(heap_size_limit/b2gb * 100) / 100;
 			if(maxMemoryAllocation < 4.){
-				logger.warn(`Max heap allocation set to ${maxMemoryAllocation}GB (Recommended 4GB).
-
-To increase maximum heap size use the '--max-old-space-size=X' switch where X is the max number of MB to allocate.
-
-Example:
-
-		node --max-old-space-size=4096 ${path.basename(__filename)}
-				`);
+				logger.warn(`Max heap allocation set to ${maxMemoryAllocation}GB (Recommended 4GB). To increase maximum heap size use the '--max-old-space-size=X' switch where X is the max number of MB to allocate. Example:\n\n\"node --max-old-space-size=4096 ${path.basename(__filename)}\"\n`);
 			}
 			resolve();
 		})
@@ -368,8 +366,14 @@ const retryErrorCodes = {
 	ECONNREFUSED: true
 };
 
+let retryErrorsHit = Object.assign({},retryErrorCodes);
+Object.keys(retryErrorsHit).forEach((key) => {
+	retryErrorsHit[key] = 0;
+});
+
+
 function downloadImage(imageURL,dir){
-	return new Promise((resolve,reject) =>{
+	return new Promise((resolve,reject) => {
 		request(imageURL,{
 				rejectUnauthorized: false,
 				encoding: 'binary'
@@ -377,7 +381,8 @@ function downloadImage(imageURL,dir){
 			(err,res,body) => {
 				if(err){
 					if(retryErrorCodes[err.code] === true){
-						logger.warn(`Retry::downloadImage - ${err.toString()}`);
+						retryErrorsHit[err.code]++;
+						//logger.http(`Retry::downloadImage - ${err.toString()}`);
 						return downloadImage(imageURL,dir);
 					}
 					reject(err);
@@ -421,7 +426,8 @@ function getCaaImageURLs(caaReleaseURL){
 			},(err,res,body) => {
 				if(err){
 					if(retryErrorCodes[err.code] === true){
-						logger.warn(`Retry::getCaaImageURLs - ${err.toString()}`);
+						retryErrorsHit[err.code]++;
+						//logger.http(`Retry::getCaaImageURLs - ${err.toString()}`);
 						return getCaaImageURLs(caaReleaseURL);
 					}
 					reject(err);					
@@ -464,7 +470,9 @@ function getReleases(releaseListURL){
 			},(err,res,body) => {
 				if(err){
 					if(retryErrorCodes[err.code] === true){
-						logger.warn(`Retry::getReleaseList - ${err.toString()}`);
+						retryErrorsHit[err.code]++;
+		
+						//logger.http(`Retry::getReleaseList - ${err.toString()}`);
 						return getReleases(releaseListURL);	
 					}
 					reject(err);						
@@ -472,21 +480,23 @@ function getReleases(releaseListURL){
 
 				// Rate limiting
 				if(res.statusCode === 503){
-					logger.warn(`Retry::getReleaseList - Rate Limiting`);
-					getReleases(url);
-					return;
+					//logger.ratelimit(`Retry::getReleaseList - Rate Limiting`);
+					rateLimitsHit++;
+					return getReleases(url);
 				}		
 				parseString(body,(err, result) => {
 					if(err) reject(err);
 
 					let releases = [];
 					let releaseList = result['metadata']['release-list'][0]['release'];
-					for(let rIndex = 0; rIndex < releaseList.length;rIndex++){
-						let mbid = releaseList[rIndex]['$']['id'];
-						let coverArtUrl = `${coverArtBaseURL}/${mbid}`;
-						releases[coverArtUrl] = mbid;
+					if(typeof releaseList !== 'undefined'){
+						for(let rIndex = 0; rIndex < releaseList.length;rIndex++){
+							let mbid = releaseList[rIndex]['$']['id'];
+							let coverArtUrl = `${coverArtBaseURL}/${mbid}`;
+							releases[coverArtUrl] = mbid;
+						}
+						resolve(releases);						
 					}
-					resolve(releases);
 				});			
 			}
 		);
@@ -505,7 +515,8 @@ function getReleaseCount(firstReleaseListURL){
 			},(err,res,body) => {
 				if(err){
 					if(retryErrorCodes[err.code] === true){
-						logger.warn(`Retry::getReleaseCount - ${err.toString()}`);
+						retryErrorsHit[err.code]++;
+						//logger.http(`Retry::getReleaseCount - ${err.toString()}`);
 						return getReleaseCount(firstReleaseListURL,callback);
 					}
 					reject(err);
@@ -521,6 +532,7 @@ function getReleaseCount(firstReleaseListURL){
 }
 
 Promise.all(verifyPrereqs()).then(() => {
+	logger.info('Starting...\n');
 	main();
 }).catch(err =>{
 	if(err) throw err;
