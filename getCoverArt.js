@@ -79,8 +79,6 @@ const args = parser.parseArgs();
 const colors = require('colors/safe');
 const prettyjson = require('prettyjson');
 
-const pHash = require("phash");
-
 // https://musicbrainz.org/doc/XML_Web_Service/Rate_Limiting
 const RateLimiter = require('limiter').RateLimiter;
 const limiter = new RateLimiter(1, 'second');
@@ -132,8 +130,7 @@ function main(){
 										console.log(colors.green(`Downloaded     : ${releaseMBID} -> ${filePath}`));
 										metrics['Total Downloaded']++;
 										return new Promise((resolve,reject) => {
-											let imageHash = args['no_fingerprinting'] ? null : pHash.imageHashSync(filePath);
-
+											let imageHash = null;
 											if(args['no_sql']) resolve();
 											dbQueries['exists'].all([releaseMBID],(err,rows) => {
 												if(err) reject(err);
